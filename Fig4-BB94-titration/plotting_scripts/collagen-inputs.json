@@ -1,0 +1,63 @@
+{
+  "schema_version": 1,
+  "description": "Collagen IV channel 2: one gland mean of 10 or more line scans per plotted observation.",
+  "columns": {
+    "gland": "file_name",
+    "scan": "id",
+    "auc": "AUC",
+    "channel": "channel"
+  },
+  "expected_channel": 2,
+  "minimum_scans_per_gland": 10,
+  "inputs": [
+    {
+      "path": "../source_data/20250307-SMG-BB94-Col-Ecad-Lam/20250307-G1-SMG-DAPI-Col-Ecad-Lam-DMSO-001-coordinates-output/20250307-G1-SMG-DAPI-Col-Ecad-Lam-DMSO-001_c2-linescan-summary-lw3-ss1.csv",
+      "cohort": "20250307",
+      "dose_um": 0,
+      "group": "DMSO",
+      "expected_glands": 7
+    },
+    {
+      "path": "../source_data/20250307-SMG-BB94-Col-Ecad-Lam/20250307-G2-SMG-DAPI-Col-Ecad-Lam-BB94-5uM-001-coordinates-output/20250307-G2-SMG-DAPI-Col-Ecad-Lam-BB94-5uM-001_c2-linescan-summary-lw3-ss1.csv",
+      "cohort": "20250307",
+      "dose_um": 5,
+      "group": "5uM-BB94",
+      "expected_glands": 7
+    },
+    {
+      "path": "../source_data/20250307-SMG-BB94-Col-Ecad-Lam/20250307-G3-SMG-DAPI-Col-Ecad-Lam-BB94-2-5uM-001-coordinates-output/20250307-G3-SMG-DAPI-Col-Ecad-Lam-BB94-2-5uM-001_c2-linescan-summary-lw3-ss1.csv",
+      "cohort": "20250307",
+      "dose_um": 2.5,
+      "group": "2.5uM-BB94",
+      "expected_glands": 7
+    },
+    {
+      "path": "../source_data/20250307-SMG-BB94-Col-Ecad-Lam/20250307-G4-SMG-DAPI-Col-Ecad-Lam-BB94-1-25uM-001-coordinates-output/20250307-G4-SMG-DAPI-Col-Ecad-Lam-BB94-1-25uM-001_c2-linescan-summary-lw3-ss1.csv",
+      "cohort": "20250307",
+      "dose_um": 1.25,
+      "group": "1.25uM-BB94",
+      "expected_glands": 7
+    },
+    {
+      "path": "../source_data/20250307-SMG-BB94-Col-Ecad-Lam/20250307-G5-SMG-DAPI-Col-Ecad-Lam-BB94-0-5uM-001-coordinates-output/20250307-G5-SMG-DAPI-Col-Ecad-Lam-BB94-0-5uM-001_c2-linescan-summary-lw3-ss1.csv",
+      "cohort": "20250307",
+      "dose_um": 0.5,
+      "group": "0.5uM-BB94",
+      "expected_glands": 7
+    },
+    {
+      "path": "../source_data/20250307-SMG-BB94-Col-Ecad-Lam/20250307-G6-SMG-DAPI-Col-Ecad-Lam-BB94-50nM-001-coordinates-output/20250307-G6-SMG-DAPI-Col-Ecad-Lam-BB94-50nM-001_c2-linescan-summary-lw3-ss1.csv",
+      "cohort": "20250307",
+      "dose_um": 0.05,
+      "group": "50nM-BB94",
+      "expected_glands": 7
+    },
+    {
+      "path": "../source_data/20250307-SMG-BB94-Col-Ecad-Lam/20250307-G7-SMG-DAPI-Col-Ecad-Lam-BB94-5nM-001-coordinates-output/20250307-G7-SMG-DAPI-Col-Ecad-Lam-BB94-5nM-001_c2-linescan-summary-lw3-ss1.csv",
+      "cohort": "20250307",
+      "dose_um": 0.005,
+      "group": "5nM-BB94",
+      "expected_glands": 7
+    }
+  ]
+}

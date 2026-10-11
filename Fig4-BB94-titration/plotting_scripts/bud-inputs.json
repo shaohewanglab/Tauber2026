@@ -1,0 +1,81 @@
+{
+  "schema_version": 1,
+  "baseline_day": 0,
+  "final_day": 1,
+  "notes": "Matches the three cohorts in SMG-bud-count-BB94-titration.ipynb. Numeric group assignments are made explicit here rather than inferred from row order. The November count>1 filter excluded only two filename-marked placeholders; this manifest excludes those placeholders explicitly. February G11-17 contributes only the pre-washout day0-to-day1 interval.",
+  "cohorts": [
+    {
+      "cohort": "20241112-titration",
+      "filename_format": "treatment_gland",
+      "exclude_filename_placeholders": true,
+      "dose_um_by_group": {
+        "1": 0,
+        "2": 5,
+        "3": 2.5,
+        "4": 1.25,
+        "5": 0.5,
+        "6": 0.05,
+        "7": 0.005
+      },
+      "sources": [
+        {
+          "day": 0,
+          "record": "../source_data/2024-11-12-to-14-BB-94-titration-phase-contrast/2024-11-12-BB-94-titration-day0-1749059185-fileNameRecord.txt",
+          "counts": "../source_data/2024-11-12-to-14-BB-94-titration-phase-contrast/2024-11-12-BB-94-titration-day0-1749059185-renamed-5274-budCount.txt"
+        },
+        {
+          "day": 1,
+          "record": "../source_data/2024-11-12-to-14-BB-94-titration-phase-contrast/2024-11-13-BB-94-titration-day1-1749059230-fileNameRecord.txt",
+          "counts": "../source_data/2024-11-12-to-14-BB-94-titration-phase-contrast/2024-11-13-BB-94-titration-day1-1749059230-renamed-5566-budCount.txt"
+        }
+      ]
+    },
+    {
+      "cohort": "20250219-G01-07",
+      "filename_format": "date_group_gland",
+      "date_to_day": {
+        "250219": 0,
+        "250220": 1
+      },
+      "dose_um_by_group": {
+        "1": 0,
+        "2": 5,
+        "3": 2.5,
+        "4": 1.25,
+        "5": 0.5,
+        "6": 0.05,
+        "7": 0.005
+      },
+      "sources": [
+        {
+          "record": "../source_data/2025-02-19-WT-BB94-ECHO/G01-07_BB94-1742672854-fileNameRecord.txt",
+          "counts": "../source_data/2025-02-19-WT-BB94-ECHO/G01-07_BB94-1742672854-7013-budCount.txt"
+        }
+      ]
+    },
+    {
+      "cohort": "20250219-G11-17-prewashout",
+      "filename_format": "date_group_gland",
+      "date_to_day": {
+        "250219": 0,
+        "250220": 1,
+        "250221": 2
+      },
+      "dose_um_by_group": {
+        "11": 0,
+        "12": 5,
+        "13": 2.5,
+        "14": 1.25,
+        "15": 0.5,
+        "16": 0.05,
+        "17": 0.005
+      },
+      "sources": [
+        {
+          "record": "../source_data/2025-02-19-WT-BB94-ECHO/G11-17_BB94-washout-1742673250-fileNameRecord.txt",
+          "counts": "../source_data/2025-02-19-WT-BB94-ECHO/G11-17_BB94-washout-1742673250-9119-budCount.txt"
+        }
+      ]
+    }
+  ]
+}

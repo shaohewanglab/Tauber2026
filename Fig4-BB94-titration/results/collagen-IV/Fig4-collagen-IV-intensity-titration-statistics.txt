@@ -1,0 +1,42 @@
+BB-94 titration: collagen IV intensity
+
+Each point is the mean raw-image collagen IV AUC across retained line scans from one gland, divided by the mean of the control gland means. Vehicle mean is 1. Statistics use these gland means, not individual line scans.
+
+Error bar is SD.
+
+Mann-Whitney U with Holm correction: two-sided comparisons of each nonzero dose with DMSO (0). Holm correction covers these 6 comparisons within this plot (family-wise alpha 0.05). All tested comparisons are displayed; comparisons between treated doses are not included.
+
+Asterisks: * adjusted p < .05; ** < .01; *** < .001; **** < .0001; ns >= .05. Means and SD are descriptive summaries; the test compares ranks.
+
+Different glands are treated as independent biological observations. Treatment groups are not paired. Embryo/litter identifiers are not available for modeling further clustering.
+
+Control normalization uses equal gland weights. The notebook used a pooled control-profile mean; the new denominator changes the scale slightly but cannot change these scale-invariant tests.
+
+Exact when either group has at most 8 glands and there are no pooled ties; otherwise asymptotic with tie and continuity correction.
+
+Mann-Whitney does not require normality. It compares independent groups using ranks; a pure location/median interpretation additionally requires comparable distribution shapes. Unequal variances are not interpreted as evidence specifically about mean differences.
+
+U is reported with dose B as the first sample. 2*U_b/(n_a*n_b)-1: positive means larger values tend to occur in dose B; ties contribute half to U. Mean differences are descriptive only. No parametric confidence intervals are attached to the rank-test results.
+
+716 line scans from 49 glands; 12–15 scans per gland. Control denominator = 262.4852937 AUC units; notebook denominator = 262.750973. The normalized scale changes by 0.1012%.
+
+Input audit and explicit exclusions are recorded in the run JSON. Source notebooks and measurement files are unchanged.
+
+GROUP SUMMARY
+ dose_um  n     mean       sd  variance
+   0.000  7 1.000000 0.191146  0.036537
+   0.005  7 0.997878 0.114685  0.013153
+   0.050  7 1.131698 0.118296  0.013994
+   0.500  7 1.904012 0.357664  0.127924
+   1.250  7 2.294086 0.329417  0.108516
+   2.500  7 2.472867 0.547990  0.300293
+   5.000  7 2.668121 0.335644  0.112657
+
+VERSUS VEHICLE
+ dose_b_um  n_a  n_b  U_b  rank_biserial_b_minus_a         p_raw   p_adjusted p_method annotation
+     0.005    7    7   28               0.14285714    0.71037296   0.71037296    exact         ns
+      0.05    7    7   38               0.55102041   0.097319347   0.19463869    exact         ns
+       0.5    7    7   49                        1 0.00058275058 0.0034965035    exact         **
+      1.25    7    7   49                        1 0.00058275058 0.0034965035    exact         **
+       2.5    7    7   49                        1 0.00058275058 0.0034965035    exact         **
+         5    7    7   49                        1 0.00058275058 0.0034965035    exact         **

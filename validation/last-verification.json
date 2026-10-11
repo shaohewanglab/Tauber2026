@@ -1,0 +1,9 @@
+{
+  "source_tables_verified": 19,
+  "numerical_tables_verified": 10,
+  "plots_verified": 4,
+  "relative_tolerance": 1e-10,
+  "absolute_tolerance": 1e-12,
+  "status": "passed",
+  "note": "Expected results were captured from the accepted manuscript analyses; statistical unit, numerical endpoints, SD and adjusted p-values are checked. Font substitution may change appearance only."
+}

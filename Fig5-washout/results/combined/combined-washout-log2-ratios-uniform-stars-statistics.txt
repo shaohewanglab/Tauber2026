@@ -1,0 +1,29 @@
+COMBINED WASHOUT: CONTROL VERSUS BB-94
+
+21 glands per treatment, comprising 8 from 210325-27 and 13 from 210401-03. Each point is one gland. Error bar is SD.
+
+Two-sided Mann-Whitney U tests on per-gland log2 ratios, with Holm correction across these two requested comparisons. This is a two-comparison family; within-treatment interval comparisons are not included in this figure or analysis.
+
+SciPy method=auto chooses the asymptotic method for both current comparisons; tied ranks and continuity correction are included. The test compares distributions rather than specifically testing their means or medians. Means and SDs describe the plotted data.
+
+Treatment groups are independent; gland matching across time is preserved in calculation of each ratio. No gland contributes more than once to either individual test.
+
+Data are pooled by experimental stage: 22h/0h corresponds to day1/day0; 46h/22h corresponds to day2/day1. Ratios are not rate-normalized. Day annotations do not establish precise elapsed hours.
+
+This is a pooled gland-level comparison; dataset and plate are not covariates in the Mann-Whitney tests.
+
+d1/d0: ****
+Control mean log2 ratio = 1.768968, SD = 0.592095; BB-94 mean = 0.448198, SD = 0.355543.
+Descriptive mean difference (BB-94 minus control) = -1.320770.
+U (BB-94 as first sample) = 9.500000; rank-biserial correlation = -0.956916.
+Raw p = 1.156602816e-07; Holm-adjusted p = 2.313205632e-07; method = asymptotic.
+
+d2/d1: ****
+Control mean log2 ratio = 1.875788, SD = 0.314644; BB-94 mean = 2.581525, SD = 0.246732.
+Descriptive mean difference (BB-94 minus control) = 0.705737.
+U (BB-94 as first sample) = 425.000000; rank-biserial correlation = 0.927438.
+Raw p = 2.848160065e-07; Holm-adjusted p = 2.848160065e-07; method = asymptotic.
+
+Rank-biserial correlation = 2*U_BB94/(n_BB94*n_control)-1; positive values indicate larger BB-94 ratios and negative values indicate smaller BB-94 ratios. Ties contribute half to U.
+
+Asterisks use Holm-adjusted p: * < .05; ** < .01; *** < .001; **** < .0001.

@@ -1,0 +1,100 @@
+{
+  "inputs": [
+    {
+      "dataset": "210325-27",
+      "source": "results/210325-washout/washout-bud-count-intervals.csv",
+      "sha256": "0235768669bce7f09c8a30663c1820f0cf5a573ada39dd29bfc7dac168fcd9ec",
+      "marker": "o",
+      "source_intervals_h": [
+        [
+          0,
+          22
+        ],
+        [
+          22,
+          46
+        ]
+      ],
+      "timing_note": "Recorded hours"
+    },
+    {
+      "dataset": "210401-03",
+      "source": "results/210401-washout/washout-bud-count-intervals.csv",
+      "sha256": "0955939a4aaf2314acf33a792f6238aea11ca70e68d1d411f14f155a0c300654",
+      "marker": "^",
+      "source_intervals_h": [
+        [
+          0,
+          24
+        ],
+        [
+          24,
+          48
+        ]
+      ],
+      "timing_note": "Nominal day x 24; exact elapsed hours unavailable"
+    }
+  ],
+  "glands_total": 42,
+  "glands_per_group": 21,
+  "method": "Two-sided Mann-Whitney U tests on per-gland log2 ratios; Holm correction across the two requested control-versus-BB94 comparisons.",
+  "p_value_calculation": "SciPy method=auto, use_continuity=True. Both current comparisons use the asymptotic method with tie and continuity corrections.",
+  "effect_size": "Rank-biserial correlation = 2*U_BB94/(n_BB94*n_control)-1. Positive values indicate larger BB-94 ratios; ties contribute half to U.",
+  "interpretation": "The test compares the two distributions. Mean differences are descriptive; this is not specifically a test of means or medians.",
+  "family_size": 2,
+  "alpha": 0.05,
+  "error_bars": "SD",
+  "markers": "Circles: 210325-27; triangles: 210401-03; black control, red BB-94.",
+  "dataset_legend_displayed": false,
+  "font": "Arial",
+  "independence": "Different treatment groups are treated as independent. Each test uses one observation per gland; repeated use across intervals is covered by the Holm comparison family, not treated as extra glands within either test.",
+  "pooling": "Glands from both datasets are pooled with equal gland weights. Dataset and plate are not fitted as covariates.",
+  "alignment": "22h/0h with day1/day0; 46h/22h with day2/day1. Original ratios unchanged; no rate normalization.",
+  "annotation_thresholds": {
+    "*": "p_Holm < 0.05",
+    "**": "p_Holm < 0.01",
+    "***": "p_Holm < 0.001",
+    "****": "p_Holm < 0.0001",
+    "ns": "p_Holm >= 0.05"
+  },
+  "results": [
+    {
+      "interval": "d1/d0",
+      "test": "Two-sided Mann-Whitney U test",
+      "n_control": 21,
+      "n_BB94": 21,
+      "mean_control": 1.7689676233447993,
+      "mean_BB94": 0.44819801465610365,
+      "sd_control": 0.5920949910489711,
+      "sd_BB94": 0.35554320894552216,
+      "descriptive_mean_difference_BB94_minus_control": -1.3207696086886958,
+      "U_BB94": 9.5,
+      "rank_biserial_BB94_minus_control": -0.9569160997732427,
+      "method_used": "asymptotic",
+      "ties_present": true,
+      "continuity_correction": true,
+      "p_raw": 1.1566028158390153e-07,
+      "p_Holm": 2.3132056316780306e-07,
+      "annotation": "****"
+    },
+    {
+      "interval": "d2/d1",
+      "test": "Two-sided Mann-Whitney U test",
+      "n_control": 21,
+      "n_BB94": 21,
+      "mean_control": 1.8757877596252568,
+      "mean_BB94": 2.581525252940751,
+      "sd_control": 0.3146443126263625,
+      "sd_BB94": 0.24673225749714364,
+      "descriptive_mean_difference_BB94_minus_control": 0.7057374933154943,
+      "U_BB94": 425.0,
+      "rank_biserial_BB94_minus_control": 0.9274376417233561,
+      "method_used": "asymptotic",
+      "ties_present": true,
+      "continuity_correction": true,
+      "p_raw": 2.8481600652121574e-07,
+      "p_Holm": 2.8481600652121574e-07,
+      "annotation": "****"
+    }
+  ]
+}

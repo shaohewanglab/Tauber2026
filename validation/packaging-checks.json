@@ -1,0 +1,16 @@
+{
+  "date": "2026-10-11",
+  "source_tables": 19,
+  "source_tables_byte_identical": true,
+  "numerical_reference_tables_verified": 10,
+  "plots_pixel_identical_to_accepted_versions": 4,
+  "pdf_rendering_review": "passed",
+  "clean_relocated_reproduction": "passed; generated outputs were absent before rerunning",
+  "unit_tests_passed": {
+    "Fig4": 31,
+    "Fig5": 25
+  },
+  "external_project_dependencies": false,
+  "font": "Arial",
+  "git_initialized": false
+}

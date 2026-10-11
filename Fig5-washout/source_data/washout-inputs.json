@@ -1,0 +1,35 @@
+{
+  "description": "Raw blinded filename-record/count pairs used for current Fig. 5 combined plots. Paths are relative to Fig5-washout.",
+  "datasets": [
+    {
+      "experiment": "210325-washout",
+      "times_h": [
+        0,
+        22,
+        46
+      ],
+      "expected_images": 48,
+      "expected_glands": 16,
+      "record": "source_data/210325-washout/210325-27-SMG-BB94-washout-1791559598-fileNameRecord.txt",
+      "record_sha256": "487efd6416131ecba2e956ca995038560c6d16cea8909355828f3cb863317a37",
+      "counts": "source_data/210325-washout/210325-27-SMG-BB94-washout-1791559598-renamed-8276-budCount.txt",
+      "counts_sha256": "661e1f56d94aff320b9660c6f39dc53c7fdf9231c06695148d03b689d5bee7e6",
+      "expected_interval_fingerprint": "8c89524cfc83e8ed14aae1842ee379553957fe84452f95a396f3a4310e8251f2"
+    },
+    {
+      "experiment": "210401-washout",
+      "times_h": [
+        0.0,
+        24.0,
+        48.0
+      ],
+      "expected_images": 78,
+      "expected_glands": 26,
+      "record": "source_data/210401-washout/210401-03-SMG-BB94-washout-1791565130-fileNameRecord.txt",
+      "record_sha256": "fede5d93f93619e9910fdbd61f00a809635f54c26f31166f73fa0d819db54e36",
+      "counts": "source_data/210401-washout/210401-03-SMG-BB94-washout-1791565130-renamed-7422-budCount.txt",
+      "counts_sha256": "4156c9f7f541dd18145971be6c4114c982787618648dc5f50d714823e802f36c",
+      "expected_interval_fingerprint": "004cb73baf7a775d2b9a860d3820e443ad4534d4b263a9109d14ce54b19a7493"
+    }
+  ]
+}
