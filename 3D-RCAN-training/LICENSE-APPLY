@@ -1,0 +1,21 @@
+Creative Commons Attribution-NonCommercial 4.0 International (CC BY-NC 4.0)
+
+This license applies to 3D-RCAN-training/apply.py only.
+
+Copyright 2021 SVision Technologies LLC.
+Source: https://github.com/AiviaCommunity/3D-RCAN
+
+Modified by Shaohe Wang to preserve ImageJ voxel size and units and to write
+only the restored image by default, with optional input and ground-truth
+channels. The script header records the changes and preserves the original
+copyright and license notice.
+
+You may share and adapt this script for noncommercial purposes under CC BY-NC
+4.0, with appropriate credit, a link to the license, and an indication of
+changes. This file is excluded from the repository's MIT license.
+
+Full legal code: https://creativecommons.org/licenses/by-nc/4.0/legalcode
+Summary: https://creativecommons.org/licenses/by-nc/4.0/
+
+The separate voxel_size_utils.py module is MIT-licensed. Test data are covered
+by CC BY 4.0; see ../LICENSE-DATA.

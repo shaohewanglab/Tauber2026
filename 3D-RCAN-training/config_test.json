@@ -1,0 +1,20 @@
+{
+    "epochs": 4,
+    "steps_per_epoch": 5,
+    "num_residual_groups": 5,
+    "num_residual_blocks": 5,
+    "input_shape": [
+        32,
+        64,
+        64
+    ],
+    "training_data_dir": {
+        "raw": "test_data/train_raw/",
+        "gt": "test_data/train_gt/"
+    },
+    "validation_data_dir": {
+        "raw": "test_data/validate_raw/",
+        "gt": "test_data/validate_gt/"
+    },
+    "intensity_threshold": 0.0
+}

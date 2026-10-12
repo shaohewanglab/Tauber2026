@@ -1,0 +1,10 @@
+cellpose==4.0.4
+jupyter
+matplotlib
+natsort
+numpy
+opencv-python-headless
+pandas
+scipy
+seaborn
+tifffile

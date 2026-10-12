@@ -1,0 +1,19 @@
+{
+    "epochs": 300,
+    "steps_per_epoch": 400,
+    "num_residual_groups": 5,
+    "num_residual_blocks": 5,
+    "input_shape": [
+        64,
+        128,
+        128
+    ],
+    "training_data_dir": {
+        "raw": "RCAN-training-data-SMG/train_raw/smg/",
+        "gt": "RCAN-training-data-SMG/train_gt/smg/"
+    },
+    "validation_data_dir": {
+        "raw": "RCAN-training-data-SMG/validate_raw/smg/",
+        "gt": "RCAN-training-data-SMG/validate_gt/smg/"
+    }
+}
