@@ -1,3 +1,7 @@
+Scope: original code, notebooks, software configuration, and associated
+documentation in this repository, except 3D-RCAN-training/apply.py. That file
+retains CC BY-NC 4.0 (see 3D-RCAN-training/LICENSE-APPLY and LICENSE.md).
+
 MIT License
 
 Copyright (c) 2026 Tauber-2026-modeling contributors
