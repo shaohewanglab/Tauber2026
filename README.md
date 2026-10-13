@@ -68,9 +68,9 @@ dataset-specific symbols, without a dataset-name legend.
 
 The training folders contain code, installation instructions, and small test
 crops for the two models used to process the SMG live-imaging data. The full
-training datasets and trained weights are deposited on Figshare in the
-collection for Tauber et al., 2026. The included test data are crops from those
-datasets.
+training datasets and trained weights are deposited in the Figshare collection
+for Tauber et al., 2026 (DOI: [10.25378/janelia.c.8770956](https://doi.org/10.25378/janelia.c.8770956)).
+The included test data are crops from those datasets.
 
 | Folder and instructions | Model and purpose | Figshare items |
 | --- | --- | --- |

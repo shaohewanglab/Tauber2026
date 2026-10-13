@@ -6,7 +6,8 @@ This folder has the notebooks that trained the two Cellpose-SAM models used in t
   and scored on the other 5.
 
 The folder also has a small test volume and a test script. The full training data, the
-benchmarking masks and the trained weights are on Figshare:
+benchmarking masks and the trained weights are in the Figshare collection
+(DOI: [10.25378/janelia.c.8770956](https://doi.org/10.25378/janelia.c.8770956)):
 
 | Figshare item | Contents |
 |---|---|

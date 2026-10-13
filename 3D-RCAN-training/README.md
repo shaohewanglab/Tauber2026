@@ -3,7 +3,8 @@
 This folder has the scripts and configuration for the 3D-RCAN model RCAN-denoise-SMG-BM. It
 was trained on paired low- and high-SNR 3D images of Col4a2-mNG in fixed SMG explants and
 used to denoise both channels of the live-imaging data. A small test set is included. The
-full training data and the trained weights are on Figshare:
+full training data and the trained weights are in the Figshare collection
+(DOI: [10.25378/janelia.c.8770956](https://doi.org/10.25378/janelia.c.8770956)):
 
 | Figshare item | Contents |
 |---|---|
