@@ -8,7 +8,7 @@ full training data and the trained weights are in the Figshare collection
 
 | Figshare item | Contents |
 |---|---|
-| `3D-RCAN-training` | `RCAN-training-data-SMG.zip` (34 training and 6 validation pairs) and the files in this folder |
+| `3D-RCAN-training` | `RCAN-training-data-SMG.zip` (expanded set: 34 training and 6 validation pairs; manuscript model used the 20 + 6 September pairs) and the files in this folder |
 | `trained-models` | `RCAN-denoise-SMG-BM.zip` (weights, training config, TensorBoard log) |
 
 ## Files
@@ -48,16 +48,26 @@ output.
 
 ## Reproducing the training
 
-Download `RCAN-training-data-SMG.zip` from the Figshare item `3D-RCAN-training` and unzip it
-in this folder. Then run:
+Download `RCAN-training-data-SMG.zip` from the Figshare item `3D-RCAN-training`. For the
+manuscript training setup, extract only the TIFF files with names beginning `240906`
+into this folder, preserving the archive's directory structure. This gives 20 training
+pairs and 6 validation pairs in the directories specified by `config_Col4a2-mNG.json`.
+The 14 additional training pairs beginning `241111` were added later and were not used
+for the manuscript checkpoint. Then run:
 
 ```bash
 python <3D-RCAN folder>/train.py -c config_Col4a2-mNG.json -o RCAN-denoise-SMG-BM
 ```
 
-Training runs for 300 epochs x 400 steps with 51 x 128 x 128 patches. The config asks for
-64 x 128 x 128, but 3D-RCAN reduces the patch size to the smallest training volume (51
-slices). The deposited weights are from epoch 165, the epoch with the lowest validation loss.
+The configuration specifies 300 epochs x 400 steps and a patch size of 64 x 128 x 128
+(z, y, x). For the manuscript model, 3D-RCAN automatically reduced the patch size to
+61 x 128 x 128 to fit the original training and validation volumes. The run completed
+192 epochs; the deposited weights are from epoch 165, which had the lowest validation
+loss and was used to process the manuscript data.
+
+Using the full expanded archive (34 training and 6 validation pairs) instead reduces
+the patch size to 51 x 128 x 128 because the additional November volumes have 51 slices.
+This describes retraining on the expanded dataset, not the deposited manuscript model.
 
 3D-RCAN prints "Failed to sample a valid patch" from time to time during this training. This
 is expected with these sparse basement-membrane images. A training patch is accepted only if
