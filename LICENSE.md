@@ -13,6 +13,14 @@ The modified `apply.py` retains the upstream copyright notice and records Shaohe
 Wang's changes in its header. `3D-RCAN-training/voxel_size_utils.py` has its own
 MIT notice, which is preserved.
 
+The mesh-morphometry plotting script adapts the scripts shared by Justin.
+Original script and supplied-PDF hashes are recorded in
+`mesh-morphometry/validation/provenance.json`.
+
+The model-morphometry script consolidates Justin's supplied acircularity
+scripts, retained unchanged with hashes in
+`model-morphometry/source-data-manifest.json`.
+
 See [LICENSE-DATA](LICENSE-DATA) for data scope, attribution, and links to the
 full CC BY 4.0 legal code and summary. Third-party dependencies retain their
 respective licenses.

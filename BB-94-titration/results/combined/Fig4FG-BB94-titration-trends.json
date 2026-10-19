@@ -1,0 +1,56 @@
+{
+  "Fig4F": {
+    "method": "Spearman rank correlation with two-sided permutation test",
+    "null_hypothesis": "Predictor and outcome are independent; outcomes are exchangeable across predictor values",
+    "rho": -0.710799595948126,
+    "n": 110,
+    "p_raw": 1e-06,
+    "permutation_mode": "Monte Carlo",
+    "permutations": 999999,
+    "extreme_permutations": 0,
+    "seed": 20261018,
+    "two_sided_convention": "Absolute Spearman rho at least as large as observed",
+    "monte_carlo_correction": "(extreme + 1)/(permutations + 1)",
+    "predictor_ties_preserved": true,
+    "outcome_ties_preserved": true,
+    "statistical_unit": "One gland",
+    "panel": "Fig4F",
+    "predictor": "BB-94 concentration (uM)",
+    "outcome": "log2(day1/day0 bud-count ratio)",
+    "input_table_sha256": {
+      "BB-94-titration/results/bud-count/Fig4F-bud-count-titration-glands.csv": "f2363051aa7ea87bf93a9c3f06d7406ed39cb53a7bf2838de1dad1efa986ee89",
+      "BB-94-titration/results/bud-count/Fig4F-bud-count-titration-summary.csv": "1b1e35b58ce163253ea395c7e36ebe79f537c1689676f970fcdfbafe73f7b5ad",
+      "BB-94-titration/results/bud-count/Fig4F-bud-count-titration-comparisons.csv": "ca3ef9d8001332904e05b4f65663151fd6c3c008362c47142b040740e44a5634",
+      "BB-94-titration/results/collagen-IV/Fig4G-collagen-IV-intensity-titration-glands.csv": "695d7f0118305bea542b14d06e0f263fbba15815ee85bf3494443223d354a65f",
+      "BB-94-titration/results/collagen-IV/Fig4G-collagen-IV-intensity-titration-summary.csv": "a29d58bd4aeec396f17920fb23a0c1a27ae7ecf84416925dc0a4ec943d11cd81",
+      "BB-94-titration/results/collagen-IV/Fig4G-collagen-IV-intensity-titration-comparisons.csv": "8a10d38b0fd610a51c2a42d4484f0d826ca09c4924014fa26a14a714d5383a3b"
+    }
+  },
+  "Fig4G": {
+    "method": "Spearman rank correlation with two-sided permutation test",
+    "null_hypothesis": "Predictor and outcome are independent; outcomes are exchangeable across predictor values",
+    "rho": 0.8860480890786533,
+    "n": 49,
+    "p_raw": 1e-06,
+    "permutation_mode": "Monte Carlo",
+    "permutations": 999999,
+    "extreme_permutations": 0,
+    "seed": 20261018,
+    "two_sided_convention": "Absolute Spearman rho at least as large as observed",
+    "monte_carlo_correction": "(extreme + 1)/(permutations + 1)",
+    "predictor_ties_preserved": true,
+    "outcome_ties_preserved": true,
+    "statistical_unit": "One gland",
+    "panel": "Fig4G",
+    "predictor": "BB-94 concentration (uM)",
+    "outcome": "Normalized per-gland collagen IV intensity",
+    "input_table_sha256": {
+      "BB-94-titration/results/bud-count/Fig4F-bud-count-titration-glands.csv": "f2363051aa7ea87bf93a9c3f06d7406ed39cb53a7bf2838de1dad1efa986ee89",
+      "BB-94-titration/results/bud-count/Fig4F-bud-count-titration-summary.csv": "1b1e35b58ce163253ea395c7e36ebe79f537c1689676f970fcdfbafe73f7b5ad",
+      "BB-94-titration/results/bud-count/Fig4F-bud-count-titration-comparisons.csv": "ca3ef9d8001332904e05b4f65663151fd6c3c008362c47142b040740e44a5634",
+      "BB-94-titration/results/collagen-IV/Fig4G-collagen-IV-intensity-titration-glands.csv": "695d7f0118305bea542b14d06e0f263fbba15815ee85bf3494443223d354a65f",
+      "BB-94-titration/results/collagen-IV/Fig4G-collagen-IV-intensity-titration-summary.csv": "a29d58bd4aeec396f17920fb23a0c1a27ae7ecf84416925dc0a4ec943d11cd81",
+      "BB-94-titration/results/collagen-IV/Fig4G-collagen-IV-intensity-titration-comparisons.csv": "8a10d38b0fd610a51c2a42d4484f0d826ca09c4924014fa26a14a714d5383a3b"
+    }
+  }
+}

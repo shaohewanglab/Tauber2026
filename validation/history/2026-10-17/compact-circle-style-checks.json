@@ -1,0 +1,72 @@
+{
+  "status": "passed",
+  "panels": {
+    "4E-original": {
+      "circles": 14,
+      "diameter_points": 2,
+      "edge_width_points": 0.35,
+      "summary_color": "black",
+      "summary_above_individual_points": true
+    },
+    "4F-original": {
+      "circles": 110,
+      "diameter_points": 1.5,
+      "edge_width_points": 0.35,
+      "summary_color": "black",
+      "summary_above_individual_points": true
+    },
+    "4G-original": {
+      "circles": 49,
+      "diameter_points": 2,
+      "edge_width_points": 0.35,
+      "summary_color": "black",
+      "summary_above_individual_points": true
+    },
+    "4E-tol-bright": {
+      "circles": 14,
+      "diameter_points": 2,
+      "edge_width_points": 0.35,
+      "summary_color": "black",
+      "summary_above_individual_points": true
+    },
+    "4F-tol-bright": {
+      "circles": 110,
+      "diameter_points": 1.5,
+      "edge_width_points": 0.35,
+      "summary_color": "black",
+      "summary_above_individual_points": true
+    },
+    "4G-tol-bright": {
+      "circles": 49,
+      "diameter_points": 2,
+      "edge_width_points": 0.35,
+      "summary_color": "black",
+      "summary_above_individual_points": true
+    },
+    "4E-collaborator-rainbow": {
+      "circles": 14,
+      "diameter_points": 2,
+      "edge_width_points": 0.35,
+      "summary_color": "black",
+      "summary_above_individual_points": true
+    },
+    "4F-collaborator-rainbow": {
+      "circles": 110,
+      "diameter_points": 1.5,
+      "edge_width_points": 0.35,
+      "summary_color": "black",
+      "summary_above_individual_points": true
+    },
+    "4G-collaborator-rainbow": {
+      "circles": 49,
+      "diameter_points": 2,
+      "edge_width_points": 0.35,
+      "summary_color": "black",
+      "summary_above_individual_points": true
+    }
+  },
+  "unchanged_other_plot_sets": 10,
+  "numerical_csv_files_byte_identical": true,
+  "relocated_rgb_previews_identical": 16,
+  "changes_committed": false
+}

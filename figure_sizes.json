@@ -1,0 +1,166 @@
+{
+  "status": "Integrated manuscript plot sizes, including model 4A/4E/5D/5E and shared-axis 4F/G.",
+  "units": "mm",
+  "margin_points": 1,
+  "figures": {
+    "fig2-mesh": {
+      "panel": "Figure 2C",
+      "full_mm": [
+        80.264,
+        32.004
+      ],
+      "frame_mm": [
+        69.32422,
+        24.384
+      ],
+      "requested_full_inches": [
+        3.16,
+        1.26
+      ],
+      "requested_frame_inches": [
+        2.7293,
+        0.96
+      ],
+      "status": "specified",
+      "margin_points": 0.5
+    },
+    "fig4-mesh": {
+      "panel": "Figure 4B",
+      "frame_width_mm": 40.80813036111111,
+      "frame_width_basis": "Existing 4B plotting-frame width; 4A links to this width for vertical stacking.",
+      "full_mm": [
+        49.53,
+        24.384
+      ],
+      "requested_full_inches": [
+        1.95,
+        0.96
+      ],
+      "status": "specified"
+    },
+    "fig5-mesh": {
+      "panel": "Figure 5F",
+      "full_mm": [
+        85.344,
+        31.496
+      ],
+      "requested_full_inches": [
+        3.36,
+        1.24
+      ],
+      "status": "specified",
+      "frame_height_mm": 23.703403472222,
+      "frame_height_basis": "Compact layout with the shared fixed font sizes and label padding; 5D and 5E link to this height."
+    },
+    "fig4-bud-count": {
+      "panel": "Figure 4F",
+      "full_mm": [
+        33.528,
+        18.288
+      ],
+      "requested_full_inches": [
+        1.32,
+        0.72
+      ],
+      "status": "optional legacy individual canvas; main workflow exports the combined 4F/G panel"
+    },
+    "fig4-collagen-IV": {
+      "panel": "Figure 4G",
+      "full_mm": [
+        33.528,
+        18.288
+      ],
+      "requested_full_inches": [
+        1.32,
+        0.72
+      ],
+      "status": "optional legacy individual canvas; main workflow exports the combined 4F/G panel"
+    },
+    "fig5-washout-uniform": {
+      "panel": "Figure 5C",
+      "full_mm": [
+        25.4,
+        35.56
+      ],
+      "requested_full_inches": [
+        1.0,
+        1.4
+      ],
+      "status": "specified"
+    },
+    "fig5-washout-symbols": {
+      "panel": "Figure 5C",
+      "full_mm": [
+        25.4,
+        35.56
+      ],
+      "requested_full_inches": [
+        1.0,
+        1.4
+      ],
+      "status": "specified"
+    },
+    "fig4-model-2d": {
+      "panel": "Figure 4A",
+      "description": "Model 2D acircularity over time at varying effective thickness z",
+      "same_size_as": "fig4-mesh",
+      "frame_width_as": "fig4-mesh",
+      "status": "integrated model plot"
+    },
+    "fig5-future-d": {
+      "panel": "Figure 5D",
+      "full_mm": [
+        40.64,
+        31.496
+      ],
+      "requested_full_inches": [
+        1.6,
+        1.24
+      ],
+      "frame_height_as": "fig5-mesh",
+      "status": "integrated model plot",
+      "margin_points": 0.5,
+      "margin_basis": "0.5 pt outside margin retains 5F frame height with the taller tau/tau_g label and unchanged 7 pt axis font / 2 pt label gap."
+    },
+    "fig5-future-e": {
+      "panel": "Figure 5E",
+      "full_mm": [
+        40.64,
+        31.496
+      ],
+      "requested_full_inches": [
+        1.6,
+        1.24
+      ],
+      "frame_height_as": "fig5-mesh",
+      "status": "integrated model plot",
+      "margin_points": 0.5,
+      "margin_basis": "0.5 pt outside margin retains 5F frame height with the taller tau/tau_g label and unchanged 7 pt axis font / 2 pt label gap."
+    },
+    "fig4-model-buds": {
+      "panel": "Figure 4E",
+      "full_mm": [
+        33.528,
+        23.368
+      ],
+      "requested_full_inches": [
+        1.32,
+        0.92
+      ],
+      "status": "integrated provisional model counts; four simulations pending; see INTERNAL_NOTES.md"
+    },
+    "fig4-titration-combined": {
+      "panel": "Figures 4F and 4G",
+      "full_mm": [
+        33.528,
+        38.354
+      ],
+      "requested_full_inches": [
+        1.32,
+        1.51
+      ],
+      "layout": "Bud ratio above collagen IV; shared concentration ticks below 4G; [BB-94] above (\u00b5M) at left",
+      "status": "integrated"
+    }
+  }
+}

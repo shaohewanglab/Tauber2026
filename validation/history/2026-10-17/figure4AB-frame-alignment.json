@@ -1,0 +1,66 @@
+{
+  "status": "passed",
+  "absolute_tolerance_inches": 1e-12,
+  "checks": {
+    "original": {
+      "4A_horizontal_frame_inches": [
+        0.32949180555555563,
+        1.9361111111111111,
+        1.6066193055555555
+      ],
+      "4B_horizontal_frame_inches": [
+        0.32949180555555563,
+        1.9361111111111111,
+        1.6066193055555555
+      ],
+      "4A_frame_height_inches": 0.6704538888888887,
+      "4A_full_inches": [
+        1.9500000000000002,
+        0.9600000000000001
+      ],
+      "4B_full_inches": [
+        1.9500000000000002,
+        0.9600000000000001
+      ],
+      "pdf_horizontal_bounds_points": [
+        23.7242,
+        139.40200000000002
+      ],
+      "svg_horizontal_bounds_tex_points": [
+        23.81284,
+        139.92276
+      ],
+      "exported_pdf_and_svg_horizontal_bounds_exactly_equal": true
+    },
+    "tol-bright": {
+      "4A_horizontal_frame_inches": [
+        0.32949180555555563,
+        1.9361111111111111,
+        1.6066193055555555
+      ],
+      "4B_horizontal_frame_inches": [
+        0.32949180555555563,
+        1.9361111111111111,
+        1.6066193055555555
+      ],
+      "4A_frame_height_inches": 0.6704538888888887,
+      "4A_full_inches": [
+        1.9500000000000002,
+        0.9600000000000001
+      ],
+      "4B_full_inches": [
+        1.9500000000000002,
+        0.9600000000000001
+      ],
+      "pdf_horizontal_bounds_points": [
+        23.7242,
+        139.40200000000002
+      ],
+      "svg_horizontal_bounds_tex_points": [
+        23.81284,
+        139.92276
+      ],
+      "exported_pdf_and_svg_horizontal_bounds_exactly_equal": true
+    }
+  }
+}

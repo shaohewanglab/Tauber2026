@@ -1,0 +1,67 @@
+[
+  {
+    "path": "ModelData/bud_counts_summary.csv",
+    "bytes": 258,
+    "sha256": "e5e200abfdaca047712725192b0e46d552221117da84964b8f947dc32d793e97"
+  },
+  {
+    "path": "ModelData/thickness_paper/shape_array_r_5_z_0.0005_kP_0.01_kn_5e-06_tg_1e+06_tgi_2e+06_M_1e-07_dt_0.01_expV0.1.npz",
+    "bytes": 894367,
+    "sha256": "cc8a7e8607364d14769348356f95618b85d396db9237b7efb98f08ffe2ae2e16"
+  },
+  {
+    "path": "ModelData/thickness_paper/shape_array_r_5_z_0.001_kP_0.01_kn_5e-06_tg_1e+06_tgi_2e+06_M_1e-07_dt_0.1_expV0.1.npz",
+    "bytes": 894912,
+    "sha256": "67af9a9e65522acc4b2cf773c90b3eb0679a883f89dd253e0df9e4b9d96979ee"
+  },
+  {
+    "path": "ModelData/thickness_paper/shape_array_r_5_z_0.003_kP_0.01_kn_5e-06_tg_1e+06_tgi_2e+06_M_1e-07_dt_0.1_expV0.1.npz",
+    "bytes": 896236,
+    "sha256": "96457a0120aff73da5ff0093de7979135cf870a85bddc628eac27c6def1d5fda"
+  },
+  {
+    "path": "ModelData/thickness_paper/shape_array_r_5_z_0.005_kP_0.01_kn_5e-06_tg_1e+06_tgi_2e+06_M_1e-07_dt_0.1_expV0.1.npz",
+    "bytes": 897060,
+    "sha256": "30a476161831a3ee289a8331959d88cf462ca20b59ff973b9b1f3b46e8da2693"
+  },
+  {
+    "path": "ModelData/thickness_paper/shape_array_r_5_z_0.008_kP_0.01_kn_5e-06_tg_1e+06_tgi_2e+06_M_1e-07_dt_0.1_expV0.1.npz",
+    "bytes": 897919,
+    "sha256": "aec03412ea889e709ea1598854cdd1af4c8cea87c5984f96aaae62cfa2a2c87d"
+  },
+  {
+    "path": "ModelData/thickness_paper/shape_array_r_5_z_0.015_kP_0.01_kn_5e-06_tg_1e+06_tgi_2e+06_M_1e-07_dt_0.1_expV0.1.npz",
+    "bytes": 897594,
+    "sha256": "381e48d017576f97cede36acb4d08693fca80198d655fb7c13424ce423d0a05d"
+  },
+  {
+    "path": "ModelData/thickness_paper/shape_array_r_5_z_0.01_kP_0.01_kn_5e-06_tg_1e+06_tgi_2e+06_M_1e-07_dt_0.1_expV0.1.npz",
+    "bytes": 898329,
+    "sha256": "68cf38910aac9efae83b6dcc5ee3cb35557e0273690afbfd09e49788f8c37f1f"
+  },
+  {
+    "path": "ModelData/washout_paper/shape_array_r_5_z_0.015_kP_0.01_kn_5e-06_tg_1e+06_tgi_2e+06_M_1e-07_dt_0.1_expV0.1_washout.npz",
+    "bytes": 896286,
+    "sha256": "fedb74c1342a311c3035306ba1e4ee8878967a162daf8f76e2b3d3835d21450f"
+  },
+  {
+    "path": "original_scripts/PlotLibrary.py",
+    "bytes": 7568,
+    "sha256": "9819bfc2a95b9bf7f31c84c2d3887f1a600cd27559f9a0892840a680e9e68125"
+  },
+  {
+    "path": "original_scripts/create_acircularity_plot_exp.py",
+    "bytes": 3903,
+    "sha256": "6775ae383919b0063b3db06654b123c242115ce9a89191e9cb4a772052c0eef4"
+  },
+  {
+    "path": "original_scripts/create_acircularity_plot_washout.py",
+    "bytes": 3895,
+    "sha256": "2cf0446720174d270d5d28c59c19b8d532f704e16afacc62c1a738b4aba0f7f7"
+  },
+  {
+    "path": "original_scripts/create_acircularity_plot_washoutcontrol.py",
+    "bytes": 4042,
+    "sha256": "bafcbf0374daa4afe26a7ae9634ddc1c347adc9abaa254036d8ccadf4c5a3b95"
+  }
+]

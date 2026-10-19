@@ -1,0 +1,44 @@
+BB-94 titration: collagen IV intensity
+
+Each point is the mean raw-image collagen IV AUC across retained line scans from one gland, divided by the mean of the control gland means. Vehicle mean is 1. Statistics use these gland means, not individual line scans.
+
+Error bar is SD.
+
+Two-sided single-step Dunnett comparisons of each nonzero dose with DMSO (0), with family-wise adjustment across the 6 comparisons in this outcome. No additional Holm correction is applied. Treated doses are not compared with one another.
+
+Asterisks: * adjusted p < .05; ** < .01; *** < .001; **** < .0001; ns >= .05. Tests compare means using one pooled within-group variance; raw P is the marginal pooled t probability.
+
+Different glands are treated as independent biological observations. Treatment groups are not paired. Embryo/litter identifiers are not available for modeling further clustering.
+
+Control normalization uses equal gland weights. The notebook used a pooled control-profile mean; the new denominator changes the scale slightly but cannot change these scale-invariant tests.
+
+Independent observations within and between groups; approximately normal within-group errors with one common variance. Dunnett's single-step adjustment controls the family of treatment-versus-control comparisons; no additional Holm correction is applied.
+
+Deterministic conditional normal/chi-square quadrature; 256 normal nodes
+
+Pooled within-group variance = 0.1018676194; residual df = 42.
+
+Median-centered Levene / Brown-Forsythe variance diagnostic P = 0.0933801. A nonsignificant variance diagnostic does not establish normality or equal variances.
+
+716 line scans from 49 glands; 12–15 scans per gland. Control denominator = 262.4852937 AUC units; notebook denominator = 262.750973. The normalized scale changes by 0.1012%.
+
+Input audit and explicit exclusions are recorded in the run JSON. Source notebooks and measurement files are unchanged.
+
+GROUP SUMMARY
+ dose_um  n     mean       sd  variance
+   0.000  7 1.000000 0.191146  0.036537
+   0.005  7 0.997878 0.114685  0.013153
+   0.050  7 1.131698 0.118296  0.013994
+   0.500  7 1.904012 0.357664  0.127924
+   1.250  7 2.294086 0.329417  0.108516
+   2.500  7 2.472867 0.547990  0.300293
+   5.000  7 2.668121 0.335644  0.112657
+
+VERSUS VEHICLE
+ dose_b_um  n_a  n_b  mean_difference_b_minus_a          t_b  df         p_raw    p_adjusted annotation
+     0.005    7    7               -0.002122057 -0.012438643  42    0.99013455             1         ns
+      0.05    7    7                 0.13169778   0.77195928  42    0.44446064    0.93243755         ns
+       0.5    7    7                 0.90401208    5.2989543  42 4.0133694e-06 2.3151188e-05       ****
+      1.25    7    7                  1.2940856    7.5854081  42 2.1391248e-09 1.2671737e-08       ****
+       2.5    7    7                  1.4728672    8.6333538  42 7.4480696e-11 4.4296844e-10       ****
+         5    7    7                  1.6681207    9.7778512  42 2.1847117e-12 1.3025445e-11       ****

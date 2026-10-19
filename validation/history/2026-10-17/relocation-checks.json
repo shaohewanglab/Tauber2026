@@ -1,0 +1,105 @@
+{
+  "status": "passed",
+  "results_absent_before_clean_reproduction": true,
+  "folder_names": [
+    "BB-94-titration",
+    "BB-94-washout",
+    "mesh-morphometry",
+    "model-morphometry"
+  ],
+  "external_manuscript_inputs_required": false,
+  "plots_rgb_pixel_identical": 16,
+  "plot_checks": {
+    "BB-94-titration/results/combined/Fig4FG-BB94-titration-collaborator-rainbow.pdf": {
+      "status": "passed",
+      "rgb_pixels_identical": true,
+      "pdf_svg_outline_verification": "passed"
+    },
+    "BB-94-titration/results/combined/Fig4FG-BB94-titration-tol-bright.pdf": {
+      "status": "passed",
+      "rgb_pixels_identical": true,
+      "pdf_svg_outline_verification": "passed"
+    },
+    "BB-94-titration/results/combined/Fig4FG-BB94-titration.pdf": {
+      "status": "passed",
+      "rgb_pixels_identical": true,
+      "pdf_svg_outline_verification": "passed"
+    },
+    "BB-94-washout/results/combined/Fig5C-washout-log2-ratios-symbols-stars-no-legend.pdf": {
+      "status": "passed",
+      "rgb_pixels_identical": true,
+      "pdf_svg_outline_verification": "passed"
+    },
+    "BB-94-washout/results/combined/Fig5C-washout-log2-ratios-uniform-stars.pdf": {
+      "status": "passed",
+      "rgb_pixels_identical": true,
+      "pdf_svg_outline_verification": "passed"
+    },
+    "mesh-morphometry/results/Fig2C-area_volume_evolution_control_cleanmesh_plus.pdf": {
+      "status": "passed",
+      "rgb_pixels_identical": true,
+      "pdf_svg_outline_verification": "passed"
+    },
+    "mesh-morphometry/results/Fig4B-asphericitychange_evolution_BB94_cleanmesh_plus-tol-bright.pdf": {
+      "status": "passed",
+      "rgb_pixels_identical": true,
+      "pdf_svg_outline_verification": "passed"
+    },
+    "mesh-morphometry/results/Fig4B-asphericitychange_evolution_BB94_cleanmesh_plus.pdf": {
+      "status": "passed",
+      "rgb_pixels_identical": true,
+      "pdf_svg_outline_verification": "passed"
+    },
+    "mesh-morphometry/results/Fig5F-asphericitychange_evolution_washout_cleanmesh_plus.pdf": {
+      "status": "passed",
+      "rgb_pixels_identical": true,
+      "pdf_svg_outline_verification": "passed"
+    },
+    "model-morphometry/results/Fig4A-acircularity-varying-thickness-tol-bright.pdf": {
+      "status": "passed",
+      "rgb_pixels_identical": true,
+      "pdf_svg_outline_verification": "passed"
+    },
+    "model-morphometry/results/Fig4A-acircularity-varying-thickness.pdf": {
+      "status": "passed",
+      "rgb_pixels_identical": true,
+      "pdf_svg_outline_verification": "passed"
+    },
+    "model-morphometry/results/Fig4E-model-bud-count-collaborator-rainbow.pdf": {
+      "status": "passed",
+      "rgb_pixels_identical": true,
+      "pdf_svg_outline_verification": "passed"
+    },
+    "model-morphometry/results/Fig4E-model-bud-count-tol-bright.pdf": {
+      "status": "passed",
+      "rgb_pixels_identical": true,
+      "pdf_svg_outline_verification": "passed"
+    },
+    "model-morphometry/results/Fig4E-model-bud-count.pdf": {
+      "status": "passed",
+      "rgb_pixels_identical": true,
+      "pdf_svg_outline_verification": "passed"
+    },
+    "model-morphometry/results/Fig5D-acircularity-full-washout.pdf": {
+      "status": "passed",
+      "rgb_pixels_identical": true,
+      "pdf_svg_outline_verification": "passed"
+    },
+    "model-morphometry/results/Fig5E-acircularity-post-washout.pdf": {
+      "status": "passed",
+      "rgb_pixels_identical": true,
+      "pdf_svg_outline_verification": "passed"
+    }
+  },
+  "fig4A_frame_width_update_verified": true,
+  "fig4E_height_and_statistics_update_verified": true,
+  "model_bud_statistics_reports_byte_identical": true,
+  "compact_circle_update_verified": true,
+  "fig4B_individual_curve_style_update_verified": true,
+  "fig5C_style_and_frame_update_verified": true,
+  "fig5C_width_and_edge_padding_update_verified": true,
+  "fig5C_uniform_hollow_circles_verified": true,
+  "plot_filename_prefix_update_verified": true,
+  "complete_clean_reproduction_after_filename_updates": true,
+  "review_sheet_previews_pixel_identical": 3
+}

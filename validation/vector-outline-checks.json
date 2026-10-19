@@ -1,0 +1,288 @@
+{
+  "status": "passed",
+  "plot_sets_verified": 10,
+  "export_text": "Vector outlines; no installed fonts needed for viewing or placing",
+  "font_resources": 0,
+  "live_text_operators_or_elements": 0,
+  "raster_images": 0,
+  "plots": {
+    "BB-94-titration/results/combined/Fig4FG-BB94-titration-tol-bright.pdf": {
+      "pdf": {
+        "font_resources": 0,
+        "text_operators": 0,
+        "raster_images": 0,
+        "vector_path_operators": 2273,
+        "page_sizes_points": [
+          [
+            95.04,
+            108.72
+          ]
+        ]
+      },
+      "svg": {
+        "text_elements": 0,
+        "font_definitions": 0,
+        "raster_images": 0,
+        "path_elements": 89,
+        "size_points": [
+          95.04,
+          108.72
+        ]
+      }
+    },
+    "BB-94-washout/results/combined/Fig5C-washout-log2-ratios-symbols-stars-no-legend.pdf": {
+      "pdf": {
+        "font_resources": 0,
+        "text_operators": 0,
+        "raster_images": 0,
+        "vector_path_operators": 1829,
+        "page_sizes_points": [
+          [
+            72.0,
+            100.8
+          ]
+        ]
+      },
+      "svg": {
+        "text_elements": 0,
+        "font_definitions": 0,
+        "raster_images": 0,
+        "path_elements": 112,
+        "size_points": [
+          72.0,
+          100.8
+        ]
+      }
+    },
+    "BB-94-washout/results/combined/Fig5C-washout-log2-ratios-uniform-stars.pdf": {
+      "pdf": {
+        "font_resources": 0,
+        "text_operators": 0,
+        "raster_images": 0,
+        "vector_path_operators": 1421,
+        "page_sizes_points": [
+          [
+            72.0,
+            100.8
+          ]
+        ]
+      },
+      "svg": {
+        "text_elements": 0,
+        "font_definitions": 0,
+        "raster_images": 0,
+        "path_elements": 30,
+        "size_points": [
+          72.0,
+          100.8
+        ]
+      }
+    },
+    "mesh-morphometry/results/Fig2C-area_volume_evolution_control_cleanmesh_plus.pdf": {
+      "pdf": {
+        "font_resources": 0,
+        "text_operators": 0,
+        "raster_images": 0,
+        "vector_path_operators": 1340,
+        "page_sizes_points": [
+          [
+            227.52,
+            90.72
+          ]
+        ]
+      },
+      "svg": {
+        "text_elements": 0,
+        "font_definitions": 0,
+        "raster_images": 0,
+        "path_elements": 106,
+        "size_points": [
+          227.520259,
+          90.719601
+        ]
+      }
+    },
+    "mesh-morphometry/results/Fig4B-asphericitychange_evolution_BB94_cleanmesh_plus-tol-bright.pdf": {
+      "pdf": {
+        "font_resources": 0,
+        "text_operators": 0,
+        "raster_images": 0,
+        "vector_path_operators": 1110,
+        "page_sizes_points": [
+          [
+            140.4,
+            69.12
+          ]
+        ]
+      },
+      "svg": {
+        "text_elements": 0,
+        "font_definitions": 0,
+        "raster_images": 0,
+        "path_elements": 109,
+        "size_points": [
+          140.399771,
+          69.120478
+        ]
+      }
+    },
+    "mesh-morphometry/results/Fig5F-asphericitychange_evolution_washout_cleanmesh_plus.pdf": {
+      "pdf": {
+        "font_resources": 0,
+        "text_operators": 0,
+        "raster_images": 0,
+        "vector_path_operators": 1284,
+        "page_sizes_points": [
+          [
+            241.92,
+            89.28
+          ]
+        ]
+      },
+      "svg": {
+        "text_elements": 0,
+        "font_definitions": 0,
+        "raster_images": 0,
+        "path_elements": 111,
+        "size_points": [
+          241.92004,
+          89.280389
+        ]
+      }
+    },
+    "model-morphometry/results/Fig4A-acircularity-varying-thickness-tol-bright.pdf": {
+      "pdf": {
+        "font_resources": 0,
+        "text_operators": 0,
+        "raster_images": 0,
+        "vector_path_operators": 1255,
+        "page_sizes_points": [
+          [
+            140.4,
+            69.12
+          ]
+        ]
+      },
+      "svg": {
+        "text_elements": 0,
+        "font_definitions": 0,
+        "raster_images": 0,
+        "path_elements": 68,
+        "size_points": [
+          140.399771,
+          69.120478
+        ]
+      }
+    },
+    "model-morphometry/results/Fig4E-model-bud-count-tol-bright.pdf": {
+      "pdf": {
+        "font_resources": 0,
+        "text_operators": 0,
+        "raster_images": 0,
+        "vector_path_operators": 1303,
+        "page_sizes_points": [
+          [
+            95.04,
+            66.24
+          ]
+        ]
+      },
+      "svg": {
+        "text_elements": 0,
+        "font_definitions": 0,
+        "raster_images": 0,
+        "path_elements": 100,
+        "size_points": [
+          95.040528,
+          66.23987
+        ]
+      }
+    },
+    "model-morphometry/results/Fig5D-acircularity-full-washout.pdf": {
+      "pdf": {
+        "font_resources": 0,
+        "text_operators": 0,
+        "raster_images": 0,
+        "vector_path_operators": 1078,
+        "page_sizes_points": [
+          [
+            115.2,
+            89.28
+          ]
+        ]
+      },
+      "svg": {
+        "text_elements": 0,
+        "font_definitions": 0,
+        "raster_images": 0,
+        "path_elements": 69,
+        "size_points": [
+          115.200428,
+          89.280389
+        ]
+      }
+    },
+    "model-morphometry/results/Fig5E-acircularity-post-washout.pdf": {
+      "pdf": {
+        "font_resources": 0,
+        "text_operators": 0,
+        "raster_images": 0,
+        "vector_path_operators": 1097,
+        "page_sizes_points": [
+          [
+            115.2,
+            89.28
+          ]
+        ]
+      },
+      "svg": {
+        "text_elements": 0,
+        "font_definitions": 0,
+        "raster_images": 0,
+        "path_elements": 59,
+        "size_points": [
+          115.200428,
+          89.280389
+        ]
+      }
+    }
+  },
+  "review_sheets": {
+    "validation/review/Fig4A-5DE-acircularity-review.pdf": {
+      "font_resources": 0,
+      "text_operators": 0,
+      "raster_images": 0,
+      "vector_path_operators": 8182,
+      "page_sizes_points": [
+        [
+          403.2,
+          324.0
+        ]
+      ]
+    },
+    "validation/review/Fig4AB-review.pdf": {
+      "font_resources": 0,
+      "text_operators": 0,
+      "raster_images": 0,
+      "vector_path_operators": 5364,
+      "page_sizes_points": [
+        [
+          230.4,
+          277.2
+        ]
+      ]
+    },
+    "validation/review/Fig4EFG-titration-review.pdf": {
+      "font_resources": 0,
+      "text_operators": 0,
+      "raster_images": 0,
+      "vector_path_operators": 7815,
+      "page_sizes_points": [
+        [
+          201.6,
+          291.6
+        ]
+      ]
+    }
+  }
+}

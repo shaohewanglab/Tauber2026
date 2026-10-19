@@ -1,7 +1,0 @@
-dose_a_um,dose_b_um,n_a,n_b,mean_difference_b_minus_a,U_b,rank_biserial_b_minus_a,p_raw,p_method,ties_present,method,p_adjusted,annotation
-0.0,0.005,7,7,-0.0021220570052665755,28.0,0.1428571428571428,0.7103729603729605,exact,False,Two-sided Mann-Whitney U + Holm,0.7103729603729605,ns
-0.0,0.05,7,7,0.1316977788035545,38.0,0.5510204081632653,0.09731934731934733,exact,False,Two-sided Mann-Whitney U + Holm,0.19463869463869465,ns
-0.0,0.5,7,7,0.9040120751821767,49.0,1.0,0.0005827505827505828,exact,False,Two-sided Mann-Whitney U + Holm,0.0034965034965034965,**
-0.0,1.25,7,7,1.2940856108379966,49.0,1.0,0.0005827505827505828,exact,False,Two-sided Mann-Whitney U + Holm,0.0034965034965034965,**
-0.0,2.5,7,7,1.4728672118580115,49.0,1.0,0.0005827505827505828,exact,False,Two-sided Mann-Whitney U + Holm,0.0034965034965034965,**
-0.0,5.0,7,7,1.66812073538937,49.0,1.0,0.0005827505827505828,exact,False,Two-sided Mann-Whitney U + Holm,0.0034965034965034965,**

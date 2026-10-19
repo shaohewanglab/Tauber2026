@@ -1,0 +1,29 @@
+{
+  "description": "Unmodified source inputs; package paths are relative to the repository root.",
+  "files": [
+    {
+      "path": "BB-94-washout/source_data/210325-washout/210325-27-SMG-BB94-washout-1791559598-fileNameRecord.txt",
+      "original_project_path": "Fig5-washout/BB94-washout_phase_contrast-bud-count/210325-27-SMG-BB94-washout-1791559598-fileNameRecord.txt",
+      "sha256": "487efd6416131ecba2e956ca995038560c6d16cea8909355828f3cb863317a37",
+      "bytes": 3063
+    },
+    {
+      "path": "BB-94-washout/source_data/210325-washout/210325-27-SMG-BB94-washout-1791559598-renamed-8276-budCount.txt",
+      "original_project_path": "Fig5-washout/BB94-washout_phase_contrast-bud-count/210325-27-SMG-BB94-washout-1791559598-renamed-8276-budCount.txt",
+      "sha256": "661e1f56d94aff320b9660c6f39dc53c7fdf9231c06695148d03b689d5bee7e6",
+      "bytes": 1918
+    },
+    {
+      "path": "BB-94-washout/source_data/210401-washout/210401-03-SMG-BB94-washout-1791565130-fileNameRecord.txt",
+      "original_project_path": "Fig5-washout/BB94-washout_phase_contrast-bud-count/210401-03-SMG-BB94-washout-1791565130-fileNameRecord.txt",
+      "sha256": "fede5d93f93619e9910fdbd61f00a809635f54c26f31166f73fa0d819db54e36",
+      "bytes": 5382
+    },
+    {
+      "path": "BB-94-washout/source_data/210401-washout/210401-03-SMG-BB94-washout-1791565130-renamed-7422-budCount.txt",
+      "original_project_path": "Fig5-washout/BB94-washout_phase_contrast-bud-count/210401-03-SMG-BB94-washout-1791565130-renamed-7422-budCount.txt",
+      "sha256": "4156c9f7f541dd18145971be6c4114c982787618648dc5f50d714823e802f36c",
+      "bytes": 3111
+    }
+  ]
+}

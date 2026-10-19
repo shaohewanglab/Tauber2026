@@ -1,0 +1,55 @@
+{
+  "status": "passed",
+  "approved_Codex_plot_layouts_preserved": 2,
+  "comparison": "Two unchanged approved panels; authorized 4A frame, 4E height/statistics and 4E/F/G marker/summary updates verified",
+  "note": "Raster comparisons with pre-outline files are superseded by path checks because outlining changes text antialiasing.",
+  "plots": {
+    "model-morphometry/results/Fig4A-acircularity-varying-thickness-tol-bright.svg": {
+      "authorized_layout_change": "Frame width now equals 4B; original numerical curves verified",
+      "frame_alignment_report": "validation/figure4AB-frame-alignment.json"
+    },
+    "model-morphometry/results/Fig4A-acircularity-varying-thickness.svg": {
+      "authorized_layout_change": "Frame width now equals 4B; original numerical curves verified",
+      "frame_alignment_report": "validation/figure4AB-frame-alignment.json"
+    },
+    "model-morphometry/results/Fig4E-model-bud-count-collaborator-rainbow.svg": {
+      "authorized_style_change": "Hollow circles, black mean/SD above observations",
+      "frame_size_unchanged_from_previous_revision": true,
+      "data_and_statistics_unchanged": true
+    },
+    "model-morphometry/results/Fig4E-model-bud-count-tol-bright.svg": {
+      "authorized_style_change": "Hollow circles, black mean/SD above observations",
+      "frame_size_unchanged_from_previous_revision": true,
+      "data_and_statistics_unchanged": true
+    },
+    "model-morphometry/results/Fig4E-model-bud-count.svg": {
+      "authorized_style_change": "Hollow circles, black mean/SD above observations",
+      "frame_size_unchanged_from_previous_revision": true,
+      "data_and_statistics_unchanged": true
+    },
+    "BB-94-titration/results/combined/Fig4FG-BB94-titration-collaborator-rainbow.svg": {
+      "authorized_style_change": "Hollow circles, black mean/SD above observations",
+      "frame_size_unchanged_from_previous_revision": true,
+      "data_and_statistics_unchanged": true
+    },
+    "BB-94-titration/results/combined/Fig4FG-BB94-titration-tol-bright.svg": {
+      "authorized_style_change": "Hollow circles, black mean/SD above observations",
+      "frame_size_unchanged_from_previous_revision": true,
+      "data_and_statistics_unchanged": true
+    },
+    "BB-94-titration/results/combined/Fig4FG-BB94-titration.svg": {
+      "authorized_style_change": "Hollow circles, black mean/SD above observations",
+      "frame_size_unchanged_from_previous_revision": true,
+      "data_and_statistics_unchanged": true
+    },
+    "model-morphometry/results/Fig5D-acircularity-full-washout.svg": {
+      "original_plot_paths_preserved": true
+    },
+    "model-morphometry/results/Fig5E-acircularity-post-washout.svg": {
+      "original_plot_paths_preserved": true
+    }
+  },
+  "authorized_4A_frame_width_updates": 2,
+  "authorized_4E_height_and_statistics_updates": 3,
+  "authorized_compact_marker_style_updates": 6
+}

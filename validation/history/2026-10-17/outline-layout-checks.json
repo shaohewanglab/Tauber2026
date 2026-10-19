@@ -1,0 +1,108 @@
+{
+  "status": "passed",
+  "checks": {
+    "BB-94-titration/results/combined/Fig4FG-BB94-titration.svg": {
+      "status": "passed",
+      "authorized_layout_change": "Hollow-circle observations; black mean/SD drawn above points",
+      "frame_size_unchanged": true,
+      "data_unchanged": true,
+      "statistics_unchanged": true,
+      "style_check": "validation/compact-circle-style-checks.json"
+    },
+    "BB-94-titration/results/combined/Fig4FG-BB94-titration-tol-bright.svg": {
+      "status": "passed",
+      "authorized_layout_change": "Hollow-circle observations; black mean/SD drawn above points",
+      "frame_size_unchanged": true,
+      "data_unchanged": true,
+      "statistics_unchanged": true,
+      "style_check": "validation/compact-circle-style-checks.json"
+    },
+    "BB-94-titration/results/combined/Fig4FG-BB94-titration-collaborator-rainbow.svg": {
+      "status": "passed",
+      "authorized_layout_change": "Hollow-circle observations; black mean/SD drawn above points",
+      "frame_size_unchanged": true,
+      "data_unchanged": true,
+      "statistics_unchanged": true,
+      "style_check": "validation/compact-circle-style-checks.json"
+    },
+    "BB-94-washout/results/combined/Fig5C-washout-log2-ratios-uniform-stars.svg": {
+      "status": "passed",
+      "authorized_layout_change": "Hollow circular observations; summaries above points; 1.00 x 1.40 inch canvas and existing frame/axis layout unchanged",
+      "data_unchanged": true,
+      "statistics_unchanged": true,
+      "style_check": "validation/figure5C-style-checks.json"
+    },
+    "BB-94-washout/results/combined/Fig5C-washout-log2-ratios-symbols-stars-no-legend.svg": {
+      "status": "passed",
+      "authorized_layout_change": "1.00 x 1.40 inch canvas; x limits -0.65 to 3.65; gray control points, black control summaries and 45-degree ticks",
+      "data_unchanged": true,
+      "statistics_unchanged": true,
+      "style_check": "validation/figure5C-style-checks.json"
+    },
+    "model-morphometry/results/Fig4A-acircularity-varying-thickness-tol-bright.svg": {
+      "status": "passed",
+      "authorized_layout_change": "4A frame widened to match 4B; data unchanged",
+      "frame_alignment_report": "validation/figure4AB-frame-alignment.json"
+    },
+    "model-morphometry/results/Fig4E-model-bud-count.svg": {
+      "status": "passed",
+      "authorized_layout_change": "Hollow-circle observations; black mean/SD drawn above points",
+      "frame_size_unchanged": true,
+      "data_unchanged": true,
+      "statistics_unchanged": true,
+      "style_check": "validation/compact-circle-style-checks.json"
+    },
+    "model-morphometry/results/Fig5E-acircularity-post-washout.svg": {
+      "original_plot_path_occurrences": 35,
+      "preserved_plot_path_occurrences": 35,
+      "missing": 0
+    },
+    "model-morphometry/results/Fig4E-model-bud-count-collaborator-rainbow.svg": {
+      "status": "passed",
+      "authorized_layout_change": "Hollow-circle observations; black mean/SD drawn above points",
+      "frame_size_unchanged": true,
+      "data_unchanged": true,
+      "statistics_unchanged": true,
+      "style_check": "validation/compact-circle-style-checks.json"
+    },
+    "model-morphometry/results/Fig5D-acircularity-full-washout.svg": {
+      "original_plot_path_occurrences": 46,
+      "preserved_plot_path_occurrences": 46,
+      "missing": 0
+    },
+    "model-morphometry/results/Fig4E-model-bud-count-tol-bright.svg": {
+      "status": "passed",
+      "authorized_layout_change": "Hollow-circle observations; black mean/SD drawn above points",
+      "frame_size_unchanged": true,
+      "data_unchanged": true,
+      "statistics_unchanged": true,
+      "style_check": "validation/compact-circle-style-checks.json"
+    },
+    "model-morphometry/results/Fig4A-acircularity-varying-thickness.svg": {
+      "status": "passed",
+      "authorized_layout_change": "4A frame widened to match 4B; data unchanged",
+      "frame_alignment_report": "validation/figure4AB-frame-alignment.json"
+    },
+    "mesh-morphometry/results/Fig4B-asphericitychange_evolution_BB94_cleanmesh_plus-tol-bright.svg": {
+      "original_plot_path_occurrences": 90,
+      "preserved_plot_path_occurrences": 90,
+      "missing": 0
+    },
+    "mesh-morphometry/results/Fig5F-asphericitychange_evolution_washout_cleanmesh_plus.svg": {
+      "original_plot_path_occurrences": 84,
+      "preserved_plot_path_occurrences": 84,
+      "missing": 0
+    },
+    "mesh-morphometry/results/Fig2C-area_volume_evolution_control_cleanmesh_plus.svg": {
+      "original_plot_path_occurrences": 77,
+      "preserved_plot_path_occurrences": 77,
+      "missing": 0
+    },
+    "mesh-morphometry/results/Fig4B-asphericitychange_evolution_BB94_cleanmesh_plus.svg": {
+      "original_plot_path_occurrences": 90,
+      "preserved_plot_path_occurrences": 90,
+      "missing": 0
+    }
+  },
+  "scope": "Eight original plot geometries retained; two authorized 4A width changes; 4E height/statistics changes; six compact circle/summary style updates"
+}

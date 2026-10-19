@@ -1,0 +1,44 @@
+BB-94 titration: bud-count ratios
+
+Each point is one gland's log2(day-1 bud count / day-0 bud count), paired by gland identity. Tests use the displayed log2 ratios, not the untransformed ratios tested in the notebook.
+
+Error bar is SD.
+
+Two-sided single-step Dunnett comparisons of each nonzero dose with DMSO (0), with family-wise adjustment across the 6 comparisons in this outcome. No additional Holm correction is applied. Treated doses are not compared with one another.
+
+Asterisks: * adjusted p < .05; ** < .01; *** < .001; **** < .0001; ns >= .05. Tests compare means using one pooled within-group variance; raw P is the marginal pooled t probability.
+
+Different glands are treated as independent biological observations. Treatment groups are not paired. Embryo/litter identifiers are not available for modeling further clustering.
+
+The 3 source cohorts are pooled as in the notebook. Cohort is retained in the exported gland table but is not a covariate in the tests. Only the selected baseline/final response is analyzed. For the supplied data this is day 1/day 0; future-washout day-2 counts are excluded.
+
+Independent observations within and between groups; approximately normal within-group errors with one common variance. Dunnett's single-step adjustment controls the family of treatment-versus-control comparisons; no additional Holm correction is applied.
+
+Deterministic conditional normal/chi-square quadrature; 256 normal nodes
+
+Pooled within-group variance = 0.2001598431; residual df = 103.
+
+Median-centered Levene / Brown-Forsythe variance diagnostic P = 0.616172. A nonsignificant variance diagnostic does not establish normality or equal variances.
+
+Explicit exclusions: 2 filename-marked placeholder glands; no real gland is excluded by a count threshold. The input audit records all excluded observations.
+
+Input audit and explicit exclusions are recorded in the run JSON. Source notebooks and measurement files are unchanged.
+
+GROUP SUMMARY
+ dose_um  n     mean       sd  variance
+   0.000 16 1.444856 0.536983  0.288350
+   0.005 15 1.729144 0.542941  0.294785
+   0.050 15 1.788234 0.482872  0.233165
+   0.500 16 1.078944 0.320695  0.102845
+   1.250 16 0.697562 0.374285  0.140089
+   2.500 16 0.658695 0.432335  0.186914
+   5.000 16 0.349521 0.404325  0.163479
+
+VERSUS VEHICLE
+ dose_b_um  n_a  n_b  mean_difference_b_minus_a        t_b  df         p_raw    p_adjusted annotation
+     0.005   16   15                  0.2842878  1.7680499 103   0.080013512    0.30753295         ns
+      0.05   16   15                 0.34337787  2.1355444 103   0.035086947    0.15144515         ns
+       0.5   16   16                -0.36591234 -2.3133086 103    0.02269294    0.10260357         ns
+      1.25   16   16                -0.74729419 -4.7244159 103 7.3250025e-06 4.2867062e-05       ****
+       2.5   16   16                -0.78616151 -4.9701362 103 2.6746435e-06 1.5745016e-05       ****
+         5   16   16                 -1.0953348 -6.9247389 103 3.8540655e-10 2.3071119e-09       ****

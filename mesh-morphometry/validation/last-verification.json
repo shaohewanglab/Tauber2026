@@ -1,0 +1,51 @@
+{
+  "status": "passed",
+  "source_tables_verified": 28,
+  "source_bytes": 10590,
+  "individual_and_mean_curves_verified": 56,
+  "sd_bands_verified": 7,
+  "summary_rows_verified": 87,
+  "plots_verified": 3,
+  "recolored_curves_verified": 23,
+  "recolored_sd_bands_verified": 3,
+  "fig4b_tol_mapping": {
+    "BB94_um": [
+      0,
+      1,
+      5
+    ],
+    "matched_z": [
+      0.001,
+      0.005,
+      0.01
+    ],
+    "colors": [
+      "#4477AA",
+      "#228833",
+      "#EE6677"
+    ]
+  },
+  "relative_tolerance": 1e-10,
+  "absolute_tolerance": 1e-12,
+  "presentation_ylim_overrides": {
+    "4": [
+      -10,
+      110
+    ]
+  },
+  "fig4b_curve_style": {
+    "individual_line_width_points": 0.5,
+    "individual_opacity": 0.3,
+    "mean_line_width_points": 1.0,
+    "mean_opacity": 1,
+    "sd_band_opacity": 0.2
+  },
+  "fig2c_legend_mapping": {
+    "green": "Delta S-tilde_iso: 100 * ((V/V0)**(2/3) - 1)",
+    "orange": "Delta S-tilde: 100 * (A/A0 - 1)",
+    "shared_y_axis_label": "Normalized surface expansion"
+  },
+  "numpy": "2.3.0",
+  "matplotlib": "3.10.3",
+  "note": "Every numerical curve and SD polygon agrees with Justin's original scripts. Export existence and CSV values are checked. Vector glyph outlines and exported dimensions are audited separately in the root validation records."
+}

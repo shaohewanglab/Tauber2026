@@ -1,0 +1,27 @@
+COMBINED WASHOUT: CONTROL VERSUS BB-94
+
+21 glands per treatment, comprising 8 from 210325-27 and 13 from 210401-03. Each point is one gland. Error bar is SD.
+
+Two-sided Welch t-tests on per-gland log2 ratios, with Holm correction across these two requested comparisons. This is a two-comparison family; within-treatment interval comparisons are not included in this figure or analysis.
+
+Welch t-tests compare mean log2 ratios using separate group variances and Welch-Satterthwaite degrees of freedom. Independent groups and approximately normal errors or an adequate mean approximation are assumed. Confidence intervals for mean differences are pointwise 95%, not multiplicity-adjusted.
+
+Treatment groups are independent; gland matching across time is preserved in calculation of each ratio. No gland contributes more than once to either individual test.
+
+Data are pooled by experimental stage: 22h/0h corresponds to day1/day0; 46h/22h corresponds to day2/day1. Ratios are not rate-normalized. Day annotations do not establish precise elapsed hours.
+
+This is a pooled gland-level comparison; dataset and plate are not covariates in the Welch tests.
+
+d1/d0: ****
+Control mean log2 ratio = 1.768968, SD = 0.592095; BB-94 mean = 0.448198, SD = 0.355543.
+Mean difference (BB-94 minus control) = -1.320770; pointwise 95% CI [-1.627477, -1.014063].
+Welch t = -8.763614; df = 32.763700.
+Raw p = 4.209821836e-10; Holm-adjusted p = 8.419643671e-10.
+
+d2/d1: ****
+Control mean log2 ratio = 1.875788, SD = 0.314644; BB-94 mean = 2.581525, SD = 0.246732.
+Mean difference (BB-94 minus control) = 0.705737; pointwise 95% CI [0.529078, 0.882397].
+Welch t = 8.088327; df = 37.847876.
+Raw p = 8.986676007e-10; Holm-adjusted p = 8.986676007e-10.
+
+Asterisks use Holm-adjusted p: * < .05; ** < .01; *** < .001; **** < .0001.

@@ -1,0 +1,14 @@
+FIGURE 4E: MODEL BUD COUNTS VERSUS THINNEST z
+Two-sided single-step Dunnett comparisons of mean bud count; five thicker-z versus thinnest-z comparisons
+Deterministic conditional normal/chi-square quadrature; Dunnett-adjusted P values, without additional Holm correction
+Minimum independent simulations per group: 2.
+n/a; full family not tested until every group has at least two independent simulations
+Independent observations within and between groups; approximately normal within-group errors with one common variance. Dunnett's single-step adjustment controls the family of treatment-versus-control comparisons; no additional Holm correction is applied.
+Three runs per thickness cannot establish the normal/common-variance approximation. Some groups have zero observed SD; the pooled within-group variance is positive. An unbudded shape counts as 1.
+
+ baseline_z  comparison_z  n_baseline  n_comparison  mean_difference_comparison_minus_baseline  t_comparison  df  pooled_variance        p_raw   p_adjusted                      p_method  family_size status annotation
+     0.0005         0.001           3             3                                  -0.666667     -1.414214  12         0.333333 1.827168e-01 5.097921e-01 two-sided single-step Dunnett            5 tested         ns
+     0.0005         0.003           3             3                                  -2.333333     -4.949747  12         0.333333 3.365233e-04 1.418209e-03 two-sided single-step Dunnett            5 tested         **
+     0.0005         0.005           3             3                                  -4.333333     -9.192388  12         0.333333 8.825861e-07 3.913652e-06 two-sided single-step Dunnett            5 tested       ****
+     0.0005         0.008           3             3                                  -5.000000    -10.606602  12         0.333333 1.888578e-07 8.419740e-07 two-sided single-step Dunnett            5 tested       ****
+     0.0005         0.010           3             3                                  -5.000000    -10.606602  12         0.333333 1.888578e-07 8.419740e-07 two-sided single-step Dunnett            5 tested       ****

@@ -1,0 +1,52 @@
+{
+  "source_hashes_checked": 13,
+  "original_curves_checked": 11,
+  "tol_thickness_curves_checked": 6,
+  "upper_bound_bands_checked": 0,
+  "presentation_changes": {
+    "4A": "No gray shading; y = 0 to 110; two legend columns of three entries, shifted up by 1.8 pt. Tol colors run purple, blue, cyan, green, yellow, red as z increases."
+  },
+  "tol_thickness_colors": {
+    "z_order": [
+      0.0005,
+      0.001,
+      0.003,
+      0.005,
+      0.008,
+      0.01
+    ],
+    "colors": [
+      "#AA3377",
+      "#4477AA",
+      "#66CCEE",
+      "#228833",
+      "#CCBB44",
+      "#EE6677"
+    ],
+    "source": "Paul Tol Bright non-gray colors reordered purple, blue, cyan, green, yellow, red for increasing model thickness.",
+    "source_url": "https://sronpersonalpages.nl/~pault/"
+  },
+  "model_bud_replicates": 18,
+  "model_bud_groups": 6,
+  "model_bud_target_replicates_per_group": 3,
+  "model_bud_missing_replicates": 0,
+  "compact_markers": {
+    "shape": "hollow circle",
+    "diameter_points": 2.0,
+    "edge_width_points": 0.35,
+    "summary_color": "black",
+    "summary_above_observations": true
+  },
+  "missing_sd_at_z": [],
+  "model_plots_exported": 4,
+  "figure4_color_style": "tol-bright",
+  "fig4A_frame_width_mm": 40.80813036111111,
+  "fig4E_statistics": {
+    "baseline_z": 0.0005,
+    "family_size": 5,
+    "comparisons_tested": 5,
+    "unavailable_comparisons": 0
+  },
+  "status": "passed",
+  "original_script_changes_for_reference": "Redirect np.load paths and suppress save/show only; numerical code unchanged."
+}

@@ -1,9 +1,73 @@
 {
-  "source_tables_verified": 19,
-  "numerical_tables_verified": 10,
-  "plots_verified": 4,
+  "status": "passed",
+  "source_files_verified": 56,
+  "dunnett_panels_verified": [
+    "Fig4F",
+    "Fig4G",
+    "Fig4E"
+  ],
+  "welch_fig5C_comparisons_verified": 2,
+  "numerical_tables_verified": 6,
+  "plots_verified": 10,
+  "titration_color_styles_verified": [
+    "tol-bright"
+  ],
+  "mesh_curves_verified": 56,
+  "mesh_sd_bands_verified": 7,
+  "mesh_recolored_curves_verified": 23,
+  "mesh_recolored_sd_bands_verified": 3,
+  "model_verification": {
+    "status": "passed",
+    "source_files_verified": 13,
+    "original_model_curves_verified": 11,
+    "plots_verified": 4,
+    "bud_counts_available": 18,
+    "bud_counts_target": 18,
+    "bud_counts_missing": 0,
+    "missing_sd_at_z": [],
+    "internal_data_note": "INTERNAL_NOTES.md",
+    "fig4A_frame_alignment": {
+      "tol-bright": {
+        "frame_width_inches": 1.60661297910613,
+        "horizontal_bounds_tex_points": [
+          23.81284,
+          139.92276
+        ],
+        "matches_exported_4B": true
+      }
+    },
+    "fig4E_statistics": {
+      "baseline_z": 0.0005,
+      "family_size": 5,
+      "comparisons_tested": 5,
+      "unavailable_comparisons": 0
+    },
+    "relative_tolerance": 1e-12,
+    "absolute_tolerance": 1e-12
+  },
+  "combined_titration_gland_points": [
+    110,
+    49
+  ],
+  "compact_markers": {
+    "shape": "hollow circle",
+    "diameter_points": {
+      "4E": 2.0,
+      "4F": 1.5,
+      "4G": 2.0
+    },
+    "edge_width_points": 0.35,
+    "summary_color": "black",
+    "summary_above_observations": true
+  },
   "relative_tolerance": 1e-10,
   "absolute_tolerance": 1e-12,
-  "status": "passed",
-  "note": "Expected results were captured from the accepted manuscript analyses; statistical unit, numerical endpoints, SD and adjusted p-values are checked. Font substitution may change appearance only."
+  "figure4_spearman_trends_verified": [
+    "Fig4E",
+    "Fig4F",
+    "Fig4G"
+  ],
+  "outlined_pdf_svg_pairs_verified": 10,
+  "export_font_resources": 0,
+  "export_raster_images": 0
 }

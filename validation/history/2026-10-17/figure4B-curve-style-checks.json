@@ -1,0 +1,41 @@
+{
+  "status": "passed",
+  "date": "2026-10-17",
+  "plots": {
+    "mesh-morphometry/results/Fig4B-asphericitychange_evolution_BB94_cleanmesh_plus-tol-bright.svg": {
+      "all_vector_path_geometry_unchanged": true,
+      "individual_curves": 20,
+      "mean_curves": 3,
+      "sd_bands": 3,
+      "individual_line_width_points": 0.5,
+      "individual_opacity": 0.3,
+      "mean_line_width_points": 1.0,
+      "mean_opacity": 1,
+      "sd_band_opacity": 0.2
+    },
+    "mesh-morphometry/results/Fig4B-asphericitychange_evolution_BB94_cleanmesh_plus.svg": {
+      "all_vector_path_geometry_unchanged": true,
+      "individual_curves": 20,
+      "mean_curves": 3,
+      "sd_bands": 3,
+      "individual_line_width_points": 0.5,
+      "individual_opacity": 0.3,
+      "mean_line_width_points": 1.0,
+      "mean_opacity": 1,
+      "sd_band_opacity": 0.2
+    }
+  },
+  "changed_exports": [
+    "mesh-morphometry/results/Fig4B-asphericitychange_evolution_BB94_cleanmesh_plus-tol-bright.svg",
+    "mesh-morphometry/results/Fig4B-asphericitychange_evolution_BB94_cleanmesh_plus-tol-bright.pdf",
+    "mesh-morphometry/results/Fig4B-asphericitychange_evolution_BB94_cleanmesh_plus-tol-bright.png",
+    "mesh-morphometry/results/Fig4B-asphericitychange_evolution_BB94_cleanmesh_plus.pdf",
+    "mesh-morphometry/results/Fig4B-asphericitychange_evolution_BB94_cleanmesh_plus.png",
+    "mesh-morphometry/results/Fig4B-asphericitychange_evolution_BB94_cleanmesh_plus.svg"
+  ],
+  "other_plot_sets_byte_identical": 14,
+  "all_numerical_csv_files_byte_identical": true,
+  "relocated_pngs_rgb_identical": 16,
+  "data_and_frame_geometry_unchanged": true,
+  "changes_committed": false
+}

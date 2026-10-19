@@ -1,0 +1,2746 @@
+{
+  "description": "Reference captured from accepted Mann-Whitney/Holm6 Fig4 and Mann-Whitney/Holm2 Fig5 analyses; gland-level endpoints.",
+  "tables": [
+    {
+      "path": "BB-94-titration/results/bud-count/Fig4F-bud-count-titration-glands.csv",
+      "columns": [
+        "dose_um",
+        "cohort",
+        "gland_id",
+        "value",
+        "baseline_buds",
+        "final_buds",
+        "ratio"
+      ],
+      "sort_by": [
+        "dose_um",
+        "cohort",
+        "gland_id"
+      ],
+      "dtype": {},
+      "records": [
+        {
+          "dose_um": 0.0,
+          "cohort": "20241112-titration",
+          "gland_id": "20241112-titration:G01:0000",
+          "value": 1.584962500721156,
+          "baseline_buds": 6,
+          "final_buds": 18,
+          "ratio": 3.0
+        },
+        {
+          "dose_um": 0.0,
+          "cohort": "20241112-titration",
+          "gland_id": "20241112-titration:G01:0001",
+          "value": 1.3219280948873624,
+          "baseline_buds": 8,
+          "final_buds": 20,
+          "ratio": 2.5
+        },
+        {
+          "dose_um": 0.0,
+          "cohort": "20241112-titration",
+          "gland_id": "20241112-titration:G01:0002",
+          "value": 1.222392421336448,
+          "baseline_buds": 6,
+          "final_buds": 14,
+          "ratio": 2.3333333333333335
+        },
+        {
+          "dose_um": 0.0,
+          "cohort": "20241112-titration",
+          "gland_id": "20241112-titration:G01:0003",
+          "value": 1.4150374992788437,
+          "baseline_buds": 6,
+          "final_buds": 16,
+          "ratio": 2.6666666666666665
+        },
+        {
+          "dose_um": 0.0,
+          "cohort": "20241112-titration",
+          "gland_id": "20241112-titration:G01:0004",
+          "value": 0.5305147166987798,
+          "baseline_buds": 9,
+          "final_buds": 13,
+          "ratio": 1.4444444444444444
+        },
+        {
+          "dose_um": 0.0,
+          "cohort": "20250219-G01-07",
+          "gland_id": "20250219-G01-07:G01:0000",
+          "value": 1.84799690655495,
+          "baseline_buds": 5,
+          "final_buds": 18,
+          "ratio": 3.6
+        },
+        {
+          "dose_um": 0.0,
+          "cohort": "20250219-G01-07",
+          "gland_id": "20250219-G01-07:G01:0001",
+          "value": 1.5025003405291832,
+          "baseline_buds": 6,
+          "final_buds": 17,
+          "ratio": 2.8333333333333335
+        },
+        {
+          "dose_um": 0.0,
+          "cohort": "20250219-G01-07",
+          "gland_id": "20250219-G01-07:G01:0002",
+          "value": 1.6438561897747246,
+          "baseline_buds": 8,
+          "final_buds": 25,
+          "ratio": 3.125
+        },
+        {
+          "dose_um": 0.0,
+          "cohort": "20250219-G01-07",
+          "gland_id": "20250219-G01-07:G01:0003",
+          "value": 1.1375035237499351,
+          "baseline_buds": 5,
+          "final_buds": 11,
+          "ratio": 2.2
+        },
+        {
+          "dose_um": 0.0,
+          "cohort": "20250219-G01-07",
+          "gland_id": "20250219-G01-07:G01:0004",
+          "value": 0.8073549220576041,
+          "baseline_buds": 4,
+          "final_buds": 7,
+          "ratio": 1.75
+        },
+        {
+          "dose_um": 0.0,
+          "cohort": "20250219-G01-07",
+          "gland_id": "20250219-G01-07:G01:0005",
+          "value": 1.1699250014423124,
+          "baseline_buds": 4,
+          "final_buds": 9,
+          "ratio": 2.25
+        },
+        {
+          "dose_um": 0.0,
+          "cohort": "20250219-G01-07",
+          "gland_id": "20250219-G01-07:G01:0006",
+          "value": 1.893084796083488,
+          "baseline_buds": 7,
+          "final_buds": 26,
+          "ratio": 3.7142857142857144
+        },
+        {
+          "dose_um": 0.0,
+          "cohort": "20250219-G11-17-prewashout",
+          "gland_id": "20250219-G11-17-prewashout:G11:0000",
+          "value": 2.263034405833794,
+          "baseline_buds": 5,
+          "final_buds": 24,
+          "ratio": 4.8
+        },
+        {
+          "dose_um": 0.0,
+          "cohort": "20250219-G11-17-prewashout",
+          "gland_id": "20250219-G11-17-prewashout:G11:0001",
+          "value": 2.5145731728297585,
+          "baseline_buds": 7,
+          "final_buds": 40,
+          "ratio": 5.714285714285714
+        },
+        {
+          "dose_um": 0.0,
+          "cohort": "20250219-G11-17-prewashout",
+          "gland_id": "20250219-G11-17-prewashout:G11:0002",
+          "value": 1.584962500721156,
+          "baseline_buds": 21,
+          "final_buds": 63,
+          "ratio": 3.0
+        },
+        {
+          "dose_um": 0.0,
+          "cohort": "20250219-G11-17-prewashout",
+          "gland_id": "20250219-G11-17-prewashout:G11:0003",
+          "value": 0.6780719051126377,
+          "baseline_buds": 5,
+          "final_buds": 8,
+          "ratio": 1.6
+        },
+        {
+          "dose_um": 0.005,
+          "cohort": "20241112-titration",
+          "gland_id": "20241112-titration:G07:0000",
+          "value": 1.4854268271702418,
+          "baseline_buds": 5,
+          "final_buds": 14,
+          "ratio": 2.8
+        },
+        {
+          "dose_um": 0.005,
+          "cohort": "20241112-titration",
+          "gland_id": "20241112-titration:G07:0001",
+          "value": 1.289506617194985,
+          "baseline_buds": 9,
+          "final_buds": 22,
+          "ratio": 2.4444444444444446
+        },
+        {
+          "dose_um": 0.005,
+          "cohort": "20241112-titration",
+          "gland_id": "20241112-titration:G07:0002",
+          "value": 1.3219280948873624,
+          "baseline_buds": 6,
+          "final_buds": 15,
+          "ratio": 2.5
+        },
+        {
+          "dose_um": 0.005,
+          "cohort": "20241112-titration",
+          "gland_id": "20241112-titration:G07:0003",
+          "value": 1.3625700793847084,
+          "baseline_buds": 7,
+          "final_buds": 18,
+          "ratio": 2.5714285714285716
+        },
+        {
+          "dose_um": 0.005,
+          "cohort": "20250219-G01-07",
+          "gland_id": "20250219-G01-07:G07:0000",
+          "value": 1.9475325801058645,
+          "baseline_buds": 7,
+          "final_buds": 27,
+          "ratio": 3.857142857142857
+        },
+        {
+          "dose_um": 0.005,
+          "cohort": "20250219-G01-07",
+          "gland_id": "20250219-G01-07:G07:0001",
+          "value": 1.1699250014423124,
+          "baseline_buds": 4,
+          "final_buds": 9,
+          "ratio": 2.25
+        },
+        {
+          "dose_um": 0.005,
+          "cohort": "20250219-G01-07",
+          "gland_id": "20250219-G01-07:G07:0002",
+          "value": 1.5145731728297582,
+          "baseline_buds": 7,
+          "final_buds": 20,
+          "ratio": 2.857142857142857
+        },
+        {
+          "dose_um": 0.005,
+          "cohort": "20250219-G01-07",
+          "gland_id": "20250219-G01-07:G07:0003",
+          "value": 1.6629650127224291,
+          "baseline_buds": 6,
+          "final_buds": 19,
+          "ratio": 3.1666666666666665
+        },
+        {
+          "dose_um": 0.005,
+          "cohort": "20250219-G01-07",
+          "gland_id": "20250219-G01-07:G07:0004",
+          "value": 1.925999418556223,
+          "baseline_buds": 5,
+          "final_buds": 19,
+          "ratio": 3.8
+        },
+        {
+          "dose_um": 0.005,
+          "cohort": "20250219-G01-07",
+          "gland_id": "20250219-G01-07:G07:0005",
+          "value": 2.4594316186372973,
+          "baseline_buds": 4,
+          "final_buds": 22,
+          "ratio": 5.5
+        },
+        {
+          "dose_um": 0.005,
+          "cohort": "20250219-G01-07",
+          "gland_id": "20250219-G01-07:G07:0006",
+          "value": 2.070389327891398,
+          "baseline_buds": 5,
+          "final_buds": 21,
+          "ratio": 4.2
+        },
+        {
+          "dose_um": 0.005,
+          "cohort": "20250219-G11-17-prewashout",
+          "gland_id": "20250219-G11-17-prewashout:G17:0000",
+          "value": 1.0,
+          "baseline_buds": 6,
+          "final_buds": 12,
+          "ratio": 2.0
+        },
+        {
+          "dose_um": 0.005,
+          "cohort": "20250219-G11-17-prewashout",
+          "gland_id": "20250219-G11-17-prewashout:G17:0001",
+          "value": 1.7369655941662063,
+          "baseline_buds": 15,
+          "final_buds": 50,
+          "ratio": 3.3333333333333335
+        },
+        {
+          "dose_um": 0.005,
+          "cohort": "20250219-G11-17-prewashout",
+          "gland_id": "20250219-G11-17-prewashout:G17:0002",
+          "value": 1.874469117916141,
+          "baseline_buds": 9,
+          "final_buds": 33,
+          "ratio": 3.6666666666666665
+        },
+        {
+          "dose_um": 0.005,
+          "cohort": "20250219-G11-17-prewashout",
+          "gland_id": "20250219-G11-17-prewashout:G17:0003",
+          "value": 3.1154772174199357,
+          "baseline_buds": 3,
+          "final_buds": 26,
+          "ratio": 8.666666666666666
+        },
+        {
+          "dose_um": 0.05,
+          "cohort": "20241112-titration",
+          "gland_id": "20241112-titration:G06:0000",
+          "value": 1.2630344058337937,
+          "baseline_buds": 5,
+          "final_buds": 12,
+          "ratio": 2.4
+        },
+        {
+          "dose_um": 0.05,
+          "cohort": "20241112-titration",
+          "gland_id": "20241112-titration:G06:0001",
+          "value": 1.7004397181410922,
+          "baseline_buds": 8,
+          "final_buds": 26,
+          "ratio": 3.25
+        },
+        {
+          "dose_um": 0.05,
+          "cohort": "20241112-titration",
+          "gland_id": "20241112-titration:G06:0002",
+          "value": 1.4150374992788437,
+          "baseline_buds": 6,
+          "final_buds": 16,
+          "ratio": 2.6666666666666665
+        },
+        {
+          "dose_um": 0.05,
+          "cohort": "20241112-titration",
+          "gland_id": "20241112-titration:G06:0003",
+          "value": 0.8073549220576041,
+          "baseline_buds": 8,
+          "final_buds": 14,
+          "ratio": 1.75
+        },
+        {
+          "dose_um": 0.05,
+          "cohort": "20250219-G01-07",
+          "gland_id": "20250219-G01-07:G06:0000",
+          "value": 2.0,
+          "baseline_buds": 4,
+          "final_buds": 16,
+          "ratio": 4.0
+        },
+        {
+          "dose_um": 0.05,
+          "cohort": "20250219-G01-07",
+          "gland_id": "20250219-G01-07:G06:0001",
+          "value": 2.137503523749935,
+          "baseline_buds": 5,
+          "final_buds": 22,
+          "ratio": 4.4
+        },
+        {
+          "dose_um": 0.05,
+          "cohort": "20250219-G01-07",
+          "gland_id": "20250219-G01-07:G06:0002",
+          "value": 1.7162070339994089,
+          "baseline_buds": 7,
+          "final_buds": 23,
+          "ratio": 3.2857142857142856
+        },
+        {
+          "dose_um": 0.05,
+          "cohort": "20250219-G01-07",
+          "gland_id": "20250219-G01-07:G06:0003",
+          "value": 2.192645077942396,
+          "baseline_buds": 7,
+          "final_buds": 32,
+          "ratio": 4.571428571428571
+        },
+        {
+          "dose_um": 0.05,
+          "cohort": "20250219-G01-07",
+          "gland_id": "20250219-G01-07:G06:0004",
+          "value": 1.777607578663552,
+          "baseline_buds": 7,
+          "final_buds": 24,
+          "ratio": 3.4285714285714284
+        },
+        {
+          "dose_um": 0.05,
+          "cohort": "20250219-G01-07",
+          "gland_id": "20250219-G01-07:G06:0005",
+          "value": 2.321928094887362,
+          "baseline_buds": 5,
+          "final_buds": 25,
+          "ratio": 5.0
+        },
+        {
+          "dose_um": 0.05,
+          "cohort": "20250219-G01-07",
+          "gland_id": "20250219-G01-07:G06:0006",
+          "value": 2.4594316186372973,
+          "baseline_buds": 4,
+          "final_buds": 22,
+          "ratio": 5.5
+        },
+        {
+          "dose_um": 0.05,
+          "cohort": "20250219-G11-17-prewashout",
+          "gland_id": "20250219-G11-17-prewashout:G16:0000",
+          "value": 1.5025003405291832,
+          "baseline_buds": 6,
+          "final_buds": 17,
+          "ratio": 2.8333333333333335
+        },
+        {
+          "dose_um": 0.05,
+          "cohort": "20250219-G11-17-prewashout",
+          "gland_id": "20250219-G11-17-prewashout:G16:0001",
+          "value": 2.4594316186372973,
+          "baseline_buds": 6,
+          "final_buds": 33,
+          "ratio": 5.5
+        },
+        {
+          "dose_um": 0.05,
+          "cohort": "20250219-G11-17-prewashout",
+          "gland_id": "20250219-G11-17-prewashout:G16:0002",
+          "value": 1.2630344058337937,
+          "baseline_buds": 20,
+          "final_buds": 48,
+          "ratio": 2.4
+        },
+        {
+          "dose_um": 0.05,
+          "cohort": "20250219-G11-17-prewashout",
+          "gland_id": "20250219-G11-17-prewashout:G16:0003",
+          "value": 1.807354922057604,
+          "baseline_buds": 6,
+          "final_buds": 21,
+          "ratio": 3.5
+        },
+        {
+          "dose_um": 0.5,
+          "cohort": "20241112-titration",
+          "gland_id": "20241112-titration:G05:0000",
+          "value": 1.0,
+          "baseline_buds": 6,
+          "final_buds": 12,
+          "ratio": 2.0
+        },
+        {
+          "dose_um": 0.5,
+          "cohort": "20241112-titration",
+          "gland_id": "20241112-titration:G05:0001",
+          "value": 1.0,
+          "baseline_buds": 7,
+          "final_buds": 14,
+          "ratio": 2.0
+        },
+        {
+          "dose_um": 0.5,
+          "cohort": "20241112-titration",
+          "gland_id": "20241112-titration:G05:0002",
+          "value": 1.584962500721156,
+          "baseline_buds": 3,
+          "final_buds": 9,
+          "ratio": 3.0
+        },
+        {
+          "dose_um": 0.5,
+          "cohort": "20241112-titration",
+          "gland_id": "20241112-titration:G05:0003",
+          "value": 0.777607578663552,
+          "baseline_buds": 7,
+          "final_buds": 12,
+          "ratio": 1.7142857142857142
+        },
+        {
+          "dose_um": 0.5,
+          "cohort": "20241112-titration",
+          "gland_id": "20241112-titration:G05:0004",
+          "value": 0.6520766965796931,
+          "baseline_buds": 7,
+          "final_buds": 11,
+          "ratio": 1.5714285714285714
+        },
+        {
+          "dose_um": 0.5,
+          "cohort": "20250219-G01-07",
+          "gland_id": "20250219-G01-07:G05:0000",
+          "value": 1.0,
+          "baseline_buds": 3,
+          "final_buds": 6,
+          "ratio": 2.0
+        },
+        {
+          "dose_um": 0.5,
+          "cohort": "20250219-G01-07",
+          "gland_id": "20250219-G01-07:G05:0001",
+          "value": 1.4150374992788437,
+          "baseline_buds": 3,
+          "final_buds": 8,
+          "ratio": 2.6666666666666665
+        },
+        {
+          "dose_um": 0.5,
+          "cohort": "20250219-G01-07",
+          "gland_id": "20250219-G01-07:G05:0002",
+          "value": 1.1699250014423124,
+          "baseline_buds": 4,
+          "final_buds": 9,
+          "ratio": 2.25
+        },
+        {
+          "dose_um": 0.5,
+          "cohort": "20250219-G01-07",
+          "gland_id": "20250219-G01-07:G05:0003",
+          "value": 1.222392421336448,
+          "baseline_buds": 3,
+          "final_buds": 7,
+          "ratio": 2.3333333333333335
+        },
+        {
+          "dose_um": 0.5,
+          "cohort": "20250219-G01-07",
+          "gland_id": "20250219-G01-07:G05:0004",
+          "value": 0.5849625007211562,
+          "baseline_buds": 4,
+          "final_buds": 6,
+          "ratio": 1.5
+        },
+        {
+          "dose_um": 0.5,
+          "cohort": "20250219-G01-07",
+          "gland_id": "20250219-G01-07:G05:0005",
+          "value": 1.0,
+          "baseline_buds": 4,
+          "final_buds": 8,
+          "ratio": 2.0
+        },
+        {
+          "dose_um": 0.5,
+          "cohort": "20250219-G01-07",
+          "gland_id": "20250219-G01-07:G05:0006",
+          "value": 1.222392421336448,
+          "baseline_buds": 6,
+          "final_buds": 14,
+          "ratio": 2.3333333333333335
+        },
+        {
+          "dose_um": 0.5,
+          "cohort": "20250219-G11-17-prewashout",
+          "gland_id": "20250219-G11-17-prewashout:G15:0000",
+          "value": 0.8073549220576041,
+          "baseline_buds": 4,
+          "final_buds": 7,
+          "ratio": 1.75
+        },
+        {
+          "dose_um": 0.5,
+          "cohort": "20250219-G11-17-prewashout",
+          "gland_id": "20250219-G11-17-prewashout:G15:0001",
+          "value": 1.7162070339994089,
+          "baseline_buds": 7,
+          "final_buds": 23,
+          "ratio": 3.2857142857142856
+        },
+        {
+          "dose_um": 0.5,
+          "cohort": "20250219-G11-17-prewashout",
+          "gland_id": "20250219-G11-17-prewashout:G15:0002",
+          "value": 1.2801079191927351,
+          "baseline_buds": 14,
+          "final_buds": 34,
+          "ratio": 2.4285714285714284
+        },
+        {
+          "dose_um": 0.5,
+          "cohort": "20250219-G11-17-prewashout",
+          "gland_id": "20250219-G11-17-prewashout:G15:0003",
+          "value": 0.8300749985576875,
+          "baseline_buds": 9,
+          "final_buds": 16,
+          "ratio": 1.7777777777777777
+        },
+        {
+          "dose_um": 1.25,
+          "cohort": "20241112-titration",
+          "gland_id": "20241112-titration:G04:0000",
+          "value": 1.0,
+          "baseline_buds": 5,
+          "final_buds": 10,
+          "ratio": 2.0
+        },
+        {
+          "dose_um": 1.25,
+          "cohort": "20241112-titration",
+          "gland_id": "20241112-titration:G04:0001",
+          "value": 0.6780719051126377,
+          "baseline_buds": 5,
+          "final_buds": 8,
+          "ratio": 1.6
+        },
+        {
+          "dose_um": 1.25,
+          "cohort": "20241112-titration",
+          "gland_id": "20241112-titration:G04:0002",
+          "value": 0.4474589769712211,
+          "baseline_buds": 11,
+          "final_buds": 15,
+          "ratio": 1.3636363636363635
+        },
+        {
+          "dose_um": 1.25,
+          "cohort": "20241112-titration",
+          "gland_id": "20241112-titration:G04:0003",
+          "value": 1.1375035237499351,
+          "baseline_buds": 5,
+          "final_buds": 11,
+          "ratio": 2.2
+        },
+        {
+          "dose_um": 1.25,
+          "cohort": "20241112-titration",
+          "gland_id": "20241112-titration:G04:0004",
+          "value": 0.7369655941662062,
+          "baseline_buds": 6,
+          "final_buds": 10,
+          "ratio": 1.6666666666666667
+        },
+        {
+          "dose_um": 1.25,
+          "cohort": "20250219-G01-07",
+          "gland_id": "20250219-G01-07:G04:0000",
+          "value": 0.3219280948873623,
+          "baseline_buds": 4,
+          "final_buds": 5,
+          "ratio": 1.25
+        },
+        {
+          "dose_um": 1.25,
+          "cohort": "20250219-G01-07",
+          "gland_id": "20250219-G01-07:G04:0001",
+          "value": 0.0,
+          "baseline_buds": 4,
+          "final_buds": 4,
+          "ratio": 1.0
+        },
+        {
+          "dose_um": 1.25,
+          "cohort": "20250219-G01-07",
+          "gland_id": "20250219-G01-07:G04:0002",
+          "value": 0.2630344058337938,
+          "baseline_buds": 5,
+          "final_buds": 6,
+          "ratio": 1.2
+        },
+        {
+          "dose_um": 1.25,
+          "cohort": "20250219-G01-07",
+          "gland_id": "20250219-G01-07:G04:0003",
+          "value": 1.0,
+          "baseline_buds": 4,
+          "final_buds": 8,
+          "ratio": 2.0
+        },
+        {
+          "dose_um": 1.25,
+          "cohort": "20250219-G01-07",
+          "gland_id": "20250219-G01-07:G04:0004",
+          "value": 0.7369655941662062,
+          "baseline_buds": 3,
+          "final_buds": 5,
+          "ratio": 1.6666666666666667
+        },
+        {
+          "dose_um": 1.25,
+          "cohort": "20250219-G01-07",
+          "gland_id": "20250219-G01-07:G04:0005",
+          "value": 0.6780719051126377,
+          "baseline_buds": 5,
+          "final_buds": 8,
+          "ratio": 1.6
+        },
+        {
+          "dose_um": 1.25,
+          "cohort": "20250219-G01-07",
+          "gland_id": "20250219-G01-07:G04:0006",
+          "value": 1.222392421336448,
+          "baseline_buds": 3,
+          "final_buds": 7,
+          "ratio": 2.3333333333333335
+        },
+        {
+          "dose_um": 1.25,
+          "cohort": "20250219-G11-17-prewashout",
+          "gland_id": "20250219-G11-17-prewashout:G14:0000",
+          "value": 0.3219280948873623,
+          "baseline_buds": 4,
+          "final_buds": 5,
+          "ratio": 1.25
+        },
+        {
+          "dose_um": 1.25,
+          "cohort": "20250219-G11-17-prewashout",
+          "gland_id": "20250219-G11-17-prewashout:G14:0001",
+          "value": 1.0,
+          "baseline_buds": 16,
+          "final_buds": 32,
+          "ratio": 2.0
+        },
+        {
+          "dose_um": 1.25,
+          "cohort": "20250219-G11-17-prewashout",
+          "gland_id": "20250219-G11-17-prewashout:G14:0002",
+          "value": 1.2016338611696504,
+          "baseline_buds": 10,
+          "final_buds": 23,
+          "ratio": 2.3
+        },
+        {
+          "dose_um": 1.25,
+          "cohort": "20250219-G11-17-prewashout",
+          "gland_id": "20250219-G11-17-prewashout:G14:0003",
+          "value": 0.4150374992788437,
+          "baseline_buds": 12,
+          "final_buds": 16,
+          "ratio": 1.3333333333333333
+        },
+        {
+          "dose_um": 2.5,
+          "cohort": "20241112-titration",
+          "gland_id": "20241112-titration:G03:0000",
+          "value": 1.0,
+          "baseline_buds": 5,
+          "final_buds": 10,
+          "ratio": 2.0
+        },
+        {
+          "dose_um": 2.5,
+          "cohort": "20241112-titration",
+          "gland_id": "20241112-titration:G03:0001",
+          "value": 0.222392421336448,
+          "baseline_buds": 6,
+          "final_buds": 7,
+          "ratio": 1.1666666666666667
+        },
+        {
+          "dose_um": 2.5,
+          "cohort": "20241112-titration",
+          "gland_id": "20241112-titration:G03:0002",
+          "value": 0.4474589769712211,
+          "baseline_buds": 11,
+          "final_buds": 15,
+          "ratio": 1.3636363636363635
+        },
+        {
+          "dose_um": 2.5,
+          "cohort": "20241112-titration",
+          "gland_id": "20241112-titration:G03:0003",
+          "value": 1.0,
+          "baseline_buds": 4,
+          "final_buds": 8,
+          "ratio": 2.0
+        },
+        {
+          "dose_um": 2.5,
+          "cohort": "20241112-titration",
+          "gland_id": "20241112-titration:G03:0004",
+          "value": 0.4594316186372972,
+          "baseline_buds": 8,
+          "final_buds": 11,
+          "ratio": 1.375
+        },
+        {
+          "dose_um": 2.5,
+          "cohort": "20250219-G01-07",
+          "gland_id": "20250219-G01-07:G03:0000",
+          "value": 0.0,
+          "baseline_buds": 5,
+          "final_buds": 5,
+          "ratio": 1.0
+        },
+        {
+          "dose_um": 2.5,
+          "cohort": "20250219-G01-07",
+          "gland_id": "20250219-G01-07:G03:0001",
+          "value": 0.874469117916141,
+          "baseline_buds": 6,
+          "final_buds": 11,
+          "ratio": 1.8333333333333333
+        },
+        {
+          "dose_um": 2.5,
+          "cohort": "20250219-G01-07",
+          "gland_id": "20250219-G01-07:G03:0002",
+          "value": 0.8930847960834881,
+          "baseline_buds": 7,
+          "final_buds": 13,
+          "ratio": 1.8571428571428572
+        },
+        {
+          "dose_um": 2.5,
+          "cohort": "20250219-G01-07",
+          "gland_id": "20250219-G01-07:G03:0003",
+          "value": 0.8479969065549501,
+          "baseline_buds": 5,
+          "final_buds": 9,
+          "ratio": 1.8
+        },
+        {
+          "dose_um": 2.5,
+          "cohort": "20250219-G01-07",
+          "gland_id": "20250219-G01-07:G03:0004",
+          "value": 0.777607578663552,
+          "baseline_buds": 7,
+          "final_buds": 12,
+          "ratio": 1.7142857142857142
+        },
+        {
+          "dose_um": 2.5,
+          "cohort": "20250219-G01-07",
+          "gland_id": "20250219-G01-07:G03:0005",
+          "value": 0.0,
+          "baseline_buds": 4,
+          "final_buds": 4,
+          "ratio": 1.0
+        },
+        {
+          "dose_um": 2.5,
+          "cohort": "20250219-G01-07",
+          "gland_id": "20250219-G01-07:G03:0006",
+          "value": 1.459431618637297,
+          "baseline_buds": 4,
+          "final_buds": 11,
+          "ratio": 2.75
+        },
+        {
+          "dose_um": 2.5,
+          "cohort": "20250219-G11-17-prewashout",
+          "gland_id": "20250219-G11-17-prewashout:G13:0000",
+          "value": 0.0,
+          "baseline_buds": 5,
+          "final_buds": 5,
+          "ratio": 1.0
+        },
+        {
+          "dose_um": 2.5,
+          "cohort": "20250219-G11-17-prewashout",
+          "gland_id": "20250219-G11-17-prewashout:G13:0001",
+          "value": 0.667424660913129,
+          "baseline_buds": 17,
+          "final_buds": 27,
+          "ratio": 1.588235294117647
+        },
+        {
+          "dose_um": 2.5,
+          "cohort": "20250219-G11-17-prewashout",
+          "gland_id": "20250219-G11-17-prewashout:G13:0002",
+          "value": 1.082462160191973,
+          "baseline_buds": 17,
+          "final_buds": 36,
+          "ratio": 2.1176470588235294
+        },
+        {
+          "dose_um": 2.5,
+          "cohort": "20250219-G11-17-prewashout",
+          "gland_id": "20250219-G11-17-prewashout:G13:0003",
+          "value": 0.8073549220576041,
+          "baseline_buds": 12,
+          "final_buds": 21,
+          "ratio": 1.75
+        },
+        {
+          "dose_um": 5.0,
+          "cohort": "20241112-titration",
+          "gland_id": "20241112-titration:G02:0000",
+          "value": 0.0,
+          "baseline_buds": 3,
+          "final_buds": 3,
+          "ratio": 1.0
+        },
+        {
+          "dose_um": 5.0,
+          "cohort": "20241112-titration",
+          "gland_id": "20241112-titration:G02:0001",
+          "value": 0.2630344058337938,
+          "baseline_buds": 5,
+          "final_buds": 6,
+          "ratio": 1.2
+        },
+        {
+          "dose_um": 5.0,
+          "cohort": "20241112-titration",
+          "gland_id": "20241112-titration:G02:0002",
+          "value": 1.0,
+          "baseline_buds": 4,
+          "final_buds": 8,
+          "ratio": 2.0
+        },
+        {
+          "dose_um": 5.0,
+          "cohort": "20241112-titration",
+          "gland_id": "20241112-titration:G02:0003",
+          "value": 0.0,
+          "baseline_buds": 6,
+          "final_buds": 6,
+          "ratio": 1.0
+        },
+        {
+          "dose_um": 5.0,
+          "cohort": "20241112-titration",
+          "gland_id": "20241112-titration:G02:0004",
+          "value": 0.2630344058337938,
+          "baseline_buds": 5,
+          "final_buds": 6,
+          "ratio": 1.2
+        },
+        {
+          "dose_um": 5.0,
+          "cohort": "20250219-G01-07",
+          "gland_id": "20250219-G01-07:G02:0000",
+          "value": 0.0,
+          "baseline_buds": 4,
+          "final_buds": 4,
+          "ratio": 1.0
+        },
+        {
+          "dose_um": 5.0,
+          "cohort": "20250219-G01-07",
+          "gland_id": "20250219-G01-07:G02:0001",
+          "value": 0.4150374992788437,
+          "baseline_buds": 3,
+          "final_buds": 4,
+          "ratio": 1.3333333333333333
+        },
+        {
+          "dose_um": 5.0,
+          "cohort": "20250219-G01-07",
+          "gland_id": "20250219-G01-07:G02:0002",
+          "value": 0.3219280948873623,
+          "baseline_buds": 4,
+          "final_buds": 5,
+          "ratio": 1.25
+        },
+        {
+          "dose_um": 5.0,
+          "cohort": "20250219-G01-07",
+          "gland_id": "20250219-G01-07:G02:0003",
+          "value": 0.0,
+          "baseline_buds": 3,
+          "final_buds": 3,
+          "ratio": 1.0
+        },
+        {
+          "dose_um": 5.0,
+          "cohort": "20250219-G01-07",
+          "gland_id": "20250219-G01-07:G02:0004",
+          "value": 0.0,
+          "baseline_buds": 4,
+          "final_buds": 4,
+          "ratio": 1.0
+        },
+        {
+          "dose_um": 5.0,
+          "cohort": "20250219-G01-07",
+          "gland_id": "20250219-G01-07:G02:0005",
+          "value": 0.3219280948873623,
+          "baseline_buds": 4,
+          "final_buds": 5,
+          "ratio": 1.25
+        },
+        {
+          "dose_um": 5.0,
+          "cohort": "20250219-G01-07",
+          "gland_id": "20250219-G01-07:G02:0006",
+          "value": 0.0,
+          "baseline_buds": 4,
+          "final_buds": 4,
+          "ratio": 1.0
+        },
+        {
+          "dose_um": 5.0,
+          "cohort": "20250219-G11-17-prewashout",
+          "gland_id": "20250219-G11-17-prewashout:G12:0000",
+          "value": 0.4150374992788437,
+          "baseline_buds": 3,
+          "final_buds": 4,
+          "ratio": 1.3333333333333333
+        },
+        {
+          "dose_um": 5.0,
+          "cohort": "20250219-G11-17-prewashout",
+          "gland_id": "20250219-G11-17-prewashout:G12:0001",
+          "value": 0.4854268271702416,
+          "baseline_buds": 15,
+          "final_buds": 21,
+          "ratio": 1.4
+        },
+        {
+          "dose_um": 5.0,
+          "cohort": "20250219-G11-17-prewashout",
+          "gland_id": "20250219-G11-17-prewashout:G12:0002",
+          "value": 1.4150374992788437,
+          "baseline_buds": 9,
+          "final_buds": 24,
+          "ratio": 2.6666666666666665
+        },
+        {
+          "dose_um": 5.0,
+          "cohort": "20250219-G11-17-prewashout",
+          "gland_id": "20250219-G11-17-prewashout:G12:0003",
+          "value": 0.6918777046376682,
+          "baseline_buds": 13,
+          "final_buds": 21,
+          "ratio": 1.6153846153846154
+        }
+      ]
+    },
+    {
+      "path": "BB-94-titration/results/bud-count/Fig4F-bud-count-titration-summary.csv",
+      "columns": [
+        "dose_um",
+        "n",
+        "mean",
+        "sd"
+      ],
+      "sort_by": [
+        "dose_um"
+      ],
+      "dtype": {},
+      "records": [
+        {
+          "dose_um": 0.0,
+          "n": 16,
+          "mean": 1.4448561811007583,
+          "sd": 0.5369825879614005
+        },
+        {
+          "dose_um": 0.005,
+          "n": 15,
+          "mean": 1.7291439786883245,
+          "sd": 0.5429411863103987
+        },
+        {
+          "dose_um": 0.05,
+          "n": 15,
+          "mean": 1.7882340506832777,
+          "sd": 0.4828716797829303
+        },
+        {
+          "dose_um": 0.5,
+          "n": 16,
+          "mean": 1.0789438433679404,
+          "sd": 0.3206949937111626
+        },
+        {
+          "dose_um": 1.25,
+          "n": 16,
+          "mean": 0.6975619922920191,
+          "sd": 0.3742846913968558
+        },
+        {
+          "dose_um": 2.5,
+          "n": 16,
+          "mean": 0.6586946736226938,
+          "sd": 0.4323353779493314
+        },
+        {
+          "dose_um": 5.0,
+          "n": 16,
+          "mean": 0.349521376942922,
+          "sd": 0.4043252688542497
+        }
+      ]
+    },
+    {
+      "path": "BB-94-titration/results/bud-count/Fig4F-bud-count-titration-comparisons.csv",
+      "columns": [
+        "dose_a_um",
+        "dose_b_um",
+        "n_a",
+        "n_b",
+        "U_b",
+        "rank_biserial_b_minus_a",
+        "p_raw",
+        "p_adjusted",
+        "p_method",
+        "annotation"
+      ],
+      "sort_by": [
+        "dose_b_um"
+      ],
+      "dtype": {},
+      "records": [
+        {
+          "dose_a_um": 0.0,
+          "dose_b_um": 0.005,
+          "n_a": 16,
+          "n_b": 15,
+          "U_b": 154.0,
+          "rank_biserial_b_minus_a": 0.2833333333333334,
+          "p_raw": 0.1853023902153213,
+          "p_adjusted": 0.1853023902153213,
+          "p_method": "asymptotic",
+          "annotation": "ns"
+        },
+        {
+          "dose_a_um": 0.0,
+          "dose_b_um": 0.05,
+          "n_a": 16,
+          "n_b": 15,
+          "U_b": 165.5,
+          "rank_biserial_b_minus_a": 0.3791666666666666,
+          "p_raw": 0.075099196724247,
+          "p_adjusted": 0.150198393448494,
+          "p_method": "asymptotic",
+          "annotation": "ns"
+        },
+        {
+          "dose_a_um": 0.0,
+          "dose_b_um": 0.5,
+          "n_a": 16,
+          "n_b": 16,
+          "U_b": 72.5,
+          "rank_biserial_b_minus_a": -0.43359375,
+          "p_raw": 0.0378115931616548,
+          "p_adjusted": 0.1134347794849646,
+          "p_method": "asymptotic",
+          "annotation": "ns"
+        },
+        {
+          "dose_a_um": 0.0,
+          "dose_b_um": 1.25,
+          "n_a": 16,
+          "n_b": 16,
+          "U_b": 30.0,
+          "rank_biserial_b_minus_a": -0.765625,
+          "p_raw": 0.000234099632046,
+          "p_adjusted": 0.0011704981602304,
+          "p_method": "asymptotic",
+          "annotation": "**"
+        },
+        {
+          "dose_a_um": 0.0,
+          "dose_b_um": 2.5,
+          "n_a": 16,
+          "n_b": 16,
+          "U_b": 31.5,
+          "rank_biserial_b_minus_a": -0.75390625,
+          "p_raw": 0.000294080408617,
+          "p_adjusted": 0.001176321634468,
+          "p_method": "asymptotic",
+          "annotation": "**"
+        },
+        {
+          "dose_a_um": 0.0,
+          "dose_b_um": 5.0,
+          "n_a": 16,
+          "n_b": 16,
+          "U_b": 12.5,
+          "rank_biserial_b_minus_a": -0.90234375,
+          "p_raw": 1.360125523044397e-05,
+          "p_adjusted": 8.160753138266382e-05,
+          "p_method": "asymptotic",
+          "annotation": "****"
+        }
+      ]
+    },
+    {
+      "path": "BB-94-titration/results/collagen-IV/Fig4G-collagen-IV-intensity-titration-glands.csv",
+      "columns": [
+        "dose_um",
+        "cohort",
+        "gland_id",
+        "value",
+        "raw_auc",
+        "n_scans"
+      ],
+      "sort_by": [
+        "dose_um",
+        "cohort",
+        "gland_id"
+      ],
+      "dtype": {},
+      "records": [
+        {
+          "dose_um": 0.0,
+          "cohort": 20250307,
+          "gland_id": "20250307/dose-0/gland-1",
+          "value": 1.3456826186700617,
+          "raw_auc": 353.2218973795573,
+          "n_scans": 15
+        },
+        {
+          "dose_um": 0.0,
+          "cohort": 20250307,
+          "gland_id": "20250307/dose-0/gland-2",
+          "value": 1.167921574711342,
+          "raw_auc": 306.56223754882814,
+          "n_scans": 15
+        },
+        {
+          "dose_um": 0.0,
+          "cohort": 20250307,
+          "gland_id": "20250307/dose-0/gland-3",
+          "value": 0.8909095314790137,
+          "raw_auc": 233.85065002441405,
+          "n_scans": 15
+        },
+        {
+          "dose_um": 0.0,
+          "cohort": 20250307,
+          "gland_id": "20250307/dose-0/gland-4",
+          "value": 0.9715323983709764,
+          "raw_auc": 255.01296691894532,
+          "n_scans": 15
+        },
+        {
+          "dose_um": 0.0,
+          "cohort": 20250307,
+          "gland_id": "20250307/dose-0/gland-5",
+          "value": 0.9390179550981866,
+          "raw_auc": 246.47840372721353,
+          "n_scans": 15
+        },
+        {
+          "dose_um": 0.0,
+          "cohort": 20250307,
+          "gland_id": "20250307/dose-0/gland-6",
+          "value": 0.894734504286076,
+          "raw_auc": 234.85464913504464,
+          "n_scans": 14
+        },
+        {
+          "dose_um": 0.0,
+          "cohort": 20250307,
+          "gland_id": "20250307/dose-0/gland-7",
+          "value": 0.7902014173843434,
+          "raw_auc": 207.41625111897787,
+          "n_scans": 15
+        },
+        {
+          "dose_um": 0.005,
+          "cohort": 20250307,
+          "gland_id": "20250307/dose-0.005/gland-1",
+          "value": 0.809731046901572,
+          "raw_auc": 212.54249165852863,
+          "n_scans": 15
+        },
+        {
+          "dose_um": 0.005,
+          "cohort": 20250307,
+          "gland_id": "20250307/dose-0.005/gland-2",
+          "value": 0.9366820068616514,
+          "raw_auc": 245.86525166829423,
+          "n_scans": 15
+        },
+        {
+          "dose_um": 0.005,
+          "cohort": 20250307,
+          "gland_id": "20250307/dose-0.005/gland-3",
+          "value": 1.063560059633878,
+          "raw_auc": 279.168874613444,
+          "n_scans": 15
+        },
+        {
+          "dose_um": 0.005,
+          "cohort": 20250307,
+          "gland_id": "20250307/dose-0.005/gland-4",
+          "value": 1.089920307179174,
+          "raw_auc": 286.08805193219865,
+          "n_scans": 14
+        },
+        {
+          "dose_um": 0.005,
+          "cohort": 20250307,
+          "gland_id": "20250307/dose-0.005/gland-5",
+          "value": 0.9880059852881272,
+          "raw_auc": 259.3370412190755,
+          "n_scans": 15
+        },
+        {
+          "dose_um": 0.005,
+          "cohort": 20250307,
+          "gland_id": "20250307/dose-0.005/gland-6",
+          "value": 0.9443669864037778,
+          "raw_auc": 247.8824457804362,
+          "n_scans": 15
+        },
+        {
+          "dose_um": 0.005,
+          "cohort": 20250307,
+          "gland_id": "20250307/dose-0.005/gland-7",
+          "value": 1.152879208694953,
+          "raw_auc": 302.61383768717445,
+          "n_scans": 15
+        },
+        {
+          "dose_um": 0.05,
+          "cohort": 20250307,
+          "gland_id": "20250307/dose-0.05/gland-1",
+          "value": 1.2471307726841387,
+          "raw_auc": 327.3534871419271,
+          "n_scans": 15
+        },
+        {
+          "dose_um": 0.05,
+          "cohort": 20250307,
+          "gland_id": "20250307/dose-0.05/gland-2",
+          "value": 1.2617597599973478,
+          "raw_auc": 331.1933811732701,
+          "n_scans": 14
+        },
+        {
+          "dose_um": 0.05,
+          "cohort": 20250307,
+          "gland_id": "20250307/dose-0.05/gland-3",
+          "value": 1.0810902591786415,
+          "raw_auc": 283.7702941894531,
+          "n_scans": 15
+        },
+        {
+          "dose_um": 0.05,
+          "cohort": 20250307,
+          "gland_id": "20250307/dose-0.05/gland-4",
+          "value": 1.2585298003629568,
+          "raw_auc": 330.3455642700195,
+          "n_scans": 15
+        },
+        {
+          "dose_um": 0.05,
+          "cohort": 20250307,
+          "gland_id": "20250307/dose-0.05/gland-5",
+          "value": 1.0159152298116865,
+          "raw_auc": 266.6628074645996,
+          "n_scans": 14
+        },
+        {
+          "dose_um": 0.05,
+          "cohort": 20250307,
+          "gland_id": "20250307/dose-0.05/gland-6",
+          "value": 1.0134798129181293,
+          "raw_auc": 266.02354634602864,
+          "n_scans": 15
+        },
+        {
+          "dose_um": 0.05,
+          "cohort": 20250307,
+          "gland_id": "20250307/dose-0.05/gland-7",
+          "value": 1.0439788166719808,
+          "raw_auc": 274.0290863037109,
+          "n_scans": 15
+        },
+        {
+          "dose_um": 0.5,
+          "cohort": 20250307,
+          "gland_id": "20250307/dose-0.5/gland-1",
+          "value": 1.5705983769083398,
+          "raw_auc": 412.2589762369791,
+          "n_scans": 15
+        },
+        {
+          "dose_um": 0.5,
+          "cohort": 20250307,
+          "gland_id": "20250307/dose-0.5/gland-2",
+          "value": 1.8047751326556143,
+          "raw_auc": 473.7269307454427,
+          "n_scans": 15
+        },
+        {
+          "dose_um": 0.5,
+          "cohort": 20250307,
+          "gland_id": "20250307/dose-0.5/gland-3",
+          "value": 1.7801987232341407,
+          "raw_auc": 467.2759847005208,
+          "n_scans": 15
+        },
+        {
+          "dose_um": 0.5,
+          "cohort": 20250307,
+          "gland_id": "20250307/dose-0.5/gland-4",
+          "value": 2.5514378171895817,
+          "raw_auc": 669.7149047851562,
+          "n_scans": 12
+        },
+        {
+          "dose_um": 0.5,
+          "cohort": 20250307,
+          "gland_id": "20250307/dose-0.5/gland-5",
+          "value": 2.0232583805754594,
+          "raw_auc": 531.0755702427456,
+          "n_scans": 14
+        },
+        {
+          "dose_um": 0.5,
+          "cohort": 20250307,
+          "gland_id": "20250307/dose-0.5/gland-6",
+          "value": 1.5024902187783014,
+          "raw_auc": 394.38158634730746,
+          "n_scans": 14
+        },
+        {
+          "dose_um": 0.5,
+          "cohort": 20250307,
+          "gland_id": "20250307/dose-0.5/gland-7",
+          "value": 2.0953258769337997,
+          "raw_auc": 549.9922281901041,
+          "n_scans": 15
+        },
+        {
+          "dose_um": 1.25,
+          "cohort": 20250307,
+          "gland_id": "20250307/dose-1.25/gland-1",
+          "value": 2.030239253708639,
+          "raw_auc": 532.9079467773438,
+          "n_scans": 15
+        },
+        {
+          "dose_um": 1.25,
+          "cohort": 20250307,
+          "gland_id": "20250307/dose-1.25/gland-2",
+          "value": 2.6795551758913514,
+          "raw_auc": 703.343827311198,
+          "n_scans": 15
+        },
+        {
+          "dose_um": 1.25,
+          "cohort": 20250307,
+          "gland_id": "20250307/dose-1.25/gland-3",
+          "value": 2.207730216502098,
+          "raw_auc": 579.4967142740885,
+          "n_scans": 15
+        },
+        {
+          "dose_um": 1.25,
+          "cohort": 20250307,
+          "gland_id": "20250307/dose-1.25/gland-4",
+          "value": 2.4322824251069894,
+          "raw_auc": 638.4383666992187,
+          "n_scans": 15
+        },
+        {
+          "dose_um": 1.25,
+          "cohort": 20250307,
+          "gland_id": "20250307/dose-1.25/gland-5",
+          "value": 1.9585981825300365,
+          "raw_auc": 514.1032191685268,
+          "n_scans": 14
+        },
+        {
+          "dose_um": 1.25,
+          "cohort": 20250307,
+          "gland_id": "20250307/dose-1.25/gland-6",
+          "value": 2.0004913383507468,
+          "raw_auc": 525.0995564778646,
+          "n_scans": 15
+        },
+        {
+          "dose_um": 1.25,
+          "cohort": 20250307,
+          "gland_id": "20250307/dose-1.25/gland-7",
+          "value": 2.7497026837761163,
+          "raw_auc": 721.7565165201823,
+          "n_scans": 15
+        },
+        {
+          "dose_um": 2.5,
+          "cohort": 20250307,
+          "gland_id": "20250307/dose-2.5/gland-1",
+          "value": 2.7115575500803843,
+          "raw_auc": 711.7439798990886,
+          "n_scans": 15
+        },
+        {
+          "dose_um": 2.5,
+          "cohort": 20250307,
+          "gland_id": "20250307/dose-2.5/gland-2",
+          "value": 3.4423184371450506,
+          "raw_auc": 903.5579659598214,
+          "n_scans": 14
+        },
+        {
+          "dose_um": 2.5,
+          "cohort": 20250307,
+          "gland_id": "20250307/dose-2.5/gland-3",
+          "value": 2.479298287433014,
+          "raw_auc": 650.7793391301082,
+          "n_scans": 13
+        },
+        {
+          "dose_um": 2.5,
+          "cohort": 20250307,
+          "gland_id": "20250307/dose-2.5/gland-4",
+          "value": 1.8788451228184284,
+          "raw_auc": 493.1692138671875,
+          "n_scans": 15
+        },
+        {
+          "dose_um": 2.5,
+          "cohort": 20250307,
+          "gland_id": "20250307/dose-2.5/gland-5",
+          "value": 2.57694884928488,
+          "raw_auc": 676.4111755371093,
+          "n_scans": 15
+        },
+        {
+          "dose_um": 2.5,
+          "cohort": 20250307,
+          "gland_id": "20250307/dose-2.5/gland-6",
+          "value": 1.811662825766001,
+          "raw_auc": 475.53484889439176,
+          "n_scans": 14
+        },
+        {
+          "dose_um": 2.5,
+          "cohort": 20250307,
+          "gland_id": "20250307/dose-2.5/gland-7",
+          "value": 2.409439410478322,
+          "raw_auc": 632.4424112955729,
+          "n_scans": 15
+        },
+        {
+          "dose_um": 5.0,
+          "cohort": 20250307,
+          "gland_id": "20250307/dose-5/gland-1",
+          "value": 3.0411496758723593,
+          "raw_auc": 798.2570658365886,
+          "n_scans": 15
+        },
+        {
+          "dose_um": 5.0,
+          "cohort": 20250307,
+          "gland_id": "20250307/dose-5/gland-2",
+          "value": 2.753663698909665,
+          "raw_auc": 722.7962247408353,
+          "n_scans": 13
+        },
+        {
+          "dose_um": 5.0,
+          "cohort": 20250307,
+          "gland_id": "20250307/dose-5/gland-3",
+          "value": 2.5121583558870655,
+          "raw_auc": 659.4046238490513,
+          "n_scans": 14
+        },
+        {
+          "dose_um": 5.0,
+          "cohort": 20250307,
+          "gland_id": "20250307/dose-5/gland-4",
+          "value": 2.909356694270712,
+          "raw_auc": 763.6633463541667,
+          "n_scans": 15
+        },
+        {
+          "dose_um": 5.0,
+          "cohort": 20250307,
+          "gland_id": "20250307/dose-5/gland-5",
+          "value": 2.2703613062630525,
+          "raw_auc": 595.936454264323,
+          "n_scans": 15
+        },
+        {
+          "dose_um": 5.0,
+          "cohort": 20250307,
+          "gland_id": "20250307/dose-5/gland-6",
+          "value": 2.967953399358756,
+          "raw_auc": 779.0441196986607,
+          "n_scans": 14
+        },
+        {
+          "dose_um": 5.0,
+          "cohort": 20250307,
+          "gland_id": "20250307/dose-5/gland-7",
+          "value": 2.222202017163982,
+          "raw_auc": 583.2953491210938,
+          "n_scans": 14
+        }
+      ]
+    },
+    {
+      "path": "BB-94-titration/results/collagen-IV/Fig4G-collagen-IV-intensity-titration-summary.csv",
+      "columns": [
+        "dose_um",
+        "n",
+        "mean",
+        "sd"
+      ],
+      "sort_by": [
+        "dose_um"
+      ],
+      "dtype": {},
+      "records": [
+        {
+          "dose_um": 0.0,
+          "n": 7,
+          "mean": 1.0,
+          "sd": 0.1911458179961956
+        },
+        {
+          "dose_um": 0.005,
+          "n": 7,
+          "mean": 0.9978779429947332,
+          "sd": 0.1146853701455019
+        },
+        {
+          "dose_um": 0.05,
+          "n": 7,
+          "mean": 1.1316977788035545,
+          "sd": 0.1182962948069398
+        },
+        {
+          "dose_um": 0.5,
+          "n": 7,
+          "mean": 1.9040120751821767,
+          "sd": 0.3576644040982473
+        },
+        {
+          "dose_um": 1.25,
+          "n": 7,
+          "mean": 2.294085610837997,
+          "sd": 0.3294170679398606
+        },
+        {
+          "dose_um": 2.5,
+          "n": 7,
+          "mean": 2.4728672118580115,
+          "sd": 0.5479902173998921
+        },
+        {
+          "dose_um": 5.0,
+          "n": 7,
+          "mean": 2.6681207353893703,
+          "sd": 0.3356443886587815
+        }
+      ]
+    },
+    {
+      "path": "BB-94-titration/results/collagen-IV/Fig4G-collagen-IV-intensity-titration-comparisons.csv",
+      "columns": [
+        "dose_a_um",
+        "dose_b_um",
+        "n_a",
+        "n_b",
+        "U_b",
+        "rank_biserial_b_minus_a",
+        "p_raw",
+        "p_adjusted",
+        "p_method",
+        "annotation"
+      ],
+      "sort_by": [
+        "dose_b_um"
+      ],
+      "dtype": {},
+      "records": [
+        {
+          "dose_a_um": 0.0,
+          "dose_b_um": 0.005,
+          "n_a": 7,
+          "n_b": 7,
+          "U_b": 28.0,
+          "rank_biserial_b_minus_a": 0.1428571428571428,
+          "p_raw": 0.7103729603729605,
+          "p_adjusted": 0.7103729603729605,
+          "p_method": "exact",
+          "annotation": "ns"
+        },
+        {
+          "dose_a_um": 0.0,
+          "dose_b_um": 0.05,
+          "n_a": 7,
+          "n_b": 7,
+          "U_b": 38.0,
+          "rank_biserial_b_minus_a": 0.5510204081632653,
+          "p_raw": 0.0973193473193473,
+          "p_adjusted": 0.1946386946386946,
+          "p_method": "exact",
+          "annotation": "ns"
+        },
+        {
+          "dose_a_um": 0.0,
+          "dose_b_um": 0.5,
+          "n_a": 7,
+          "n_b": 7,
+          "U_b": 49.0,
+          "rank_biserial_b_minus_a": 1.0,
+          "p_raw": 0.0005827505827505,
+          "p_adjusted": 0.0034965034965034,
+          "p_method": "exact",
+          "annotation": "**"
+        },
+        {
+          "dose_a_um": 0.0,
+          "dose_b_um": 1.25,
+          "n_a": 7,
+          "n_b": 7,
+          "U_b": 49.0,
+          "rank_biserial_b_minus_a": 1.0,
+          "p_raw": 0.0005827505827505,
+          "p_adjusted": 0.0034965034965034,
+          "p_method": "exact",
+          "annotation": "**"
+        },
+        {
+          "dose_a_um": 0.0,
+          "dose_b_um": 2.5,
+          "n_a": 7,
+          "n_b": 7,
+          "U_b": 49.0,
+          "rank_biserial_b_minus_a": 1.0,
+          "p_raw": 0.0005827505827505,
+          "p_adjusted": 0.0034965034965034,
+          "p_method": "exact",
+          "annotation": "**"
+        },
+        {
+          "dose_a_um": 0.0,
+          "dose_b_um": 5.0,
+          "n_a": 7,
+          "n_b": 7,
+          "U_b": 49.0,
+          "rank_biserial_b_minus_a": 1.0,
+          "p_raw": 0.0005827505827505,
+          "p_adjusted": 0.0034965034965034,
+          "p_method": "exact",
+          "annotation": "**"
+        }
+      ]
+    },
+    {
+      "path": "BB-94-washout/results/210325-washout/washout-bud-count-intervals.csv",
+      "columns": [
+        "subject_id",
+        "group",
+        "start_h",
+        "end_h",
+        "bud_start",
+        "bud_end",
+        "ratio",
+        "log2_ratio"
+      ],
+      "sort_by": [
+        "subject_id",
+        "start_h",
+        "end_h"
+      ],
+      "dtype": {},
+      "records": [
+        {
+          "subject_id": "210325-washout|BB94|1",
+          "group": "BB94",
+          "start_h": 0.0,
+          "end_h": 22.0,
+          "bud_start": 5,
+          "bud_end": 9,
+          "ratio": 1.8,
+          "log2_ratio": 0.8479969065549501
+        },
+        {
+          "subject_id": "210325-washout|BB94|1",
+          "group": "BB94",
+          "start_h": 22.0,
+          "end_h": 46.0,
+          "bud_start": 9,
+          "bud_end": 60,
+          "ratio": 6.666666666666667,
+          "log2_ratio": 2.736965594166206
+        },
+        {
+          "subject_id": "210325-washout|BB94|2",
+          "group": "BB94",
+          "start_h": 0.0,
+          "end_h": 22.0,
+          "bud_start": 5,
+          "bud_end": 10,
+          "ratio": 2.0,
+          "log2_ratio": 1.0
+        },
+        {
+          "subject_id": "210325-washout|BB94|2",
+          "group": "BB94",
+          "start_h": 22.0,
+          "end_h": 46.0,
+          "bud_start": 10,
+          "bud_end": 71,
+          "ratio": 7.1,
+          "log2_ratio": 2.8278190246173196
+        },
+        {
+          "subject_id": "210325-washout|BB94|3",
+          "group": "BB94",
+          "start_h": 0.0,
+          "end_h": 22.0,
+          "bud_start": 4,
+          "bud_end": 8,
+          "ratio": 2.0,
+          "log2_ratio": 1.0
+        },
+        {
+          "subject_id": "210325-washout|BB94|3",
+          "group": "BB94",
+          "start_h": 22.0,
+          "end_h": 46.0,
+          "bud_start": 8,
+          "bud_end": 52,
+          "ratio": 6.5,
+          "log2_ratio": 2.700439718141092
+        },
+        {
+          "subject_id": "210325-washout|BB94|4",
+          "group": "BB94",
+          "start_h": 0.0,
+          "end_h": 22.0,
+          "bud_start": 6,
+          "bud_end": 7,
+          "ratio": 1.1666666666666667,
+          "log2_ratio": 0.222392421336448
+        },
+        {
+          "subject_id": "210325-washout|BB94|4",
+          "group": "BB94",
+          "start_h": 22.0,
+          "end_h": 46.0,
+          "bud_start": 7,
+          "bud_end": 50,
+          "ratio": 7.142857142857143,
+          "log2_ratio": 2.8365012677171206
+        },
+        {
+          "subject_id": "210325-washout|BB94|5",
+          "group": "BB94",
+          "start_h": 0.0,
+          "end_h": 22.0,
+          "bud_start": 3,
+          "bud_end": 3,
+          "ratio": 1.0,
+          "log2_ratio": 0.0
+        },
+        {
+          "subject_id": "210325-washout|BB94|5",
+          "group": "BB94",
+          "start_h": 22.0,
+          "end_h": 46.0,
+          "bud_start": 3,
+          "bud_end": 20,
+          "ratio": 6.666666666666667,
+          "log2_ratio": 2.736965594166206
+        },
+        {
+          "subject_id": "210325-washout|BB94|6",
+          "group": "BB94",
+          "start_h": 0.0,
+          "end_h": 22.0,
+          "bud_start": 4,
+          "bud_end": 6,
+          "ratio": 1.5,
+          "log2_ratio": 0.5849625007211562
+        },
+        {
+          "subject_id": "210325-washout|BB94|6",
+          "group": "BB94",
+          "start_h": 22.0,
+          "end_h": 46.0,
+          "bud_start": 6,
+          "bud_end": 47,
+          "ratio": 7.833333333333333,
+          "log2_ratio": 2.969626350956481
+        },
+        {
+          "subject_id": "210325-washout|BB94|7",
+          "group": "BB94",
+          "start_h": 0.0,
+          "end_h": 22.0,
+          "bud_start": 6,
+          "bud_end": 9,
+          "ratio": 1.5,
+          "log2_ratio": 0.5849625007211562
+        },
+        {
+          "subject_id": "210325-washout|BB94|7",
+          "group": "BB94",
+          "start_h": 22.0,
+          "end_h": 46.0,
+          "bud_start": 9,
+          "bud_end": 60,
+          "ratio": 6.666666666666667,
+          "log2_ratio": 2.736965594166206
+        },
+        {
+          "subject_id": "210325-washout|BB94|8",
+          "group": "BB94",
+          "start_h": 0.0,
+          "end_h": 22.0,
+          "bud_start": 4,
+          "bud_end": 4,
+          "ratio": 1.0,
+          "log2_ratio": 0.0
+        },
+        {
+          "subject_id": "210325-washout|BB94|8",
+          "group": "BB94",
+          "start_h": 22.0,
+          "end_h": 46.0,
+          "bud_start": 4,
+          "bud_end": 25,
+          "ratio": 6.25,
+          "log2_ratio": 2.643856189774725
+        },
+        {
+          "subject_id": "210325-washout|ctrl|1",
+          "group": "ctrl",
+          "start_h": 0.0,
+          "end_h": 22.0,
+          "bud_start": 5,
+          "bud_end": 26,
+          "ratio": 5.2,
+          "log2_ratio": 2.37851162325373
+        },
+        {
+          "subject_id": "210325-washout|ctrl|1",
+          "group": "ctrl",
+          "start_h": 22.0,
+          "end_h": 46.0,
+          "bud_start": 26,
+          "bud_end": 60,
+          "ratio": 2.3076923076923075,
+          "log2_ratio": 1.2064508774674263
+        },
+        {
+          "subject_id": "210325-washout|ctrl|2",
+          "group": "ctrl",
+          "start_h": 0.0,
+          "end_h": 22.0,
+          "bud_start": 4,
+          "bud_end": 27,
+          "ratio": 6.75,
+          "log2_ratio": 2.7548875021634687
+        },
+        {
+          "subject_id": "210325-washout|ctrl|2",
+          "group": "ctrl",
+          "start_h": 22.0,
+          "end_h": 46.0,
+          "bud_start": 27,
+          "bud_end": 81,
+          "ratio": 3.0,
+          "log2_ratio": 1.584962500721156
+        },
+        {
+          "subject_id": "210325-washout|ctrl|3",
+          "group": "ctrl",
+          "start_h": 0.0,
+          "end_h": 22.0,
+          "bud_start": 5,
+          "bud_end": 24,
+          "ratio": 4.8,
+          "log2_ratio": 2.263034405833794
+        },
+        {
+          "subject_id": "210325-washout|ctrl|3",
+          "group": "ctrl",
+          "start_h": 22.0,
+          "end_h": 46.0,
+          "bud_start": 24,
+          "bud_end": 78,
+          "ratio": 3.25,
+          "log2_ratio": 1.7004397181410922
+        },
+        {
+          "subject_id": "210325-washout|ctrl|4",
+          "group": "ctrl",
+          "start_h": 0.0,
+          "end_h": 22.0,
+          "bud_start": 4,
+          "bud_end": 20,
+          "ratio": 5.0,
+          "log2_ratio": 2.321928094887362
+        },
+        {
+          "subject_id": "210325-washout|ctrl|4",
+          "group": "ctrl",
+          "start_h": 22.0,
+          "end_h": 46.0,
+          "bud_start": 20,
+          "bud_end": 72,
+          "ratio": 3.6,
+          "log2_ratio": 1.84799690655495
+        },
+        {
+          "subject_id": "210325-washout|ctrl|5",
+          "group": "ctrl",
+          "start_h": 0.0,
+          "end_h": 22.0,
+          "bud_start": 3,
+          "bud_end": 6,
+          "ratio": 2.0,
+          "log2_ratio": 1.0
+        },
+        {
+          "subject_id": "210325-washout|ctrl|5",
+          "group": "ctrl",
+          "start_h": 22.0,
+          "end_h": 46.0,
+          "bud_start": 6,
+          "bud_end": 23,
+          "ratio": 3.8333333333333335,
+          "log2_ratio": 1.9385994553358568
+        },
+        {
+          "subject_id": "210325-washout|ctrl|6",
+          "group": "ctrl",
+          "start_h": 0.0,
+          "end_h": 22.0,
+          "bud_start": 5,
+          "bud_end": 27,
+          "ratio": 5.4,
+          "log2_ratio": 2.4329594072761065
+        },
+        {
+          "subject_id": "210325-washout|ctrl|6",
+          "group": "ctrl",
+          "start_h": 22.0,
+          "end_h": 46.0,
+          "bud_start": 27,
+          "bud_end": 87,
+          "ratio": 3.2222222222222223,
+          "log2_ratio": 1.6880559936852595
+        },
+        {
+          "subject_id": "210325-washout|ctrl|7",
+          "group": "ctrl",
+          "start_h": 0.0,
+          "end_h": 22.0,
+          "bud_start": 3,
+          "bud_end": 10,
+          "ratio": 3.3333333333333335,
+          "log2_ratio": 1.7369655941662063
+        },
+        {
+          "subject_id": "210325-washout|ctrl|7",
+          "group": "ctrl",
+          "start_h": 22.0,
+          "end_h": 46.0,
+          "bud_start": 10,
+          "bud_end": 40,
+          "ratio": 4.0,
+          "log2_ratio": 2.0
+        },
+        {
+          "subject_id": "210325-washout|ctrl|8",
+          "group": "ctrl",
+          "start_h": 0.0,
+          "end_h": 22.0,
+          "bud_start": 6,
+          "bud_end": 31,
+          "ratio": 5.166666666666667,
+          "log2_ratio": 2.3692338096657193
+        },
+        {
+          "subject_id": "210325-washout|ctrl|8",
+          "group": "ctrl",
+          "start_h": 22.0,
+          "end_h": 46.0,
+          "bud_start": 31,
+          "bud_end": 101,
+          "ratio": 3.2580645161290325,
+          "log2_ratio": 1.7040151723649195
+        }
+      ]
+    },
+    {
+      "path": "BB-94-washout/results/210401-washout/washout-bud-count-intervals.csv",
+      "columns": [
+        "subject_id",
+        "group",
+        "start_h",
+        "end_h",
+        "bud_start",
+        "bud_end",
+        "ratio",
+        "log2_ratio"
+      ],
+      "sort_by": [
+        "subject_id",
+        "start_h",
+        "end_h"
+      ],
+      "dtype": {},
+      "records": [
+        {
+          "subject_id": "210401-washout|BB94|plate3_1",
+          "group": "BB94",
+          "start_h": 0.0,
+          "end_h": 24.0,
+          "bud_start": 8,
+          "bud_end": 9,
+          "ratio": 1.125,
+          "log2_ratio": 0.1699250014423123
+        },
+        {
+          "subject_id": "210401-washout|BB94|plate3_1",
+          "group": "BB94",
+          "start_h": 24.0,
+          "end_h": 48.0,
+          "bud_start": 9,
+          "bud_end": 51,
+          "ratio": 5.666666666666667,
+          "log2_ratio": 2.5025003405291835
+        },
+        {
+          "subject_id": "210401-washout|BB94|plate3_2",
+          "group": "BB94",
+          "start_h": 0.0,
+          "end_h": 24.0,
+          "bud_start": 4,
+          "bud_end": 4,
+          "ratio": 1.0,
+          "log2_ratio": 0.0
+        },
+        {
+          "subject_id": "210401-washout|BB94|plate3_2",
+          "group": "BB94",
+          "start_h": 24.0,
+          "end_h": 48.0,
+          "bud_start": 4,
+          "bud_end": 25,
+          "ratio": 6.25,
+          "log2_ratio": 2.643856189774725
+        },
+        {
+          "subject_id": "210401-washout|BB94|plate3_3",
+          "group": "BB94",
+          "start_h": 0.0,
+          "end_h": 24.0,
+          "bud_start": 5,
+          "bud_end": 7,
+          "ratio": 1.4,
+          "log2_ratio": 0.4854268271702416
+        },
+        {
+          "subject_id": "210401-washout|BB94|plate3_3",
+          "group": "BB94",
+          "start_h": 24.0,
+          "end_h": 48.0,
+          "bud_start": 7,
+          "bud_end": 39,
+          "ratio": 5.571428571428571,
+          "log2_ratio": 2.478047296804644
+        },
+        {
+          "subject_id": "210401-washout|BB94|plate3_4",
+          "group": "BB94",
+          "start_h": 0.0,
+          "end_h": 24.0,
+          "bud_start": 9,
+          "bud_end": 11,
+          "ratio": 1.2222222222222223,
+          "log2_ratio": 0.289506617194985
+        },
+        {
+          "subject_id": "210401-washout|BB94|plate3_4",
+          "group": "BB94",
+          "start_h": 24.0,
+          "end_h": 48.0,
+          "bud_start": 11,
+          "bud_end": 61,
+          "ratio": 5.545454545454546,
+          "log2_ratio": 2.471305718925589
+        },
+        {
+          "subject_id": "210401-washout|BB94|plate3_5",
+          "group": "BB94",
+          "start_h": 0.0,
+          "end_h": 24.0,
+          "bud_start": 10,
+          "bud_end": 11,
+          "ratio": 1.1,
+          "log2_ratio": 0.137503523749935
+        },
+        {
+          "subject_id": "210401-washout|BB94|plate3_5",
+          "group": "BB94",
+          "start_h": 24.0,
+          "end_h": 48.0,
+          "bud_start": 11,
+          "bud_end": 55,
+          "ratio": 5.0,
+          "log2_ratio": 2.321928094887362
+        },
+        {
+          "subject_id": "210401-washout|BB94|plate3_6",
+          "group": "BB94",
+          "start_h": 0.0,
+          "end_h": 24.0,
+          "bud_start": 7,
+          "bud_end": 10,
+          "ratio": 1.4285714285714286,
+          "log2_ratio": 0.5145731728297582
+        },
+        {
+          "subject_id": "210401-washout|BB94|plate3_6",
+          "group": "BB94",
+          "start_h": 24.0,
+          "end_h": 48.0,
+          "bud_start": 10,
+          "bud_end": 47,
+          "ratio": 4.7,
+          "log2_ratio": 2.232660756790275
+        },
+        {
+          "subject_id": "210401-washout|BB94|plate4_1",
+          "group": "BB94",
+          "start_h": 0.0,
+          "end_h": 24.0,
+          "bud_start": 9,
+          "bud_end": 12,
+          "ratio": 1.3333333333333333,
+          "log2_ratio": 0.4150374992788437
+        },
+        {
+          "subject_id": "210401-washout|BB94|plate4_1",
+          "group": "BB94",
+          "start_h": 24.0,
+          "end_h": 48.0,
+          "bud_start": 12,
+          "bud_end": 73,
+          "ratio": 6.083333333333333,
+          "log2_ratio": 2.604862058158861
+        },
+        {
+          "subject_id": "210401-washout|BB94|plate4_2",
+          "group": "BB94",
+          "start_h": 0.0,
+          "end_h": 24.0,
+          "bud_start": 9,
+          "bud_end": 13,
+          "ratio": 1.4444444444444444,
+          "log2_ratio": 0.5305147166987798
+        },
+        {
+          "subject_id": "210401-washout|BB94|plate4_2",
+          "group": "BB94",
+          "start_h": 24.0,
+          "end_h": 48.0,
+          "bud_start": 13,
+          "bud_end": 51,
+          "ratio": 3.923076923076923,
+          "log2_ratio": 1.9719856238304032
+        },
+        {
+          "subject_id": "210401-washout|BB94|plate4_3",
+          "group": "BB94",
+          "start_h": 0.0,
+          "end_h": 24.0,
+          "bud_start": 5,
+          "bud_end": 11,
+          "ratio": 2.2,
+          "log2_ratio": 1.1375035237499351
+        },
+        {
+          "subject_id": "210401-washout|BB94|plate4_3",
+          "group": "BB94",
+          "start_h": 24.0,
+          "end_h": 48.0,
+          "bud_start": 11,
+          "bud_end": 67,
+          "ratio": 6.090909090909091,
+          "log2_ratio": 2.606657571820475
+        },
+        {
+          "subject_id": "210401-washout|BB94|plate4_4",
+          "group": "BB94",
+          "start_h": 0.0,
+          "end_h": 24.0,
+          "bud_start": 12,
+          "bud_end": 12,
+          "ratio": 1.0,
+          "log2_ratio": 0.0
+        },
+        {
+          "subject_id": "210401-washout|BB94|plate4_4",
+          "group": "BB94",
+          "start_h": 24.0,
+          "end_h": 48.0,
+          "bud_start": 12,
+          "bud_end": 68,
+          "ratio": 5.666666666666667,
+          "log2_ratio": 2.5025003405291835
+        },
+        {
+          "subject_id": "210401-washout|BB94|plate4_5",
+          "group": "BB94",
+          "start_h": 0.0,
+          "end_h": 24.0,
+          "bud_start": 3,
+          "bud_end": 5,
+          "ratio": 1.6666666666666667,
+          "log2_ratio": 0.7369655941662062
+        },
+        {
+          "subject_id": "210401-washout|BB94|plate4_5",
+          "group": "BB94",
+          "start_h": 24.0,
+          "end_h": 48.0,
+          "bud_start": 5,
+          "bud_end": 37,
+          "ratio": 7.4,
+          "log2_ratio": 2.8875252707415875
+        },
+        {
+          "subject_id": "210401-washout|BB94|plate4_6",
+          "group": "BB94",
+          "start_h": 0.0,
+          "end_h": 24.0,
+          "bud_start": 6,
+          "bud_end": 9,
+          "ratio": 1.5,
+          "log2_ratio": 0.5849625007211562
+        },
+        {
+          "subject_id": "210401-washout|BB94|plate4_6",
+          "group": "BB94",
+          "start_h": 24.0,
+          "end_h": 48.0,
+          "bud_start": 9,
+          "bud_end": 55,
+          "ratio": 6.111111111111111,
+          "log2_ratio": 2.6114347120823473
+        },
+        {
+          "subject_id": "210401-washout|BB94|plate4_7",
+          "group": "BB94",
+          "start_h": 0.0,
+          "end_h": 24.0,
+          "bud_start": 8,
+          "bud_end": 9,
+          "ratio": 1.125,
+          "log2_ratio": 0.1699250014423123
+        },
+        {
+          "subject_id": "210401-washout|BB94|plate4_7",
+          "group": "BB94",
+          "start_h": 24.0,
+          "end_h": 48.0,
+          "bud_start": 9,
+          "bud_end": 41,
+          "ratio": 4.555555555555555,
+          "log2_ratio": 2.187627003175771
+        },
+        {
+          "subject_id": "210401-washout|ctrl|plate1_1",
+          "group": "ctrl",
+          "start_h": 0.0,
+          "end_h": 24.0,
+          "bud_start": 10,
+          "bud_end": 18,
+          "ratio": 1.8,
+          "log2_ratio": 0.8479969065549501
+        },
+        {
+          "subject_id": "210401-washout|ctrl|plate1_1",
+          "group": "ctrl",
+          "start_h": 24.0,
+          "end_h": 48.0,
+          "bud_start": 18,
+          "bud_end": 86,
+          "ratio": 4.777777777777778,
+          "log2_ratio": 2.2563397532597858
+        },
+        {
+          "subject_id": "210401-washout|ctrl|plate1_2",
+          "group": "ctrl",
+          "start_h": 0.0,
+          "end_h": 24.0,
+          "bud_start": 6,
+          "bud_end": 16,
+          "ratio": 2.6666666666666665,
+          "log2_ratio": 1.4150374992788437
+        },
+        {
+          "subject_id": "210401-washout|ctrl|plate1_2",
+          "group": "ctrl",
+          "start_h": 24.0,
+          "end_h": 48.0,
+          "bud_start": 16,
+          "bud_end": 72,
+          "ratio": 4.5,
+          "log2_ratio": 2.169925001442312
+        },
+        {
+          "subject_id": "210401-washout|ctrl|plate1_3",
+          "group": "ctrl",
+          "start_h": 0.0,
+          "end_h": 24.0,
+          "bud_start": 8,
+          "bud_end": 20,
+          "ratio": 2.5,
+          "log2_ratio": 1.3219280948873624
+        },
+        {
+          "subject_id": "210401-washout|ctrl|plate1_3",
+          "group": "ctrl",
+          "start_h": 24.0,
+          "end_h": 48.0,
+          "bud_start": 20,
+          "bud_end": 73,
+          "ratio": 3.65,
+          "log2_ratio": 1.8678964639926547
+        },
+        {
+          "subject_id": "210401-washout|ctrl|plate1_4",
+          "group": "ctrl",
+          "start_h": 0.0,
+          "end_h": 24.0,
+          "bud_start": 4,
+          "bud_end": 11,
+          "ratio": 2.75,
+          "log2_ratio": 1.459431618637297
+        },
+        {
+          "subject_id": "210401-washout|ctrl|plate1_4",
+          "group": "ctrl",
+          "start_h": 24.0,
+          "end_h": 48.0,
+          "bud_start": 11,
+          "bud_end": 45,
+          "ratio": 4.090909090909091,
+          "log2_ratio": 2.0324214776923775
+        },
+        {
+          "subject_id": "210401-washout|ctrl|plate1_5",
+          "group": "ctrl",
+          "start_h": 0.0,
+          "end_h": 24.0,
+          "bud_start": 8,
+          "bud_end": 14,
+          "ratio": 1.75,
+          "log2_ratio": 0.8073549220576041
+        },
+        {
+          "subject_id": "210401-washout|ctrl|plate1_5",
+          "group": "ctrl",
+          "start_h": 24.0,
+          "end_h": 48.0,
+          "bud_start": 14,
+          "bud_end": 72,
+          "ratio": 5.142857142857143,
+          "log2_ratio": 2.3625700793847084
+        },
+        {
+          "subject_id": "210401-washout|ctrl|plate1_6",
+          "group": "ctrl",
+          "start_h": 0.0,
+          "end_h": 24.0,
+          "bud_start": 4,
+          "bud_end": 11,
+          "ratio": 2.75,
+          "log2_ratio": 1.459431618637297
+        },
+        {
+          "subject_id": "210401-washout|ctrl|plate1_6",
+          "group": "ctrl",
+          "start_h": 24.0,
+          "end_h": 48.0,
+          "bud_start": 11,
+          "bud_end": 60,
+          "ratio": 5.454545454545454,
+          "log2_ratio": 2.447458976971221
+        },
+        {
+          "subject_id": "210401-washout|ctrl|plate2_1",
+          "group": "ctrl",
+          "start_h": 0.0,
+          "end_h": 24.0,
+          "bud_start": 4,
+          "bud_end": 23,
+          "ratio": 5.75,
+          "log2_ratio": 2.523561956057013
+        },
+        {
+          "subject_id": "210401-washout|ctrl|plate2_1",
+          "group": "ctrl",
+          "start_h": 24.0,
+          "end_h": 48.0,
+          "bud_start": 23,
+          "bud_end": 78,
+          "ratio": 3.391304347826087,
+          "log2_ratio": 1.7618402628052354
+        },
+        {
+          "subject_id": "210401-washout|ctrl|plate2_2",
+          "group": "ctrl",
+          "start_h": 0.0,
+          "end_h": 24.0,
+          "bud_start": 5,
+          "bud_end": 24,
+          "ratio": 4.8,
+          "log2_ratio": 2.263034405833794
+        },
+        {
+          "subject_id": "210401-washout|ctrl|plate2_2",
+          "group": "ctrl",
+          "start_h": 24.0,
+          "end_h": 48.0,
+          "bud_start": 24,
+          "bud_end": 63,
+          "ratio": 2.625,
+          "log2_ratio": 1.3923174227787602
+        },
+        {
+          "subject_id": "210401-washout|ctrl|plate2_3",
+          "group": "ctrl",
+          "start_h": 0.0,
+          "end_h": 24.0,
+          "bud_start": 6,
+          "bud_end": 23,
+          "ratio": 3.8333333333333335,
+          "log2_ratio": 1.9385994553358568
+        },
+        {
+          "subject_id": "210401-washout|ctrl|plate2_3",
+          "group": "ctrl",
+          "start_h": 24.0,
+          "end_h": 48.0,
+          "bud_start": 23,
+          "bud_end": 69,
+          "ratio": 3.0,
+          "log2_ratio": 1.584962500721156
+        },
+        {
+          "subject_id": "210401-washout|ctrl|plate2_4",
+          "group": "ctrl",
+          "start_h": 0.0,
+          "end_h": 24.0,
+          "bud_start": 7,
+          "bud_end": 24,
+          "ratio": 3.4285714285714284,
+          "log2_ratio": 1.777607578663552
+        },
+        {
+          "subject_id": "210401-washout|ctrl|plate2_4",
+          "group": "ctrl",
+          "start_h": 24.0,
+          "end_h": 48.0,
+          "bud_start": 24,
+          "bud_end": 75,
+          "ratio": 3.125,
+          "log2_ratio": 1.6438561897747246
+        },
+        {
+          "subject_id": "210401-washout|ctrl|plate2_5",
+          "group": "ctrl",
+          "start_h": 0.0,
+          "end_h": 24.0,
+          "bud_start": 4,
+          "bud_end": 9,
+          "ratio": 2.25,
+          "log2_ratio": 1.1699250014423124
+        },
+        {
+          "subject_id": "210401-washout|ctrl|plate2_5",
+          "group": "ctrl",
+          "start_h": 24.0,
+          "end_h": 48.0,
+          "bud_start": 9,
+          "bud_end": 38,
+          "ratio": 4.222222222222222,
+          "log2_ratio": 2.078002512001273
+        },
+        {
+          "subject_id": "210401-washout|ctrl|plate2_6",
+          "group": "ctrl",
+          "start_h": 0.0,
+          "end_h": 24.0,
+          "bud_start": 8,
+          "bud_end": 20,
+          "ratio": 2.5,
+          "log2_ratio": 1.3219280948873624
+        },
+        {
+          "subject_id": "210401-washout|ctrl|plate2_6",
+          "group": "ctrl",
+          "start_h": 24.0,
+          "end_h": 48.0,
+          "bud_start": 20,
+          "bud_end": 89,
+          "ratio": 4.45,
+          "log2_ratio": 2.1538053360790355
+        },
+        {
+          "subject_id": "210401-washout|ctrl|plate2_7",
+          "group": "ctrl",
+          "start_h": 0.0,
+          "end_h": 24.0,
+          "bud_start": 8,
+          "bud_end": 24,
+          "ratio": 3.0,
+          "log2_ratio": 1.584962500721156
+        },
+        {
+          "subject_id": "210401-washout|ctrl|plate2_7",
+          "group": "ctrl",
+          "start_h": 24.0,
+          "end_h": 48.0,
+          "bud_start": 24,
+          "bud_end": 94,
+          "ratio": 3.9166666666666665,
+          "log2_ratio": 1.969626350956481
+        }
+      ]
+    },
+    {
+      "path": "BB-94-washout/results/combined/Fig5C-washout-log2-ratios-uniform-stars-statistics.csv",
+      "columns": [
+        "interval",
+        "test",
+        "n_control",
+        "n_BB94",
+        "mean_control",
+        "mean_BB94",
+        "sd_control",
+        "sd_BB94",
+        "descriptive_mean_difference_BB94_minus_control",
+        "U_BB94",
+        "rank_biserial_BB94_minus_control",
+        "method_used",
+        "ties_present",
+        "continuity_correction",
+        "p_raw",
+        "p_Holm",
+        "annotation"
+      ],
+      "sort_by": [
+        "interval"
+      ],
+      "dtype": {},
+      "records": [
+        {
+          "interval": "d1/d0",
+          "test": "Two-sided Mann-Whitney U test",
+          "n_control": 21,
+          "n_BB94": 21,
+          "mean_control": 1.7689676233447993,
+          "mean_BB94": 0.4481980146561036,
+          "sd_control": 0.5920949910489711,
+          "sd_BB94": 0.3555432089455221,
+          "descriptive_mean_difference_BB94_minus_control": -1.3207696086886958,
+          "U_BB94": 9.5,
+          "rank_biserial_BB94_minus_control": -0.9569160997732428,
+          "method_used": "asymptotic",
+          "ties_present": true,
+          "continuity_correction": true,
+          "p_raw": 1.1566028158390153e-07,
+          "p_Holm": 2.3132056316780306e-07,
+          "annotation": "****"
+        },
+        {
+          "interval": "d2/d1",
+          "test": "Two-sided Mann-Whitney U test",
+          "n_control": 21,
+          "n_BB94": 21,
+          "mean_control": 1.8757877596252568,
+          "mean_BB94": 2.581525252940751,
+          "sd_control": 0.3146443126263625,
+          "sd_BB94": 0.2467322574971436,
+          "descriptive_mean_difference_BB94_minus_control": 0.7057374933154943,
+          "U_BB94": 425.0,
+          "rank_biserial_BB94_minus_control": 0.927437641723356,
+          "method_used": "asymptotic",
+          "ties_present": true,
+          "continuity_correction": true,
+          "p_raw": 2.848160065212158e-07,
+          "p_Holm": 2.848160065212158e-07,
+          "annotation": "****"
+        }
+      ]
+    },
+    {
+      "path": "BB-94-washout/results/combined/Fig5C-washout-log2-ratios-symbols-stars-no-legend-statistics.csv",
+      "columns": [
+        "interval",
+        "test",
+        "n_control",
+        "n_BB94",
+        "mean_control",
+        "mean_BB94",
+        "sd_control",
+        "sd_BB94",
+        "descriptive_mean_difference_BB94_minus_control",
+        "U_BB94",
+        "rank_biserial_BB94_minus_control",
+        "method_used",
+        "ties_present",
+        "continuity_correction",
+        "p_raw",
+        "p_Holm",
+        "annotation"
+      ],
+      "sort_by": [
+        "interval"
+      ],
+      "dtype": {},
+      "records": [
+        {
+          "interval": "d1/d0",
+          "test": "Two-sided Mann-Whitney U test",
+          "n_control": 21,
+          "n_BB94": 21,
+          "mean_control": 1.7689676233447993,
+          "mean_BB94": 0.4481980146561036,
+          "sd_control": 0.5920949910489711,
+          "sd_BB94": 0.3555432089455221,
+          "descriptive_mean_difference_BB94_minus_control": -1.3207696086886958,
+          "U_BB94": 9.5,
+          "rank_biserial_BB94_minus_control": -0.9569160997732428,
+          "method_used": "asymptotic",
+          "ties_present": true,
+          "continuity_correction": true,
+          "p_raw": 1.1566028158390153e-07,
+          "p_Holm": 2.3132056316780306e-07,
+          "annotation": "****"
+        },
+        {
+          "interval": "d2/d1",
+          "test": "Two-sided Mann-Whitney U test",
+          "n_control": 21,
+          "n_BB94": 21,
+          "mean_control": 1.8757877596252568,
+          "mean_BB94": 2.581525252940751,
+          "sd_control": 0.3146443126263625,
+          "sd_BB94": 0.2467322574971436,
+          "descriptive_mean_difference_BB94_minus_control": 0.7057374933154943,
+          "U_BB94": 425.0,
+          "rank_biserial_BB94_minus_control": 0.927437641723356,
+          "method_used": "asymptotic",
+          "ties_present": true,
+          "continuity_correction": true,
+          "p_raw": 2.848160065212158e-07,
+          "p_Holm": 2.848160065212158e-07,
+          "annotation": "****"
+        }
+      ]
+    }
+  ],
+  "plots": [
+    "BB-94-titration/results/bud-count/Fig4F-bud-count-titration",
+    "BB-94-titration/results/collagen-IV/Fig4G-collagen-IV-intensity-titration",
+    "BB-94-washout/results/combined/Fig5C-washout-log2-ratios-uniform-stars",
+    "BB-94-washout/results/combined/Fig5C-washout-log2-ratios-symbols-stars-no-legend"
+  ]
+}

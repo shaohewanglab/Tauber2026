@@ -1,0 +1,1 @@
+Historical validation records from 17 October 2026. These document earlier layouts, multiple color alternatives, and incomplete model counts; they are not the current export inventory. Current data and checks are in the parent validation directory.

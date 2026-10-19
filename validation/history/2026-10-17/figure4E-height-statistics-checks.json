@@ -1,0 +1,29 @@
+{
+  "status": "passed",
+  "full_inches": [
+    1.32,
+    0.92
+  ],
+  "color_styles": 3,
+  "planned_comparisons": 5,
+  "baseline_z": 0.0005,
+  "baseline_simulations": 1,
+  "minimum_per_group": 2,
+  "tested_comparisons": 0,
+  "unavailable_annotations": [
+    "n/a",
+    "n/a",
+    "n/a",
+    "n/a",
+    "n/a"
+  ],
+  "missing_p_values_preserved": true,
+  "new_statistics_tests_passed": 6,
+  "other_plot_sets_byte_identical": 13,
+  "raw_model_data_unchanged": true,
+  "vector_outline_audit": "validation/vector-outline-checks.json",
+  "clean_reproduction": "passed",
+  "plots_rgb_pixel_identical_after_relocation": 16,
+  "model_bud_statistics_reports_byte_identical": true,
+  "changes_committed": false
+}

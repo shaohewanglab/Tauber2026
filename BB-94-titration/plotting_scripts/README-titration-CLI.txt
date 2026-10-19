@@ -1,0 +1,84 @@
+FIGURES 4F AND 4G: SHARED-AXIS BB-94 TITRATION
+
+From the package root:
+
+  python reproduce_plots.py
+
+Or regenerate only the two numerical analyses and the combined plot:
+
+  python BB-94-titration/plotting_scripts/plot_bud_count_titration.py --output-dir BB-94-titration/results/bud-count --no-plot --overwrite
+  python BB-94-titration/plotting_scripts/plot_collagen_iv_titration.py --output-dir BB-94-titration/results/collagen-IV --no-plot --overwrite
+  python reproduce_combined_titration.py
+
+The combined output is BB-94-titration/results/combined/Fig4FG-BB94-titration-tol-bright,
+exported as PDF/SVG/PNG. Paul Tol Bright is the only Figure 4 color style.
+All PDF and SVG text is exported as vector outlines. No fonts are required to
+view or place the exported files; edit label wording in the scripts to regenerate.
+The full canvas is 1.32 x 1.51 inches. 4F is above 4G; concentration ticks appear
+once below 4G. Both retain 6 pt axis text, separate six-comparison Dunnett families,
+and their original gland values, means and SD. Observations are hollow circles
+(1.5 pt in the denser 4F panel; 2 pt in 4G), with 0.35 pt colored outlines and
+white interiors. Mean and SD marks
+are black and drawn above observations, matching 4E. Swarms accommodate the
+larger circles within the fixed frames. The right edges of [BB-94] and the
+second-line unit (µM) align with the left edge of the y tick labels; left overflow
+is intentional. SVG and the optional review sheet retain the whole label.
+
+Paul Tol Bright uses gray control followed by purple, blue, cyan, green, yellow,
+red as dose increases. Values and provenance are in plot_palettes.json. One set
+of numerical reports accompanies the selected style. The -comparisons.csv
+and -versus-control.csv each contain the six tested contrasts; -glands.csv has
+individual gland endpoints; -summary.csv has n, mean and SD; -run.json records
+inputs, code hashes and settings. Relative input paths resolve beside the JSON
+manifests. Dunnett is the selected method as of 18 October 2026; gland endpoints are unchanged.
+
+The individual analysis CLIs still support optional standalone plots when
+--no-plot is omitted. Their legacy individual canvas entries are not used by
+the current main figure workflow. Their default stems are
+Fig4F-bud-count-titration and Fig4G-collagen-IV-intensity-titration, also used
+for their shared numerical reports.
+
+Input formats:
+  Bud filename records: original_file_name, converted_file_name.
+  Bud counts: file_name, bud_number. Tab or comma delimiters are supported.
+  Collagen CSV: file_name (gland), id (scan), channel and AUC.
+
+Bud identity is cohort + group + gland number, paired across days before forming
+ratios. The manifests map dose and day explicitly. Unknown/missing/duplicate
+matches, incomplete pairs and invalid counts cause errors. Only filename-marked
+placeholders and non-endpoint days are excluded. Actual single-bud glands stay.
+
+Collagen scans are averaged within each gland before testing. The control
+normalization denominator is 262.485293693283 AUC units (equal gland weights),
+matching the accepted CLI analysis. It differs by about 0.1% from the old
+notebook's scan-weighted divisor; a common scale change does not affect Dunnett tests.
+
+Useful options:
+  --no-plot           Generate analyses/reports only for the combined renderer.
+  --config PATH       Input manifest for another dataset.
+  --output-dir DIR    Required output directory.
+  --prefix NAME       Output filename stem.
+  --formats pdf svg png
+  --font Arial        Use --font "DejaVu Sans" if Arial is unavailable.
+  --color-style tol-bright   The selected Figure 4 palette.
+  --width 1.32 --height 0.72
+                      Optional full-canvas dimensions in inches; defaults come
+                      from the root figure_sizes.json.
+  --overwrite         Replace this prefix's generated outputs.
+
+The default --test dunnett compares each nonzero dose mean with DMSO using
+single-step Dunnett adjustment, separately for each outcome. No additional Holm
+correction is applied. Assumptions are independent glands and approximately
+normal errors with a common variance. The report records pooled variance and df;
+Brown-Forsythe is a diagnostic, not a method-selection gate. Raw P means marginal
+pooled-variance t P; asterisks use Dunnett-adjusted P. Deterministic quadrature in
+the root dunnett_statistics.py computes the family tail accurately even when P
+is very small. No simultaneous confidence intervals are claimed by this report.
+
+Explicit --test mann-whitney retains the prior control-only rank/Holm analysis.
+The --test tukey and --test games-howell modes are retained for compatibility;
+they use all-pairs families and are not the canonical manuscript analysis.
+
+The original Jupyter notebooks and their sw_ dependencies are not required.
+
+UPDATE 2026-10-18: Figure 4 now exports only Paul Tol Bright. The canonical manuscript 4F/G is the stacked Fig4FG-BB94-titration-tol-bright export, generated by reproduce_combined_titration.py. Other color styles have been removed.

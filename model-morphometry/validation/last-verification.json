@@ -1,0 +1,29 @@
+{
+  "status": "passed",
+  "source_files_verified": 13,
+  "original_model_curves_verified": 11,
+  "plots_verified": 4,
+  "bud_counts_available": 18,
+  "bud_counts_target": 18,
+  "bud_counts_missing": 0,
+  "missing_sd_at_z": [],
+  "internal_data_note": "INTERNAL_NOTES.md",
+  "fig4A_frame_alignment": {
+    "tol-bright": {
+      "frame_width_inches": 1.60661297910613,
+      "horizontal_bounds_tex_points": [
+        23.81284,
+        139.92276
+      ],
+      "matches_exported_4B": true
+    }
+  },
+  "fig4E_statistics": {
+    "baseline_z": 0.0005,
+    "family_size": 5,
+    "comparisons_tested": 5,
+    "unavailable_comparisons": 0
+  },
+  "relative_tolerance": 1e-12,
+  "absolute_tolerance": 1e-12
+}

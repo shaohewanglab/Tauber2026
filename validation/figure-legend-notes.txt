@@ -1,0 +1,73 @@
+Suggested figure-legend wording
+
+4A. Model 2D acircularity change, 100[chi(tau)-chi(0)], for effective thickness
+z = 0.0005, 0.001, 0.003, 0.005, 0.008 and 0.01. Paul Tol Bright is the selected color style. The display spans 0-110%; the theoretical
+gray bound in Justin's original script is omitted. The legend has three entries
+per column. Figure 4B uses the same 110% upper limit.
+
+4B. Individual gland asphericity curves are shown with thin, translucent
+lines (0.5 pt, 30% opacity). Opaque 1 pt lines show condition means; shaded
+bands show population SD (20% opacity). Paul Tol Bright is the selected color style.
+
+4E. Model bud number, N_buds, at tau/tau_g = 1.5 versus effective thickness z.
+Each hollow circle is one independent simulation (n = 3 per thickness); black
+marks and error bars show the mean and sample SD. Each thicker z is compared
+with z = 0.0005 using two-sided single-step Dunnett comparisons of means
+(five comparisons, with no additional Holm correction). The normal/common-
+variance approximation is assumed; there are three runs per thickness and
+12 residual degrees of freedom. The model count dataset is complete.
+
+4F. Each point is one gland's log2(day-1 bud count / day-0 bud count), with
+identity-based pairing across days. Horizontal bars show means; error bars show
+sample SD. Two-sided single-step Dunnett comparisons test each BB-94
+concentration against vehicle (0), with family-wise adjustment across the six
+comparisons in this panel and no additional Holm correction.
+The day-1/day-0 endpoint is omitted from the axis label to save space.
+
+4G. Col IV intensity denotes the per-gland mean collagen IV line-scan AUC,
+normalized by the mean of the vehicle gland means. Each point is one gland;
+horizontal bars show means and error bars show sample SD. Two-sided single-step
+Dunnett comparisons with vehicle use a separate family of six comparisons
+for this panel, with no additional Holm correction. These are intensity data, not bud-count ratios.
+
+4F and 4G are stacked with one shared concentration axis (tick labels below 4G).
+The two outcomes have separate six-comparison Dunnett families.
+The tick row on 4E is prefixed by z:; the shared concentration row below 4G has
+[BB-94] above (µM), at left. All three labels end at the left edge of the y-axis
+tick labels, with overflow allowed. 4E/F/G use hollow circles with colored
+outlines and white interiors; black mean/SD marks are drawn above the points.
+Swarms accommodate the circles within fixed frames. Experimental gland values are unchanged; Dunnett is now the selected
+pairwise method for 4E/F/G. 4E uses the complete 18-simulation table.
+
+5D. Full model acircularity time course for the z = 0.015 washout simulation
+(firebrick), with no-washout references at z = 0.001 (light gray) and z = 0.015
+(dark gray). The supplied washout comparison uses saved frame 75, corresponding
+to tau/tau_g = 0.75. All curves here retain their original frame-0 baseline.
+
+5E. Post-washout model acircularity change for the washout simulation and the
+z = 0.001 reference. Both time and acircularity are reset at saved frame 75:
+Delta tau = tau - tau_75 and Delta chi = chi - chi_75. The plotted samples cover
+relative times 0 to 0.74; the displayed x-axis extends to 0.75.
+
+SPEARMAN TREND ADDITION, 2026-10-18
+Figure 4E/F/G: Spearman permutation trends
+
+Two-sided absolute-rho permutation tests; one independent simulation (E) or gland (F/G) per observation.
+Holm correction across the three planned trend tests, separately from all pairwise comparison families.
+
+Fig4E: n=18; rho=-0.938567; raw P=2e-06; Holm P=3e-06; 999999 permutations, 1 equally/more extreme; seed=20261018.
+Fig4F: n=110; rho=-0.710800; raw P=1e-06; Holm P=3e-06; 999999 permutations, 0 equally/more extreme; seed=20261018.
+Fig4G: n=49; rho=0.886048; raw P=1e-06; Holm P=3e-06; 999999 permutations, 0 equally/more extreme; seed=20261018.
+
+These trend tests assess monotonic association across all thicknesses/doses; they do not identify which individual groups differ from baseline.
+
+Dunnett was selected for pairwise 4E/F/G comparisons on 18 October 2026.
+It assumes independent observations and approximately normal within-group errors
+with a common variance. Trend tests retain their separate three-test Holm family.
+
+5C. Bud-count ratio during BB-94 treatment (day 1/day 0) and after washout
+(day 2/day 1). Points represent glands (n = 21 per treatment); marks show mean
+and sample SD. Two-sided Welch t-tests compare control with BB-94 separately
+for each interval, with Holm correction across these two comparisons.
+Adjusted P = 8.419643671e-10 and 8.986676007e-10; both annotated ****.
+Treatment groups are independent; the same glands are followed across days.

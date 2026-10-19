@@ -1,7 +1,8 @@
 Creative Commons Attribution 4.0 International (CC BY 4.0)
 
 The source data and results in the source_data/ and results/ directories under
-Fig4-BB94-titration/ and Fig5-washout/, the test_data/ directories in
+Fig4-BB94-titration/, Fig5-washout/, mesh-morphometry/ and model-morphometry/,
+the model-morphometry/ModelData/ inputs, the test_data/ directories in
 3D-RCAN-training/ and cellpose-SAM-training/ (including crop metadata), and the
 data manifests and validation/ records are licensed under the Creative Commons
 Attribution 4.0 International License (CC BY 4.0).

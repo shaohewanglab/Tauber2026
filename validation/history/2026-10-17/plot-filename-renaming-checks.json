@@ -1,0 +1,187 @@
+{
+  "status": "passed",
+  "filename_stem_changes": {
+    "Fig2-area_volume_evolution_control_cleanmesh_plus": "Fig2C-area_volume_evolution_control_cleanmesh_plus",
+    "Fig4-asphericitychange_evolution_BB94_cleanmesh_plus": "Fig4B-asphericitychange_evolution_BB94_cleanmesh_plus",
+    "Fig5-asphericitychange_evolution_washout_cleanmesh_plus": "Fig5F-asphericitychange_evolution_washout_cleanmesh_plus",
+    "combined-washout-log2-ratios": "Fig5C-washout-log2-ratios",
+    "Fig4-bud-count-titration": "Fig4F-bud-count-titration",
+    "Fig4-collagen-IV-intensity-titration": "Fig4G-collagen-IV-intensity-titration",
+    "acircularity-review": "Fig4A-5DE-acircularity-review",
+    "compact-titration-review": "Fig4EFG-titration-review",
+    "figure4AB-review": "Fig4AB-review",
+    "Fig4-color-style-comparison": "Fig4EFG-color-style-comparison"
+  },
+  "file_renames": {
+    "BB-94-titration/results/bud-count/Fig4-bud-count-titration-comparisons.csv": "BB-94-titration/results/bud-count/Fig4F-bud-count-titration-comparisons.csv",
+    "BB-94-titration/results/bud-count/Fig4-bud-count-titration-glands.csv": "BB-94-titration/results/bud-count/Fig4F-bud-count-titration-glands.csv",
+    "BB-94-titration/results/bud-count/Fig4-bud-count-titration-run.json": "BB-94-titration/results/bud-count/Fig4F-bud-count-titration-run.json",
+    "BB-94-titration/results/bud-count/Fig4-bud-count-titration-statistics.html": "BB-94-titration/results/bud-count/Fig4F-bud-count-titration-statistics.html",
+    "BB-94-titration/results/bud-count/Fig4-bud-count-titration-statistics.txt": "BB-94-titration/results/bud-count/Fig4F-bud-count-titration-statistics.txt",
+    "BB-94-titration/results/bud-count/Fig4-bud-count-titration-summary.csv": "BB-94-titration/results/bud-count/Fig4F-bud-count-titration-summary.csv",
+    "BB-94-titration/results/bud-count/Fig4-bud-count-titration-versus-control.csv": "BB-94-titration/results/bud-count/Fig4F-bud-count-titration-versus-control.csv",
+    "BB-94-titration/results/collagen-IV/Fig4-collagen-IV-intensity-titration-comparisons.csv": "BB-94-titration/results/collagen-IV/Fig4G-collagen-IV-intensity-titration-comparisons.csv",
+    "BB-94-titration/results/collagen-IV/Fig4-collagen-IV-intensity-titration-glands.csv": "BB-94-titration/results/collagen-IV/Fig4G-collagen-IV-intensity-titration-glands.csv",
+    "BB-94-titration/results/collagen-IV/Fig4-collagen-IV-intensity-titration-run.json": "BB-94-titration/results/collagen-IV/Fig4G-collagen-IV-intensity-titration-run.json",
+    "BB-94-titration/results/collagen-IV/Fig4-collagen-IV-intensity-titration-statistics.html": "BB-94-titration/results/collagen-IV/Fig4G-collagen-IV-intensity-titration-statistics.html",
+    "BB-94-titration/results/collagen-IV/Fig4-collagen-IV-intensity-titration-statistics.txt": "BB-94-titration/results/collagen-IV/Fig4G-collagen-IV-intensity-titration-statistics.txt",
+    "BB-94-titration/results/collagen-IV/Fig4-collagen-IV-intensity-titration-summary.csv": "BB-94-titration/results/collagen-IV/Fig4G-collagen-IV-intensity-titration-summary.csv",
+    "BB-94-titration/results/collagen-IV/Fig4-collagen-IV-intensity-titration-versus-control.csv": "BB-94-titration/results/collagen-IV/Fig4G-collagen-IV-intensity-titration-versus-control.csv",
+    "BB-94-washout/results/combined/combined-washout-log2-ratios-by-dataset.csv": "BB-94-washout/results/combined/Fig5C-washout-log2-ratios-by-dataset.csv",
+    "BB-94-washout/results/combined/combined-washout-log2-ratios-data.csv": "BB-94-washout/results/combined/Fig5C-washout-log2-ratios-data.csv",
+    "BB-94-washout/results/combined/combined-washout-log2-ratios-summary.csv": "BB-94-washout/results/combined/Fig5C-washout-log2-ratios-summary.csv",
+    "BB-94-washout/results/combined/combined-washout-log2-ratios-symbols-stars-no-legend-record.json": "BB-94-washout/results/combined/Fig5C-washout-log2-ratios-symbols-stars-no-legend-record.json",
+    "BB-94-washout/results/combined/combined-washout-log2-ratios-symbols-stars-no-legend-statistics.csv": "BB-94-washout/results/combined/Fig5C-washout-log2-ratios-symbols-stars-no-legend-statistics.csv",
+    "BB-94-washout/results/combined/combined-washout-log2-ratios-symbols-stars-no-legend-statistics.txt": "BB-94-washout/results/combined/Fig5C-washout-log2-ratios-symbols-stars-no-legend-statistics.txt",
+    "BB-94-washout/results/combined/combined-washout-log2-ratios-symbols-stars-no-legend.pdf": "BB-94-washout/results/combined/Fig5C-washout-log2-ratios-symbols-stars-no-legend.pdf",
+    "BB-94-washout/results/combined/combined-washout-log2-ratios-symbols-stars-no-legend.png": "BB-94-washout/results/combined/Fig5C-washout-log2-ratios-symbols-stars-no-legend.png",
+    "BB-94-washout/results/combined/combined-washout-log2-ratios-symbols-stars-no-legend.svg": "BB-94-washout/results/combined/Fig5C-washout-log2-ratios-symbols-stars-no-legend.svg",
+    "BB-94-washout/results/combined/combined-washout-log2-ratios-uniform-stars-record.json": "BB-94-washout/results/combined/Fig5C-washout-log2-ratios-uniform-stars-record.json",
+    "BB-94-washout/results/combined/combined-washout-log2-ratios-uniform-stars-statistics.csv": "BB-94-washout/results/combined/Fig5C-washout-log2-ratios-uniform-stars-statistics.csv",
+    "BB-94-washout/results/combined/combined-washout-log2-ratios-uniform-stars-statistics.txt": "BB-94-washout/results/combined/Fig5C-washout-log2-ratios-uniform-stars-statistics.txt",
+    "BB-94-washout/results/combined/combined-washout-log2-ratios-uniform-stars.pdf": "BB-94-washout/results/combined/Fig5C-washout-log2-ratios-uniform-stars.pdf",
+    "BB-94-washout/results/combined/combined-washout-log2-ratios-uniform-stars.png": "BB-94-washout/results/combined/Fig5C-washout-log2-ratios-uniform-stars.png",
+    "BB-94-washout/results/combined/combined-washout-log2-ratios-uniform-stars.svg": "BB-94-washout/results/combined/Fig5C-washout-log2-ratios-uniform-stars.svg",
+    "mesh-morphometry/results/Fig2-area_volume_evolution_control_cleanmesh_plus-summary.csv": "mesh-morphometry/results/Fig2C-area_volume_evolution_control_cleanmesh_plus-summary.csv",
+    "mesh-morphometry/results/Fig2-area_volume_evolution_control_cleanmesh_plus.pdf": "mesh-morphometry/results/Fig2C-area_volume_evolution_control_cleanmesh_plus.pdf",
+    "mesh-morphometry/results/Fig2-area_volume_evolution_control_cleanmesh_plus.png": "mesh-morphometry/results/Fig2C-area_volume_evolution_control_cleanmesh_plus.png",
+    "mesh-morphometry/results/Fig2-area_volume_evolution_control_cleanmesh_plus.svg": "mesh-morphometry/results/Fig2C-area_volume_evolution_control_cleanmesh_plus.svg",
+    "mesh-morphometry/results/Fig4-asphericitychange_evolution_BB94_cleanmesh_plus-summary.csv": "mesh-morphometry/results/Fig4B-asphericitychange_evolution_BB94_cleanmesh_plus-summary.csv",
+    "mesh-morphometry/results/Fig4-asphericitychange_evolution_BB94_cleanmesh_plus-tol-bright-summary.csv": "mesh-morphometry/results/Fig4B-asphericitychange_evolution_BB94_cleanmesh_plus-tol-bright-summary.csv",
+    "mesh-morphometry/results/Fig4-asphericitychange_evolution_BB94_cleanmesh_plus-tol-bright.pdf": "mesh-morphometry/results/Fig4B-asphericitychange_evolution_BB94_cleanmesh_plus-tol-bright.pdf",
+    "mesh-morphometry/results/Fig4-asphericitychange_evolution_BB94_cleanmesh_plus-tol-bright.png": "mesh-morphometry/results/Fig4B-asphericitychange_evolution_BB94_cleanmesh_plus-tol-bright.png",
+    "mesh-morphometry/results/Fig4-asphericitychange_evolution_BB94_cleanmesh_plus-tol-bright.svg": "mesh-morphometry/results/Fig4B-asphericitychange_evolution_BB94_cleanmesh_plus-tol-bright.svg",
+    "mesh-morphometry/results/Fig4-asphericitychange_evolution_BB94_cleanmesh_plus.pdf": "mesh-morphometry/results/Fig4B-asphericitychange_evolution_BB94_cleanmesh_plus.pdf",
+    "mesh-morphometry/results/Fig4-asphericitychange_evolution_BB94_cleanmesh_plus.png": "mesh-morphometry/results/Fig4B-asphericitychange_evolution_BB94_cleanmesh_plus.png",
+    "mesh-morphometry/results/Fig4-asphericitychange_evolution_BB94_cleanmesh_plus.svg": "mesh-morphometry/results/Fig4B-asphericitychange_evolution_BB94_cleanmesh_plus.svg",
+    "mesh-morphometry/results/Fig5-asphericitychange_evolution_washout_cleanmesh_plus-summary.csv": "mesh-morphometry/results/Fig5F-asphericitychange_evolution_washout_cleanmesh_plus-summary.csv",
+    "mesh-morphometry/results/Fig5-asphericitychange_evolution_washout_cleanmesh_plus.pdf": "mesh-morphometry/results/Fig5F-asphericitychange_evolution_washout_cleanmesh_plus.pdf",
+    "mesh-morphometry/results/Fig5-asphericitychange_evolution_washout_cleanmesh_plus.png": "mesh-morphometry/results/Fig5F-asphericitychange_evolution_washout_cleanmesh_plus.png",
+    "mesh-morphometry/results/Fig5-asphericitychange_evolution_washout_cleanmesh_plus.svg": "mesh-morphometry/results/Fig5F-asphericitychange_evolution_washout_cleanmesh_plus.svg",
+    "validation/Fig4-color-style-comparison.png": "validation/Fig4EFG-color-style-comparison.png",
+    "validation/review/acircularity-review.pdf": "validation/review/Fig4A-5DE-acircularity-review.pdf",
+    "validation/review/acircularity-review.png": "validation/review/Fig4A-5DE-acircularity-review.png",
+    "validation/review/compact-titration-review.pdf": "validation/review/Fig4EFG-titration-review.pdf",
+    "validation/review/compact-titration-review.png": "validation/review/Fig4EFG-titration-review.png",
+    "validation/review/figure4AB-review.pdf": "validation/review/Fig4AB-review.pdf",
+    "validation/review/figure4AB-review.png": "validation/review/Fig4AB-review.png"
+  },
+  "updated_text_files": [
+    "BB-94-titration/plotting_scripts/titration_analysis.py",
+    "BB-94-titration/results/combined/Fig4FG-BB94-titration-run.json",
+    "BB-94-washout/README.txt",
+    "BB-94-washout/plotting_scripts/plot_combined_log2_ratios_symbols_no_legend.py",
+    "BB-94-washout/plotting_scripts/plot_combined_log2_ratios_uniform.py",
+    "README.md",
+    "make_review_sheets.py",
+    "mesh-morphometry/README.md",
+    "mesh-morphometry/reproduce_mesh_plots.py",
+    "model-morphometry/verify_model_plots.py",
+    "reproduce_combined_titration.py",
+    "validation/expected-results.json",
+    "validation/figure-dimension-checks.json",
+    "validation/figure4B-curve-style-checks.json",
+    "validation/figure5C-style-checks.json",
+    "validation/outline-layout-checks.json",
+    "validation/relocation-checks.json",
+    "validation/style-font-audit.json",
+    "validation/vector-outline-checks.json",
+    "verify_reproduction.py"
+  ],
+  "source_provenance_names_retained": true,
+  "training_folders_unchanged": true,
+  "changes_committed": false,
+  "plot_and_review_images_byte_identical": 56,
+  "numerical_csvs_byte_identical": 33,
+  "training_files_byte_identical": 25,
+  "accepted_numerical_fixture_records_unchanged": true,
+  "readme_local_links_verified": true,
+  "obsolete_export_names_absent": true,
+  "clean_reproduction_plot_checks": {
+    "BB-94-titration/results/combined/Fig4FG-BB94-titration-collaborator-rainbow.pdf": {
+      "status": "passed",
+      "rgb_pixels_identical": true,
+      "plot_id_prefix_verified": true
+    },
+    "BB-94-titration/results/combined/Fig4FG-BB94-titration-tol-bright.pdf": {
+      "status": "passed",
+      "rgb_pixels_identical": true,
+      "plot_id_prefix_verified": true
+    },
+    "BB-94-titration/results/combined/Fig4FG-BB94-titration.pdf": {
+      "status": "passed",
+      "rgb_pixels_identical": true,
+      "plot_id_prefix_verified": true
+    },
+    "BB-94-washout/results/combined/Fig5C-washout-log2-ratios-symbols-stars-no-legend.pdf": {
+      "status": "passed",
+      "rgb_pixels_identical": true,
+      "plot_id_prefix_verified": true
+    },
+    "BB-94-washout/results/combined/Fig5C-washout-log2-ratios-uniform-stars.pdf": {
+      "status": "passed",
+      "rgb_pixels_identical": true,
+      "plot_id_prefix_verified": true
+    },
+    "mesh-morphometry/results/Fig2C-area_volume_evolution_control_cleanmesh_plus.pdf": {
+      "status": "passed",
+      "rgb_pixels_identical": true,
+      "plot_id_prefix_verified": true
+    },
+    "mesh-morphometry/results/Fig4B-asphericitychange_evolution_BB94_cleanmesh_plus-tol-bright.pdf": {
+      "status": "passed",
+      "rgb_pixels_identical": true,
+      "plot_id_prefix_verified": true
+    },
+    "mesh-morphometry/results/Fig4B-asphericitychange_evolution_BB94_cleanmesh_plus.pdf": {
+      "status": "passed",
+      "rgb_pixels_identical": true,
+      "plot_id_prefix_verified": true
+    },
+    "mesh-morphometry/results/Fig5F-asphericitychange_evolution_washout_cleanmesh_plus.pdf": {
+      "status": "passed",
+      "rgb_pixels_identical": true,
+      "plot_id_prefix_verified": true
+    },
+    "model-morphometry/results/Fig4A-acircularity-varying-thickness-tol-bright.pdf": {
+      "status": "passed",
+      "rgb_pixels_identical": true,
+      "plot_id_prefix_verified": true
+    },
+    "model-morphometry/results/Fig4A-acircularity-varying-thickness.pdf": {
+      "status": "passed",
+      "rgb_pixels_identical": true,
+      "plot_id_prefix_verified": true
+    },
+    "model-morphometry/results/Fig4E-model-bud-count-collaborator-rainbow.pdf": {
+      "status": "passed",
+      "rgb_pixels_identical": true,
+      "plot_id_prefix_verified": true
+    },
+    "model-morphometry/results/Fig4E-model-bud-count-tol-bright.pdf": {
+      "status": "passed",
+      "rgb_pixels_identical": true,
+      "plot_id_prefix_verified": true
+    },
+    "model-morphometry/results/Fig4E-model-bud-count.pdf": {
+      "status": "passed",
+      "rgb_pixels_identical": true,
+      "plot_id_prefix_verified": true
+    },
+    "model-morphometry/results/Fig5D-acircularity-full-washout.pdf": {
+      "status": "passed",
+      "rgb_pixels_identical": true,
+      "plot_id_prefix_verified": true
+    },
+    "model-morphometry/results/Fig5E-acircularity-post-washout.pdf": {
+      "status": "passed",
+      "rgb_pixels_identical": true,
+      "plot_id_prefix_verified": true
+    }
+  },
+  "clean_reproduction_from_no_results": "passed",
+  "clean_numerical_csvs_byte_identical": 33,
+  "review_sheet_previews_pixel_identical": 3,
+  "pdf_svg_png_plot_sets_verified": 16,
+  "outlined_review_pdfs_verified": 3
+}

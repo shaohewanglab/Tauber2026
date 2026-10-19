@@ -1,90 +1,90 @@
 [
   {
-    "path": "Fig4-BB94-titration/source_data/2024-11-12-to-14-BB-94-titration-phase-contrast/2024-11-12-BB-94-titration-day0-1749059185-fileNameRecord.txt",
+    "path": "BB-94-titration/source_data/2024-11-12-to-14-BB-94-titration-phase-contrast/2024-11-12-BB-94-titration-day0-1749059185-fileNameRecord.txt",
     "original_project_path": "Fig4-BB94-titration/2024-11-12-to-14-BB-94-titration-phase-contrast/2024-11-12-BB-94-titration-day0-1749059185-fileNameRecord.txt",
     "sha256": "df8b2cdfd14174015d34707465f3b990e76f0ba59425b52c9919944d57675c16",
     "bytes": 2090
   },
   {
-    "path": "Fig4-BB94-titration/source_data/2024-11-12-to-14-BB-94-titration-phase-contrast/2024-11-12-BB-94-titration-day0-1749059185-renamed-5274-budCount.txt",
+    "path": "BB-94-titration/source_data/2024-11-12-to-14-BB-94-titration-phase-contrast/2024-11-12-BB-94-titration-day0-1749059185-renamed-5274-budCount.txt",
     "original_project_path": "Fig4-BB94-titration/2024-11-12-to-14-BB-94-titration-phase-contrast/2024-11-12-BB-94-titration-day0-1749059185-renamed-5274-budCount.txt",
     "sha256": "5db3cab75a6fbfba1a91ed53101df149236d922a5cd3f7b6a30f98eb90227f86",
     "bytes": 1423
   },
   {
-    "path": "Fig4-BB94-titration/source_data/2024-11-12-to-14-BB-94-titration-phase-contrast/2024-11-13-BB-94-titration-day1-1749059230-fileNameRecord.txt",
+    "path": "BB-94-titration/source_data/2024-11-12-to-14-BB-94-titration-phase-contrast/2024-11-13-BB-94-titration-day1-1749059230-fileNameRecord.txt",
     "original_project_path": "Fig4-BB94-titration/2024-11-12-to-14-BB-94-titration-phase-contrast/2024-11-13-BB-94-titration-day1-1749059230-fileNameRecord.txt",
     "sha256": "c3eaa37ba82f3811e05c9f8d63565d426591c5c62d8267bc630822f8e0ea026d",
     "bytes": 2146
   },
   {
-    "path": "Fig4-BB94-titration/source_data/2024-11-12-to-14-BB-94-titration-phase-contrast/2024-11-13-BB-94-titration-day1-1749059230-renamed-5566-budCount.txt",
+    "path": "BB-94-titration/source_data/2024-11-12-to-14-BB-94-titration-phase-contrast/2024-11-13-BB-94-titration-day1-1749059230-renamed-5566-budCount.txt",
     "original_project_path": "Fig4-BB94-titration/2024-11-12-to-14-BB-94-titration-phase-contrast/2024-11-13-BB-94-titration-day1-1749059230-renamed-5566-budCount.txt",
     "sha256": "535ea079cbc5b34cd760753320a8c988a3b1199ef08031d86504791795664101",
     "bytes": 1445
   },
   {
-    "path": "Fig4-BB94-titration/source_data/2025-02-19-WT-BB94-ECHO/G01-07_BB94-1742672854-fileNameRecord.txt",
+    "path": "BB-94-titration/source_data/2025-02-19-WT-BB94-ECHO/G01-07_BB94-1742672854-fileNameRecord.txt",
     "original_project_path": "Fig4-BB94-titration/2025-02-19-WT-BB94-ECHO/G01-07_BB94-1742672854-fileNameRecord.txt",
     "sha256": "2eab24501e4dd85f46ee1623b997bd64992f2cbee2892a9ab98b8fe40bf87885",
     "bytes": 5821
   },
   {
-    "path": "Fig4-BB94-titration/source_data/2025-02-19-WT-BB94-ECHO/G01-07_BB94-1742672854-7013-budCount.txt",
+    "path": "BB-94-titration/source_data/2025-02-19-WT-BB94-ECHO/G01-07_BB94-1742672854-7013-budCount.txt",
     "original_project_path": "Fig4-BB94-titration/2025-02-19-WT-BB94-ECHO/G01-07_BB94-1742672854-7013-budCount.txt",
     "sha256": "6c546ff697a6b2a344ef9d70783dc444075faab24210e52ad29a9556124253c4",
     "bytes": 3964
   },
   {
-    "path": "Fig4-BB94-titration/source_data/2025-02-19-WT-BB94-ECHO/G11-17_BB94-washout-1742673250-fileNameRecord.txt",
+    "path": "BB-94-titration/source_data/2025-02-19-WT-BB94-ECHO/G11-17_BB94-washout-1742673250-fileNameRecord.txt",
     "original_project_path": "Fig4-BB94-titration/2025-02-19-WT-BB94-ECHO/G11-17_BB94-washout-1742673250-fileNameRecord.txt",
     "sha256": "75852e6c6fe3f551017468ac2c4c88bc31f204a5b67c165a179b202a27966380",
     "bytes": 4995
   },
   {
-    "path": "Fig4-BB94-titration/source_data/2025-02-19-WT-BB94-ECHO/G11-17_BB94-washout-1742673250-9119-budCount.txt",
+    "path": "BB-94-titration/source_data/2025-02-19-WT-BB94-ECHO/G11-17_BB94-washout-1742673250-9119-budCount.txt",
     "original_project_path": "Fig4-BB94-titration/2025-02-19-WT-BB94-ECHO/G11-17_BB94-washout-1742673250-9119-budCount.txt",
     "sha256": "2eff0c8ae3a41c39767c794f3f8696e77cf81348f16ca898952951a8ee92772c",
     "bytes": 3453
   },
   {
-    "path": "Fig4-BB94-titration/source_data/20250307-SMG-BB94-Col-Ecad-Lam/20250307-G1-SMG-DAPI-Col-Ecad-Lam-DMSO-001-coordinates-output/20250307-G1-SMG-DAPI-Col-Ecad-Lam-DMSO-001_c2-linescan-summary-lw3-ss1.csv",
+    "path": "BB-94-titration/source_data/20250307-SMG-BB94-Col-Ecad-Lam/20250307-G1-SMG-DAPI-Col-Ecad-Lam-DMSO-001-coordinates-output/20250307-G1-SMG-DAPI-Col-Ecad-Lam-DMSO-001_c2-linescan-summary-lw3-ss1.csv",
     "original_project_path": "Fig4-BB94-titration/20250307-SMG-BB94-Col-Ecad-Lam/20250307-G1-SMG-DAPI-Col-Ecad-Lam-DMSO-001-coordinates-output/20250307-G1-SMG-DAPI-Col-Ecad-Lam-DMSO-001_c2-linescan-summary-lw3-ss1.csv",
     "sha256": "891b7995091f2e76d7857aa4cc7226d08228ff7c67beff95a7a6385eb425c886",
     "bytes": 5159
   },
   {
-    "path": "Fig4-BB94-titration/source_data/20250307-SMG-BB94-Col-Ecad-Lam/20250307-G2-SMG-DAPI-Col-Ecad-Lam-BB94-5uM-001-coordinates-output/20250307-G2-SMG-DAPI-Col-Ecad-Lam-BB94-5uM-001_c2-linescan-summary-lw3-ss1.csv",
+    "path": "BB-94-titration/source_data/20250307-SMG-BB94-Col-Ecad-Lam/20250307-G2-SMG-DAPI-Col-Ecad-Lam-BB94-5uM-001-coordinates-output/20250307-G2-SMG-DAPI-Col-Ecad-Lam-BB94-5uM-001_c2-linescan-summary-lw3-ss1.csv",
     "original_project_path": "Fig4-BB94-titration/20250307-SMG-BB94-Col-Ecad-Lam/20250307-G2-SMG-DAPI-Col-Ecad-Lam-BB94-5uM-001-coordinates-output/20250307-G2-SMG-DAPI-Col-Ecad-Lam-BB94-5uM-001_c2-linescan-summary-lw3-ss1.csv",
     "sha256": "5c6399795824f4b4c78a973b79405251ead62d659a7220b3c097fe5d42e04018",
     "bytes": 4904
   },
   {
-    "path": "Fig4-BB94-titration/source_data/20250307-SMG-BB94-Col-Ecad-Lam/20250307-G3-SMG-DAPI-Col-Ecad-Lam-BB94-2-5uM-001-coordinates-output/20250307-G3-SMG-DAPI-Col-Ecad-Lam-BB94-2-5uM-001_c2-linescan-summary-lw3-ss1.csv",
+    "path": "BB-94-titration/source_data/20250307-SMG-BB94-Col-Ecad-Lam/20250307-G3-SMG-DAPI-Col-Ecad-Lam-BB94-2-5uM-001-coordinates-output/20250307-G3-SMG-DAPI-Col-Ecad-Lam-BB94-2-5uM-001_c2-linescan-summary-lw3-ss1.csv",
     "original_project_path": "Fig4-BB94-titration/20250307-SMG-BB94-Col-Ecad-Lam/20250307-G3-SMG-DAPI-Col-Ecad-Lam-BB94-2-5uM-001-coordinates-output/20250307-G3-SMG-DAPI-Col-Ecad-Lam-BB94-2-5uM-001_c2-linescan-summary-lw3-ss1.csv",
     "sha256": "a3eb1815d87dbbf3c85cf82c9c1f7b04d323e4bbc210cccc0454eada4cac5947",
     "bytes": 4944
   },
   {
-    "path": "Fig4-BB94-titration/source_data/20250307-SMG-BB94-Col-Ecad-Lam/20250307-G4-SMG-DAPI-Col-Ecad-Lam-BB94-1-25uM-001-coordinates-output/20250307-G4-SMG-DAPI-Col-Ecad-Lam-BB94-1-25uM-001_c2-linescan-summary-lw3-ss1.csv",
+    "path": "BB-94-titration/source_data/20250307-SMG-BB94-Col-Ecad-Lam/20250307-G4-SMG-DAPI-Col-Ecad-Lam-BB94-1-25uM-001-coordinates-output/20250307-G4-SMG-DAPI-Col-Ecad-Lam-BB94-1-25uM-001_c2-linescan-summary-lw3-ss1.csv",
     "original_project_path": "Fig4-BB94-titration/20250307-SMG-BB94-Col-Ecad-Lam/20250307-G4-SMG-DAPI-Col-Ecad-Lam-BB94-1-25uM-001-coordinates-output/20250307-G4-SMG-DAPI-Col-Ecad-Lam-BB94-1-25uM-001_c2-linescan-summary-lw3-ss1.csv",
     "sha256": "a09107ce0b18071425075e5e42e9d876c73466ac3b78426abc71fb7efbdc4f61",
     "bytes": 5141
   },
   {
-    "path": "Fig4-BB94-titration/source_data/20250307-SMG-BB94-Col-Ecad-Lam/20250307-G5-SMG-DAPI-Col-Ecad-Lam-BB94-0-5uM-001-coordinates-output/20250307-G5-SMG-DAPI-Col-Ecad-Lam-BB94-0-5uM-001_c2-linescan-summary-lw3-ss1.csv",
+    "path": "BB-94-titration/source_data/20250307-SMG-BB94-Col-Ecad-Lam/20250307-G5-SMG-DAPI-Col-Ecad-Lam-BB94-0-5uM-001-coordinates-output/20250307-G5-SMG-DAPI-Col-Ecad-Lam-BB94-0-5uM-001_c2-linescan-summary-lw3-ss1.csv",
     "original_project_path": "Fig4-BB94-titration/20250307-SMG-BB94-Col-Ecad-Lam/20250307-G5-SMG-DAPI-Col-Ecad-Lam-BB94-0-5uM-001-coordinates-output/20250307-G5-SMG-DAPI-Col-Ecad-Lam-BB94-0-5uM-001_c2-linescan-summary-lw3-ss1.csv",
     "sha256": "92a811035d5d5c3e0b85001202c908583269204d3a47855202c24bc285cf6864",
     "bytes": 4903
   },
   {
-    "path": "Fig4-BB94-titration/source_data/20250307-SMG-BB94-Col-Ecad-Lam/20250307-G6-SMG-DAPI-Col-Ecad-Lam-BB94-50nM-001-coordinates-output/20250307-G6-SMG-DAPI-Col-Ecad-Lam-BB94-50nM-001_c2-linescan-summary-lw3-ss1.csv",
+    "path": "BB-94-titration/source_data/20250307-SMG-BB94-Col-Ecad-Lam/20250307-G6-SMG-DAPI-Col-Ecad-Lam-BB94-50nM-001-coordinates-output/20250307-G6-SMG-DAPI-Col-Ecad-Lam-BB94-50nM-001_c2-linescan-summary-lw3-ss1.csv",
     "original_project_path": "Fig4-BB94-titration/20250307-SMG-BB94-Col-Ecad-Lam/20250307-G6-SMG-DAPI-Col-Ecad-Lam-BB94-50nM-001-coordinates-output/20250307-G6-SMG-DAPI-Col-Ecad-Lam-BB94-50nM-001_c2-linescan-summary-lw3-ss1.csv",
     "sha256": "920fdfb1286c19d037d177d1159be54fc69c4ed0cb849d3063f151412ee9fa72",
     "bytes": 5088
   },
   {
-    "path": "Fig4-BB94-titration/source_data/20250307-SMG-BB94-Col-Ecad-Lam/20250307-G7-SMG-DAPI-Col-Ecad-Lam-BB94-5nM-001-coordinates-output/20250307-G7-SMG-DAPI-Col-Ecad-Lam-BB94-5nM-001_c2-linescan-summary-lw3-ss1.csv",
+    "path": "BB-94-titration/source_data/20250307-SMG-BB94-Col-Ecad-Lam/20250307-G7-SMG-DAPI-Col-Ecad-Lam-BB94-5nM-001-coordinates-output/20250307-G7-SMG-DAPI-Col-Ecad-Lam-BB94-5nM-001_c2-linescan-summary-lw3-ss1.csv",
     "original_project_path": "Fig4-BB94-titration/20250307-SMG-BB94-Col-Ecad-Lam/20250307-G7-SMG-DAPI-Col-Ecad-Lam-BB94-5nM-001-coordinates-output/20250307-G7-SMG-DAPI-Col-Ecad-Lam-BB94-5nM-001_c2-linescan-summary-lw3-ss1.csv",
     "sha256": "f9e994f1e0c573d5e454c59b9cc7d458c21d7fd130851a7101a3cd4ea794f972",
     "bytes": 5138

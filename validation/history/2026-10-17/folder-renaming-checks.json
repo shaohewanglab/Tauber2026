@@ -1,0 +1,16 @@
+{
+  "status": "passed",
+  "folder_renames": {
+    "Fig4-BB94-titration": "BB-94-titration",
+    "Fig5-washout": "BB-94-washout"
+  },
+  "training_files_byte_identical": 25,
+  "source_data_files_byte_identical": 56,
+  "historical_original_project_path_fields_preserved": true,
+  "accepted_numerical_fixtures_preserved": true,
+  "current_plot_lookup_entries": 11,
+  "FigS1D": "Existing notebook referenced with saved-mask re-entry instructions; training files unchanged",
+  "clean_reproduction_plots_verified": 16,
+  "git_head_unchanged": "d215482fe87078e1571a3ea8755013e43287ba20",
+  "changes_committed": false
+}

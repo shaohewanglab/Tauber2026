@@ -1,0 +1,10 @@
+Figure 4E/F/G: Spearman permutation trends
+
+Two-sided absolute-rho permutation tests; one independent simulation (E) or gland (F/G) per observation.
+Holm correction across the three planned trend tests, separately from all pairwise comparison families.
+
+Fig4E: n=18; rho=-0.938567; raw P=2e-06; Holm P=3e-06; 999999 permutations, 1 equally/more extreme; seed=20261018.
+Fig4F: n=110; rho=-0.710800; raw P=1e-06; Holm P=3e-06; 999999 permutations, 0 equally/more extreme; seed=20261018.
+Fig4G: n=49; rho=0.886048; raw P=1e-06; Holm P=3e-06; 999999 permutations, 0 equally/more extreme; seed=20261018.
+
+These trend tests assess monotonic association across all thicknesses/doses; they do not identify which individual groups differ from baseline.

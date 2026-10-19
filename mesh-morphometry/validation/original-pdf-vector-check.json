@@ -1,0 +1,23 @@
+{
+  "2": {
+    "data_paths_verified": 18,
+    "max_coordinate_difference_points": 0.0022659999999916636,
+    "coordinate_tolerance_points": 0.0041,
+    "max_rgb_channel_difference": 4.510000000124137e-07,
+    "rgb_channel_tolerance": 0.00392156862745098
+  },
+  "4": {
+    "data_paths_verified": 26,
+    "max_coordinate_difference_points": 0.0023780000000073187,
+    "coordinate_tolerance_points": 0.0041,
+    "max_rgb_channel_difference": 0.001960784300000018,
+    "rgb_channel_tolerance": 0.00392156862745098
+  },
+  "5": {
+    "data_paths_verified": 19,
+    "max_coordinate_difference_points": 0.0023419999999916286,
+    "coordinate_tolerance_points": 0.0041,
+    "max_rgb_channel_difference": 3.332999999883235e-07,
+    "rgb_channel_tolerance": 0.00392156862745098
+  }
+}

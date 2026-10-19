@@ -1,0 +1,7 @@
+# Preserve supplied source bytes, including original line endings, so the
+# provenance SHA-256 checks also pass after a fresh Git checkout.
+BB-94-titration/source_data/** -text
+BB-94-washout/source_data/** -text
+mesh-morphometry/source_data/** -text
+model-morphometry/ModelData/** -text
+model-morphometry/original_scripts/** -text

@@ -1,0 +1,350 @@
+{
+  "mesh-morphometry/results/Fig2C-area_volume_evolution_control_cleanmesh_plus.pdf": {
+    "status": "passed",
+    "pdf_full_inches": [
+      3.16,
+      1.26
+    ],
+    "svg_full_inches": [
+      3.1600035972222225,
+      1.2599944583333333
+    ],
+    "plotting_frames_inches": [
+      [
+        2.72932875,
+        0.9600190277777778
+      ]
+    ],
+    "font_families": [],
+    "relocated_rgb_pixels_identical": true,
+    "export_text": "Vector outlines",
+    "plotting_frames_verified": "All pre-outline SVG frame/data paths preserved exactly"
+  },
+  "mesh-morphometry/results/Fig4B-asphericitychange_evolution_BB94_cleanmesh_plus-tol-bright.pdf": {
+    "status": "passed",
+    "pdf_full_inches": [
+      1.9500000000000002,
+      0.9600000000000001
+    ],
+    "svg_full_inches": [
+      1.9499968194444444,
+      0.9600066388888889
+    ],
+    "plotting_frames_inches": [
+      [
+        1.6066361111111114,
+        0.6831430555555555
+      ]
+    ],
+    "font_families": [],
+    "relocated_rgb_pixels_identical": true,
+    "export_text": "Vector outlines",
+    "plotting_frames_verified": "Exported PDF spine coordinates measured; 4A/4B horizontal endpoints exactly equal in PDF and SVG"
+  },
+  "mesh-morphometry/results/Fig4B-asphericitychange_evolution_BB94_cleanmesh_plus.pdf": {
+    "status": "passed",
+    "pdf_full_inches": [
+      1.9500000000000002,
+      0.9600000000000001
+    ],
+    "svg_full_inches": [
+      1.9499968194444444,
+      0.9600066388888889
+    ],
+    "plotting_frames_inches": [
+      [
+        1.6066361111111114,
+        0.6831430555555555
+      ]
+    ],
+    "font_families": [],
+    "relocated_rgb_pixels_identical": true,
+    "export_text": "Vector outlines",
+    "plotting_frames_verified": "Exported PDF spine coordinates measured; 4A/4B horizontal endpoints exactly equal in PDF and SVG"
+  },
+  "mesh-morphometry/results/Fig5F-asphericitychange_evolution_washout_cleanmesh_plus.pdf": {
+    "status": "passed",
+    "pdf_full_inches": [
+      3.36,
+      1.24
+    ],
+    "svg_full_inches": [
+      3.3600005555555557,
+      1.2400054027777778
+    ],
+    "plotting_frames_inches": [
+      [
+        3.0166555555555554,
+        0.933223888888889
+      ]
+    ],
+    "font_families": [],
+    "relocated_rgb_pixels_identical": true,
+    "export_text": "Vector outlines",
+    "plotting_frames_verified": "All pre-outline SVG frame/data paths preserved exactly"
+  },
+  "model-morphometry/results/Fig4A-acircularity-varying-thickness-tol-bright.pdf": {
+    "status": "passed",
+    "pdf_full_inches": [
+      1.9500000000000002,
+      0.9600000000000001
+    ],
+    "svg_full_inches": [
+      1.9499968194444444,
+      0.9600066388888889
+    ],
+    "plotting_frames_inches": [
+      [
+        1.6066361111111114,
+        0.6704638888888889
+      ]
+    ],
+    "font_families": [],
+    "relocated_rgb_pixels_identical": true,
+    "export_text": "Vector outlines",
+    "plotting_frames_verified": "Exported PDF spine coordinates measured; 4A/4B horizontal endpoints exactly equal in PDF and SVG"
+  },
+  "model-morphometry/results/Fig4A-acircularity-varying-thickness.pdf": {
+    "status": "passed",
+    "pdf_full_inches": [
+      1.9500000000000002,
+      0.9600000000000001
+    ],
+    "svg_full_inches": [
+      1.9499968194444444,
+      0.9600066388888889
+    ],
+    "plotting_frames_inches": [
+      [
+        1.6066361111111114,
+        0.6704638888888889
+      ]
+    ],
+    "font_families": [],
+    "relocated_rgb_pixels_identical": true,
+    "export_text": "Vector outlines",
+    "plotting_frames_verified": "Exported PDF spine coordinates measured; 4A/4B horizontal endpoints exactly equal in PDF and SVG"
+  },
+  "model-morphometry/results/Fig4E-model-bud-count-collaborator-rainbow.pdf": {
+    "status": "passed",
+    "pdf_full_inches": [
+      1.32,
+      0.9199999999999999
+    ],
+    "svg_full_inches": [
+      1.3200073333333333,
+      0.9199981944444444
+    ],
+    "plotting_frames_inches": [
+      [
+        0.9727916666666668,
+        0.5311194444444445
+      ]
+    ],
+    "font_families": [],
+    "relocated_rgb_pixels_identical": true,
+    "export_text": "Vector outlines",
+    "plotting_frames_verified": "Fixed frame geometry retained; hollow circles and black summaries drawn above observations"
+  },
+  "model-morphometry/results/Fig4E-model-bud-count-tol-bright.pdf": {
+    "status": "passed",
+    "pdf_full_inches": [
+      1.32,
+      0.9199999999999999
+    ],
+    "svg_full_inches": [
+      1.3200073333333333,
+      0.9199981944444444
+    ],
+    "plotting_frames_inches": [
+      [
+        0.9727916666666668,
+        0.5311194444444445
+      ]
+    ],
+    "font_families": [],
+    "relocated_rgb_pixels_identical": true,
+    "export_text": "Vector outlines",
+    "plotting_frames_verified": "Fixed frame geometry retained; hollow circles and black summaries drawn above observations"
+  },
+  "model-morphometry/results/Fig4E-model-bud-count.pdf": {
+    "status": "passed",
+    "pdf_full_inches": [
+      1.32,
+      0.9199999999999999
+    ],
+    "svg_full_inches": [
+      1.3200073333333333,
+      0.9199981944444444
+    ],
+    "plotting_frames_inches": [
+      [
+        0.9727916666666668,
+        0.5311194444444445
+      ]
+    ],
+    "font_families": [],
+    "relocated_rgb_pixels_identical": true,
+    "export_text": "Vector outlines",
+    "plotting_frames_verified": "Fixed frame geometry retained; hollow circles and black summaries drawn above observations"
+  },
+  "model-morphometry/results/Fig5D-acircularity-full-washout.pdf": {
+    "status": "passed",
+    "pdf_full_inches": [
+      1.6,
+      1.24
+    ],
+    "svg_full_inches": [
+      1.6000059444444446,
+      1.2400054027777778
+    ],
+    "plotting_frames_inches": [
+      [
+        1.2123873611111111,
+        0.933223888888889
+      ]
+    ],
+    "font_families": [],
+    "relocated_rgb_pixels_identical": true,
+    "export_text": "Vector outlines",
+    "plotting_frames_verified": "All pre-outline SVG frame/data paths preserved exactly"
+  },
+  "model-morphometry/results/Fig5E-acircularity-post-washout.pdf": {
+    "status": "passed",
+    "pdf_full_inches": [
+      1.6,
+      1.24
+    ],
+    "svg_full_inches": [
+      1.6000059444444446,
+      1.2400054027777778
+    ],
+    "plotting_frames_inches": [
+      [
+        1.2705241666666667,
+        0.933223888888889
+      ]
+    ],
+    "font_families": [],
+    "relocated_rgb_pixels_identical": true,
+    "export_text": "Vector outlines",
+    "plotting_frames_verified": "All pre-outline SVG frame/data paths preserved exactly"
+  },
+  "BB-94-titration/results/combined/Fig4FG-BB94-titration-collaborator-rainbow.pdf": {
+    "status": "passed",
+    "pdf_full_inches": [
+      1.32,
+      1.51
+    ],
+    "svg_full_inches": [
+      1.32,
+      1.51
+    ],
+    "plotting_frames_inches": [
+      [
+        0.9727777777777779,
+        0.5188888888888888
+      ],
+      [
+        0.9727777777777779,
+        0.5188888888888888
+      ]
+    ],
+    "font_families": [],
+    "relocated_rgb_pixels_identical": true,
+    "export_text": "Vector outlines",
+    "plotting_frames_verified": "Fixed frame geometry retained; hollow circles and black summaries drawn above observations"
+  },
+  "BB-94-titration/results/combined/Fig4FG-BB94-titration-tol-bright.pdf": {
+    "status": "passed",
+    "pdf_full_inches": [
+      1.32,
+      1.51
+    ],
+    "svg_full_inches": [
+      1.32,
+      1.51
+    ],
+    "plotting_frames_inches": [
+      [
+        0.9727777777777779,
+        0.5188888888888888
+      ],
+      [
+        0.9727777777777779,
+        0.5188888888888888
+      ]
+    ],
+    "font_families": [],
+    "relocated_rgb_pixels_identical": true,
+    "export_text": "Vector outlines",
+    "plotting_frames_verified": "Fixed frame geometry retained; hollow circles and black summaries drawn above observations"
+  },
+  "BB-94-titration/results/combined/Fig4FG-BB94-titration.pdf": {
+    "status": "passed",
+    "pdf_full_inches": [
+      1.32,
+      1.51
+    ],
+    "svg_full_inches": [
+      1.32,
+      1.51
+    ],
+    "plotting_frames_inches": [
+      [
+        0.9727777777777779,
+        0.5188888888888888
+      ],
+      [
+        0.9727777777777779,
+        0.5188888888888888
+      ]
+    ],
+    "font_families": [],
+    "relocated_rgb_pixels_identical": true,
+    "export_text": "Vector outlines",
+    "plotting_frames_verified": "Fixed frame geometry retained; hollow circles and black summaries drawn above observations"
+  },
+  "BB-94-washout/results/combined/Fig5C-washout-log2-ratios-symbols-stars-no-legend.pdf": {
+    "status": "passed",
+    "pdf_full_inches": [
+      1,
+      1.4
+    ],
+    "svg_full_inches": [
+      1.0,
+      1.4
+    ],
+    "plotting_frames_inches": [
+      [
+        0.6590755138888889,
+        0.8375305694444444
+      ]
+    ],
+    "font_families": [],
+    "relocated_rgb_pixels_identical": true,
+    "export_text": "Vector outlines",
+    "plotting_frames_verified": "SVG clipping rectangle measured; 1-inch full width, increased padding beside outer categories"
+  },
+  "BB-94-washout/results/combined/Fig5C-washout-log2-ratios-uniform-stars.pdf": {
+    "status": "passed",
+    "pdf_full_inches": [
+      1,
+      1.4
+    ],
+    "svg_full_inches": [
+      1.0,
+      1.4
+    ],
+    "plotting_frames_inches": [
+      [
+        0.6590755138888889,
+        0.8375305694444444
+      ]
+    ],
+    "font_families": [],
+    "relocated_rgb_pixels_identical": true,
+    "export_text": "Vector outlines",
+    "plotting_frames_verified": "SVG clipping rectangle measured; 1-inch full width, increased padding beside outer categories"
+  }
+}

@@ -1,0 +1,50 @@
+{
+  "panels": [
+    "4F: log2 bud ratio",
+    "4G: collagen IV intensity"
+  ],
+  "full_figure_inches": [
+    1.32,
+    1.51
+  ],
+  "x_axis_shared": true,
+  "x_axis_titles": false,
+  "x_tick_labels": "Concentrations shown on lower panel only",
+  "x_tick_side_annotations": {
+    "left_lines": [
+      "[BB-94]",
+      "(\u00b5M)"
+    ],
+    "font_points": 6,
+    "placement": "Both lines right-aligned to left edge of y tick labels; canvas overflow allowed"
+  },
+  "markers": {
+    "shape": "hollow circle",
+    "diameter_points": {
+      "4F": 1.5,
+      "4G": 2.0
+    },
+    "edge_width_points": 0.35,
+    "summary_color": "black",
+    "summary_above_observations": true
+  },
+  "font": "Arial",
+  "axis_font_points": 6,
+  "export_text": "Vector outlines in PDF and SVG; no fonts required to view or place",
+  "data_and_statistics": "Gland endpoints unchanged; two-sided single-step Dunnett tests versus vehicle, separate six-comparison families for 4F and 4G",
+  "input_table_sha256": {
+    "BB-94-titration/results/bud-count/Fig4F-bud-count-titration-glands.csv": "f2363051aa7ea87bf93a9c3f06d7406ed39cb53a7bf2838de1dad1efa986ee89",
+    "BB-94-titration/results/bud-count/Fig4F-bud-count-titration-summary.csv": "1b1e35b58ce163253ea395c7e36ebe79f537c1689676f970fcdfbafe73f7b5ad",
+    "BB-94-titration/results/bud-count/Fig4F-bud-count-titration-comparisons.csv": "ca3ef9d8001332904e05b4f65663151fd6c3c008362c47142b040740e44a5634",
+    "BB-94-titration/results/collagen-IV/Fig4G-collagen-IV-intensity-titration-glands.csv": "695d7f0118305bea542b14d06e0f263fbba15815ee85bf3494443223d354a65f",
+    "BB-94-titration/results/collagen-IV/Fig4G-collagen-IV-intensity-titration-summary.csv": "a29d58bd4aeec396f17920fb23a0c1a27ae7ecf84416925dc0a4ec943d11cd81",
+    "BB-94-titration/results/collagen-IV/Fig4G-collagen-IV-intensity-titration-comparisons.csv": "8a10d38b0fd610a51c2a42d4484f0d826ca09c4924014fa26a14a714d5383a3b"
+  },
+  "gland_points_per_panel": [
+    110,
+    49
+  ],
+  "color_styles": [
+    "tol-bright"
+  ]
+}

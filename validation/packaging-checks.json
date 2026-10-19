@@ -1,16 +1,43 @@
 {
-  "date": "2026-10-11",
-  "source_tables": 19,
-  "source_tables_byte_identical": true,
-  "numerical_reference_tables_verified": 10,
-  "plots_pixel_identical_to_accepted_versions": 4,
-  "pdf_rendering_review": "passed",
-  "clean_relocated_reproduction": "passed; generated outputs were absent before rerunning",
-  "unit_tests_passed": {
-    "Fig4": 31,
-    "Fig5": 25
+  "status": "passed",
+  "date": "2026-10-18",
+  "source_data_files_verified": 56,
+  "experimental_numerical_tables_verified": 6,
+  "model_source_and_script_files_verified": 13,
+  "model_bud_counts": {
+    "available": 18,
+    "target": 18,
+    "missing": 0,
+    "per_thickness": 3,
+    "endpoint_tau_over_tau_g": 1.5
   },
-  "external_project_dependencies": false,
-  "font": "Arial",
-  "git_initialized": false
+  "selected_figure4_palette": "tol-bright",
+  "active_pdf_svg_png_plot_sets": 10,
+  "outlined_pdf_svg_pairs_without_fonts_live_text_or_rasters": 10,
+  "tests_passed": {
+    "titration": 32,
+    "washout": 25,
+    "model_statistics": 5,
+    "dunnett_quadrature": 5,
+    "permutation_spearman": 4
+  },
+  "training_files_byte_identical_to_pre_update_backup": 25,
+  "figure4A_4B_frame_alignment": "Exact exported horizontal frame endpoints",
+  "figure4E_pairwise_method_status": "Selected: two-sided single-step Dunnett versus thinnest z; same method for 4F/G versus vehicle, separate families",
+  "figure4_spearman_trends": "validation/Fig4EFG-spearman-trends.json",
+  "manuscript_review_files_changed": false,
+  "github_publication_status": "Validated; ready to commit and push requested integration",
+  "historical_validation_records": [
+    "validation/history/2026-10-17/",
+    "validation/history/2026-10-18-before-Dunnett/"
+  ],
+  "figure5C_method": "Two-sided Welch t-tests; Holm across two interval-specific treatment comparisons",
+  "clean_relocated_reproduction_passed": true,
+  "clean_relocated_generated_results_removed_before_reproduction": true,
+  "local_readme_links_verified": true,
+  "review_pdf_count_without_fonts_or_rasters": 3,
+  "figure4EFG_and_figure5C_pngs_visually_checked": true,
+  "all_three_review_sheets_visually_checked": true,
+  "staged_source_and_original_script_hashes_verified": 60,
+  "original_source_line_endings_preserved_in_git": true
 }

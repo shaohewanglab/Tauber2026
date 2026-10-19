@@ -1,0 +1,24 @@
+{
+  "experiment": "210401-washout",
+  "times_h": [
+    0.0,
+    24.0,
+    48.0
+  ],
+  "image_counts": 78,
+  "glands": 26,
+  "source_paths_relative_to": "BB-94-washout",
+  "inputs": [
+    {
+      "path": "source_data/210401-washout/210401-03-SMG-BB94-washout-1791565130-fileNameRecord.txt",
+      "sha256": "fede5d93f93619e9910fdbd61f00a809635f54c26f31166f73fa0d819db54e36"
+    },
+    {
+      "path": "source_data/210401-washout/210401-03-SMG-BB94-washout-1791565130-renamed-7422-budCount.txt",
+      "sha256": "4156c9f7f541dd18145971be6c4114c982787618648dc5f50d714823e802f36c"
+    }
+  ],
+  "interval_fingerprint": "004cb73baf7a775d2b9a860d3820e443ad4534d4b263a9109d14ce54b19a7493",
+  "validation": "Matches original validated gland identities, observation times, and integer endpoints.",
+  "timing_note": "Day labels converted to nominal hours (day x 24); exact elapsed hours are unavailable."
+}

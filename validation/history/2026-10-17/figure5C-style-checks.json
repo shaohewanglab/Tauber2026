@@ -1,0 +1,84 @@
+{
+  "status": "passed",
+  "plots": {
+    "BB-94-washout/results/combined/Fig5C-washout-log2-ratios-symbols-stars-no-legend.pdf": {
+      "status": "passed",
+      "control_color": "#A9A9A9",
+      "control_summary_color": "black",
+      "x_tick_rotation_degrees": 45,
+      "full_inches": [
+        1,
+        1.4
+      ],
+      "plotting_frame_inches": [
+        0.6590755138888889,
+        0.8375305694444444
+      ],
+      "previous_frame_height_inches": 0.7448893229166667,
+      "frame_height_increase_percent": 12.436914274060795,
+      "numerical_csv_files_byte_identical": true,
+      "relocated_rgb_pixels_identical": true,
+      "x_axis_limits": [
+        -0.65,
+        3.65
+      ],
+      "outer_category_to_frame_category_units": 0.65
+    },
+    "BB-94-washout/results/combined/Fig5C-washout-log2-ratios-uniform-stars.pdf": {
+      "status": "passed",
+      "control_color": "#A9A9A9",
+      "control_summary_color": "black",
+      "x_tick_rotation_degrees": 45,
+      "full_inches": [
+        1,
+        1.4
+      ],
+      "plotting_frame_inches": [
+        0.6590755138888889,
+        0.8375305694444444
+      ],
+      "previous_frame_height_inches": 0.7448893229166667,
+      "frame_height_increase_percent": 12.436914274060795,
+      "numerical_csv_files_byte_identical": true,
+      "relocated_rgb_pixels_identical": true,
+      "x_axis_limits": [
+        -0.65,
+        3.65
+      ],
+      "outer_category_to_frame_category_units": 0.65,
+      "marker_style": {
+        "shape": "hollow circle",
+        "diameter_points": 1.5,
+        "edge_width_points": 0.35,
+        "face_color": "white",
+        "summary_above_points": true,
+        "category_point_counts": [
+          21,
+          21,
+          21,
+          21
+        ],
+        "data_y_coordinates_unchanged": true
+      }
+    }
+  },
+  "other_plot_sets_byte_identical": 14,
+  "changed_exports": [
+    "BB-94-washout/results/combined/Fig5C-washout-log2-ratios-uniform-stars.svg",
+    "BB-94-washout/results/combined/Fig5C-washout-log2-ratios-uniform-stars.png",
+    "BB-94-washout/results/combined/Fig5C-washout-log2-ratios-uniform-stars.pdf",
+    "BB-94-washout/results/combined/Fig5C-washout-log2-ratios-symbols-stars-no-legend.pdf",
+    "BB-94-washout/results/combined/Fig5C-washout-log2-ratios-symbols-stars-no-legend.png",
+    "BB-94-washout/results/combined/Fig5C-washout-log2-ratios-symbols-stars-no-legend.svg"
+  ],
+  "all_numerical_csv_files_byte_identical": true,
+  "relocated_pngs_rgb_identical": 16,
+  "changes_committed": false,
+  "width_and_edge_padding_updated": true,
+  "latest_marker_change_exports": [
+    "BB-94-washout/results/combined/Fig5C-washout-log2-ratios-uniform-stars.svg",
+    "BB-94-washout/results/combined/Fig5C-washout-log2-ratios-uniform-stars.png",
+    "BB-94-washout/results/combined/Fig5C-washout-log2-ratios-uniform-stars.pdf"
+  ],
+  "other_plot_sets_unchanged_in_marker_update": 15
+}
