@@ -1,0 +1,62 @@
+{
+  "author": "Justin Tauber, Soft Math Lab (Harvard University), in collaboration with Shaohe Wang",
+  "source": "ImageProcessing_CodeJustin, shared in OneDrive",
+  "imported_on": "2026-10-21",
+  "modifications": "None. Eight Python scripts are preserved byte for byte; the supplied README is renamed README-Justin.md.",
+  "files": [
+    {
+      "path": "ApplyClippingMaskToBinary.py",
+      "source_path": "ImageProcessing_CodeJustin/ApplyClippingMaskToBinary.py",
+      "bytes": 3022,
+      "sha256": "800d5e330743a13a412fabfcff081d3987798a0c32f7a93acf17120453b82281"
+    },
+    {
+      "path": "AreaVolumeFromCoarseMesh_epithelial.py",
+      "source_path": "ImageProcessing_CodeJustin/AreaVolumeFromCoarseMesh_epithelial.py",
+      "bytes": 1441,
+      "sha256": "66b146cdac6d5cd47ee3e4fa71e2a31ce3ed4d4a8c60d05193805d24402dcbb9"
+    },
+    {
+      "path": "AreaVolumeFromMesh_epithelial.py",
+      "source_path": "ImageProcessing_CodeJustin/AreaVolumeFromMesh_epithelial.py",
+      "bytes": 1169,
+      "sha256": "5709bf0c85a7e1ca87a9900d9757ae49095734714af545764514de12c0fae696"
+    },
+    {
+      "path": "ConvertBinarytoTiff.py",
+      "source_path": "ImageProcessing_CodeJustin/ConvertBinarytoTiff.py",
+      "bytes": 1192,
+      "sha256": "dcadbb01211956073645e94b88441a045cdf49d4a8d540a015a0bf238656c42d"
+    },
+    {
+      "path": "CreateClippingMask.py",
+      "source_path": "ImageProcessing_CodeJustin/CreateClippingMask.py",
+      "bytes": 2316,
+      "sha256": "0e85e21f328a2c2bb991f2b807743d4589e87dd9bb7baec2b53052f2346a3a96"
+    },
+    {
+      "path": "CreateMeshFromBinary.py",
+      "source_path": "ImageProcessing_CodeJustin/CreateMeshFromBinary.py",
+      "bytes": 5274,
+      "sha256": "4d54c56452aaa146ac10c02ebb2b9fb51263b80308bf3d5a4979bcad47b60508"
+    },
+    {
+      "path": "README-Justin.md",
+      "source_path": "ImageProcessing_CodeJustin/README.md",
+      "bytes": 656,
+      "sha256": "30adf9694f241fc1b920661d366003a3daba5dce5c7990ed491492de27d58776"
+    },
+    {
+      "path": "SegmentationToBinaryFile_EpitheliumBM.py",
+      "source_path": "ImageProcessing_CodeJustin/SegmentationToBinaryFile_EpitheliumBM.py",
+      "bytes": 48084,
+      "sha256": "f6247ed624887e4bfab642def496d7786c3675ab2b3af641b075c9e4b3c8e82e"
+    },
+    {
+      "path": "ViewBinary.py",
+      "source_path": "ImageProcessing_CodeJustin/ViewBinary.py",
+      "bytes": 1622,
+      "sha256": "499ed247d08af00e8c76d5c397bb8f5c0f41647a0419dd9389b9c074702584b0"
+    }
+  ]
+}

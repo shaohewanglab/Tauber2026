@@ -1,8 +1,8 @@
 # Tauber 2026 modeling
 
 Source data and code for the Figure 2, 4 and 5 experimental and simulation
-plots, the Figure S1D segmentation benchmark, and 3D-RCAN and Cellpose-SAM
-model training.
+plots, the Figure S1D segmentation benchmark, 3D-RCAN and Cellpose-SAM
+model training, and reference tools for image segmentation, clipping and meshing.
 
 ## Find a plot
 
@@ -104,6 +104,19 @@ for Tauber et al., 2026.
 
 Each training README covers installation, a quick test and training reproduction.
 Training uses separate environments; the root `requirements.txt` is for plotting.
+
+## Image processing, clipping and meshing
+
+[Justin's reference scripts](image-processing/README.md) provide rule-based
+epithelial and basement-membrane segmentation, interactive clipping-mask
+creation, clipping of Cellpose segmentations, surface meshing, and area/volume
+measurement. They are preserved as supplied for adaptation to other data;
+the guide explains the dataset-specific settings and dependencies.
+
+The full `PaperData` folder will be deposited on Figshare. Per-dataset clipping
+masks and other manual annotations belong with that deposit. The guide maps
+the scripts to the `PaperData` folders and to the measurement tables already
+included here for plot reproduction.
 
 ## License
 

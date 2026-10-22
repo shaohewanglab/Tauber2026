@@ -21,6 +21,12 @@ The model-morphometry script consolidates Justin's supplied acircularity
 scripts, retained unchanged with hashes in
 `model-morphometry/source-data-manifest.json`.
 
+The eight scripts in `image-processing/` were shared by Justin Tauber,
+Soft Math Lab (Harvard University), in collaboration with Shaohe Wang.
+They retain their original author headers and are preserved unchanged;
+`image-processing/provenance.json` records their supplied-file hashes and
+the hash of the original README, retained as `README-Justin.md`.
+
 See [LICENSE-DATA](LICENSE-DATA) for data scope, attribution, and links to the
 full CC BY 4.0 legal code and summary. Third-party dependencies retain their
 respective licenses.

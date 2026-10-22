@@ -1,0 +1,8 @@
+# Working data and dataset-specific manual annotations belong with the data deposit.
+/Data/
+/Annotation/
+/Results/
+/Results_MeshVoxelization/
+/Results_SphericalHarmonics/
+/PaperData/
+/overview_data_paper.xlsx

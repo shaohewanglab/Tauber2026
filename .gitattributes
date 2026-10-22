@@ -5,3 +5,5 @@ BB-94-washout/source_data/** -text
 mesh-morphometry/source_data/** -text
 model-morphometry/ModelData/** -text
 model-morphometry/original_scripts/** -text
+image-processing/*.py -text
+image-processing/README-Justin.md -text

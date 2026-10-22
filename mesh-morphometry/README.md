@@ -14,6 +14,12 @@ filenames, headers and values. Hashes and original relative paths are in
 `source-data-manifest.json`. Images, meshes, spherical harmonics, the overview
 workbook, and the unused `241105-SMG4_SG2` table are not required.
 
+For work starting from segmented images, see the
+[image-processing reference scripts](../image-processing/README.md). They
+provide clipping-mask creation, clipping before meshing, coarse mesh generation
+and mesh measurements, with a guide to the full `PaperData` folder intended
+for Figshare. The intervening voxelization/repair code is not included.
+
 ## Reproduce
 
 From the repository root, using the root Python requirements:

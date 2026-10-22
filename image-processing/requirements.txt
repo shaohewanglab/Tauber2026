@@ -1,0 +1,10 @@
+# Packages imported by the reference scripts; not the original environment.
+numpy
+scipy
+scikit-image
+tifffile
+joblib
+itk
+trimesh
+open3d
+napari[all]
