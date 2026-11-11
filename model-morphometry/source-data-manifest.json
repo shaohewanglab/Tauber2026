@@ -1,8 +1,9 @@
 [
   {
     "path": "ModelData/bud_counts_summary.csv",
-    "bytes": 258,
-    "sha256": "e5e200abfdaca047712725192b0e46d552221117da84964b8f947dc32d793e97"
+    "bytes": 285,
+    "sha256": "f35534c76223fe166d4bc4a7eb625718bd3fbedcdc18ed7b222607da37fbb2e0",
+    "original_project_path": "ModelDataV2/bud_counts_summary_cusps.csv"
   },
   {
     "path": "ModelData/thickness_paper/shape_array_r_5_z_0.0005_kP_0.01_kn_5e-06_tg_1e+06_tgi_2e+06_M_1e-07_dt_0.01_expV0.1.npz",
@@ -63,5 +64,113 @@
     "path": "original_scripts/create_acircularity_plot_washoutcontrol.py",
     "bytes": 4042,
     "sha256": "bafcbf0374daa4afe26a7ae9634ddc1c347adc9abaa254036d8ccadf4c5a3b95"
+  },
+  {
+    "path": "ModelData/thickness_paper/shape_array_r_5_z_0.001_kP_0.01_kn_5e-06_tg_1e+06_tgi_2e+06_M_1e-07_dt_0.01_exp_V001_k12.npz",
+    "bytes": 899860,
+    "sha256": "a49ee986b9f0f4ca0b387643d5094b55dde2c740c25236aba2b261dca5ad5177",
+    "original_project_path": "ModelDataV2/thickness_paper/shape_array_r_5_z_0.001_kP_0.01_kn_5e-06_tg_1e+06_tgi_2e+06_M_1e-07_dt_0.01_exp_V001_k12.npz"
+  },
+  {
+    "path": "ModelData/thickness_paper/shape_array_r_5_z_0.001_kP_0.01_kn_5e-06_tg_1e+06_tgi_2e+06_M_1e-07_dt_0.01_exp_V002_k12.npz",
+    "bytes": 899922,
+    "sha256": "cebbc32e29f6db73f29cf703934367da16536287cf02309dadea1293a2579ac7",
+    "original_project_path": "ModelDataV2/thickness_paper/shape_array_r_5_z_0.001_kP_0.01_kn_5e-06_tg_1e+06_tgi_2e+06_M_1e-07_dt_0.01_exp_V002_k12.npz"
+  },
+  {
+    "path": "ModelData/thickness_paper/shape_array_r_5_z_0.001_kP_0.01_kn_5e-06_tg_1e+06_tgi_2e+06_M_1e-07_dt_0.01_exp_V003_k12.npz",
+    "bytes": 899683,
+    "sha256": "c3b70c487f1c545d822d806da8afeafda1042acff16c8aab1500b2ea19966b3d",
+    "original_project_path": "ModelDataV2/thickness_paper/shape_array_r_5_z_0.001_kP_0.01_kn_5e-06_tg_1e+06_tgi_2e+06_M_1e-07_dt_0.01_exp_V003_k12.npz"
+  },
+  {
+    "path": "ModelData/thickness_paper/shape_array_r_5_z_0.002_kP_0.01_kn_5e-06_tg_1e+06_tgi_2e+06_M_1e-07_dt_0.01_exp_V001_k12.npz",
+    "bytes": 900652,
+    "sha256": "da1f75454d0406f4d540f0ad8872ab1920675c4dec41790d6723609d484bef7e",
+    "original_project_path": "ModelDataV2/thickness_paper/shape_array_r_5_z_0.002_kP_0.01_kn_5e-06_tg_1e+06_tgi_2e+06_M_1e-07_dt_0.01_exp_V001_k12.npz"
+  },
+  {
+    "path": "ModelData/thickness_paper/shape_array_r_5_z_0.002_kP_0.01_kn_5e-06_tg_1e+06_tgi_2e+06_M_1e-07_dt_0.01_exp_V002_k12.npz",
+    "bytes": 899664,
+    "sha256": "439719ed4b6bdcbef7373d6162202b4489b2b5582b2e6a15d3db0f6eb851f3b2",
+    "original_project_path": "ModelDataV2/thickness_paper/shape_array_r_5_z_0.002_kP_0.01_kn_5e-06_tg_1e+06_tgi_2e+06_M_1e-07_dt_0.01_exp_V002_k12.npz"
+  },
+  {
+    "path": "ModelData/thickness_paper/shape_array_r_5_z_0.002_kP_0.01_kn_5e-06_tg_1e+06_tgi_2e+06_M_1e-07_dt_0.01_exp_V003_k12.npz",
+    "bytes": 901555,
+    "sha256": "75830d4052549200ec1a72438285387cf5c5e9a67145f1f0f818dedd74dc82f1",
+    "original_project_path": "ModelDataV2/thickness_paper/shape_array_r_5_z_0.002_kP_0.01_kn_5e-06_tg_1e+06_tgi_2e+06_M_1e-07_dt_0.01_exp_V003_k12.npz"
+  },
+  {
+    "path": "ModelData/thickness_paper/shape_array_r_5_z_0.003_kP_0.01_kn_5e-06_tg_1e+06_tgi_2e+06_M_1e-07_dt_0.1_exp_V001_k12.npz",
+    "bytes": 901938,
+    "sha256": "9c0dd511f93fb101cd68f0656daf1b05f692d1d8d0ccbb83228d536824aafba9",
+    "original_project_path": "ModelDataV2/thickness_paper/shape_array_r_5_z_0.003_kP_0.01_kn_5e-06_tg_1e+06_tgi_2e+06_M_1e-07_dt_0.1_exp_V001_k12.npz"
+  },
+  {
+    "path": "ModelData/thickness_paper/shape_array_r_5_z_0.003_kP_0.01_kn_5e-06_tg_1e+06_tgi_2e+06_M_1e-07_dt_0.1_exp_V002_k12.npz",
+    "bytes": 901452,
+    "sha256": "1001ab3294c736579a2c92d37199d56ef788125d5ef2932b933f7d5908cf0258",
+    "original_project_path": "ModelDataV2/thickness_paper/shape_array_r_5_z_0.003_kP_0.01_kn_5e-06_tg_1e+06_tgi_2e+06_M_1e-07_dt_0.1_exp_V002_k12.npz"
+  },
+  {
+    "path": "ModelData/thickness_paper/shape_array_r_5_z_0.003_kP_0.01_kn_5e-06_tg_1e+06_tgi_2e+06_M_1e-07_dt_0.1_exp_V003_k12.npz",
+    "bytes": 901818,
+    "sha256": "ffdb5533359df89cc65be49e2e9df9b01f39c22e653f7228f3d7195fae38e276",
+    "original_project_path": "ModelDataV2/thickness_paper/shape_array_r_5_z_0.003_kP_0.01_kn_5e-06_tg_1e+06_tgi_2e+06_M_1e-07_dt_0.1_exp_V003_k12.npz"
+  },
+  {
+    "path": "ModelData/thickness_paper/shape_array_r_5_z_0.005_kP_0.01_kn_5e-06_tg_1e+06_tgi_2e+06_M_1e-07_dt_0.1_exp_V001_k12.npz",
+    "bytes": 903017,
+    "sha256": "1172858f1089ac5ddc1b01dd3465a59e3d09795113ba2708ec7f84be1922c20f",
+    "original_project_path": "ModelDataV2/thickness_paper/shape_array_r_5_z_0.005_kP_0.01_kn_5e-06_tg_1e+06_tgi_2e+06_M_1e-07_dt_0.1_exp_V001_k12.npz"
+  },
+  {
+    "path": "ModelData/thickness_paper/shape_array_r_5_z_0.005_kP_0.01_kn_5e-06_tg_1e+06_tgi_2e+06_M_1e-07_dt_0.1_exp_V002_k12.npz",
+    "bytes": 902859,
+    "sha256": "9d52204aab60a727666d5e080a388e24a8c01958cdf06dbb356aedc1acefe2ca",
+    "original_project_path": "ModelDataV2/thickness_paper/shape_array_r_5_z_0.005_kP_0.01_kn_5e-06_tg_1e+06_tgi_2e+06_M_1e-07_dt_0.1_exp_V002_k12.npz"
+  },
+  {
+    "path": "ModelData/thickness_paper/shape_array_r_5_z_0.005_kP_0.01_kn_5e-06_tg_1e+06_tgi_2e+06_M_1e-07_dt_0.1_exp_V003_k12.npz",
+    "bytes": 903088,
+    "sha256": "b6dd127941baabf8191c8c63dfc1b2c1b7490683f2ea26a80f21f959f3078a9d",
+    "original_project_path": "ModelDataV2/thickness_paper/shape_array_r_5_z_0.005_kP_0.01_kn_5e-06_tg_1e+06_tgi_2e+06_M_1e-07_dt_0.1_exp_V003_k12.npz"
+  },
+  {
+    "path": "ModelData/thickness_paper/shape_array_r_5_z_0.008_kP_0.01_kn_5e-06_tg_1e+06_tgi_2e+06_M_1e-07_dt_0.1_exp_V001_k12.npz",
+    "bytes": 903478,
+    "sha256": "f138832186982d5f98fe1cf337ae065ebc3f2eb3766445c97b7e03ea6b00ba1c",
+    "original_project_path": "ModelDataV2/thickness_paper/shape_array_r_5_z_0.008_kP_0.01_kn_5e-06_tg_1e+06_tgi_2e+06_M_1e-07_dt_0.1_exp_V001_k12.npz"
+  },
+  {
+    "path": "ModelData/thickness_paper/shape_array_r_5_z_0.008_kP_0.01_kn_5e-06_tg_1e+06_tgi_2e+06_M_1e-07_dt_0.1_exp_V002_k12.npz",
+    "bytes": 904003,
+    "sha256": "41274573cbcbad4345fb91b6187310885a903bcf2771fef760dd0aae87b98cf2",
+    "original_project_path": "ModelDataV2/thickness_paper/shape_array_r_5_z_0.008_kP_0.01_kn_5e-06_tg_1e+06_tgi_2e+06_M_1e-07_dt_0.1_exp_V002_k12.npz"
+  },
+  {
+    "path": "ModelData/thickness_paper/shape_array_r_5_z_0.008_kP_0.01_kn_5e-06_tg_1e+06_tgi_2e+06_M_1e-07_dt_0.1_exp_V003_k12.npz",
+    "bytes": 903791,
+    "sha256": "183b9d31acc639c0ef9ab3467401758fdebf40650b6c20de0cff8fa2634ba467",
+    "original_project_path": "ModelDataV2/thickness_paper/shape_array_r_5_z_0.008_kP_0.01_kn_5e-06_tg_1e+06_tgi_2e+06_M_1e-07_dt_0.1_exp_V003_k12.npz"
+  },
+  {
+    "path": "ModelData/thickness_paper/shape_array_r_5_z_0.01_kP_0.01_kn_5e-06_tg_1e+06_tgi_2e+06_M_1e-07_dt_0.1_exp_V001_k12.npz",
+    "bytes": 904433,
+    "sha256": "1f759f2135770f742951fba7dfd1c2870b4e7d5f34239d1dc8d4de7843ac96d6",
+    "original_project_path": "ModelDataV2/thickness_paper/shape_array_r_5_z_0.01_kP_0.01_kn_5e-06_tg_1e+06_tgi_2e+06_M_1e-07_dt_0.1_exp_V001_k12.npz"
+  },
+  {
+    "path": "ModelData/thickness_paper/shape_array_r_5_z_0.01_kP_0.01_kn_5e-06_tg_1e+06_tgi_2e+06_M_1e-07_dt_0.1_exp_V002_k12.npz",
+    "bytes": 904562,
+    "sha256": "2d86767bff27a199fd796b398218a9895a9a0009fba058dc94862214dfcf60f3",
+    "original_project_path": "ModelDataV2/thickness_paper/shape_array_r_5_z_0.01_kP_0.01_kn_5e-06_tg_1e+06_tgi_2e+06_M_1e-07_dt_0.1_exp_V002_k12.npz"
+  },
+  {
+    "path": "ModelData/thickness_paper/shape_array_r_5_z_0.01_kP_0.01_kn_5e-06_tg_1e+06_tgi_2e+06_M_1e-07_dt_0.1_exp_V003_k12.npz",
+    "bytes": 904631,
+    "sha256": "cde7f53a1305981364acae3bdd2b89ab7a0451d4fbe3efb547dc2882ccc94b8d",
+    "original_project_path": "ModelDataV2/thickness_paper/shape_array_r_5_z_0.01_kP_0.01_kn_5e-06_tg_1e+06_tgi_2e+06_M_1e-07_dt_0.1_exp_V003_k12.npz"
   }
 ]
