@@ -1,6 +1,6 @@
 {
   "status": "passed",
-  "source_files_verified": 56,
+  "source_files_verified": 74,
   "dunnett_panels_verified": [
     "Fig4F",
     "Fig4G",
@@ -18,8 +18,10 @@
   "mesh_recolored_sd_bands_verified": 3,
   "model_verification": {
     "status": "passed",
-    "source_files_verified": 13,
-    "original_model_curves_verified": 11,
+    "source_files_verified": 31,
+    "original_model_curves_verified": 5,
+    "final_thickness_runs_verified": 18,
+    "final_thickness_mean_and_sd_curves_verified": 6,
     "plots_verified": 4,
     "bud_counts_available": 18,
     "bud_counts_target": 18,
@@ -37,7 +39,7 @@
       }
     },
     "fig4E_statistics": {
-      "baseline_z": 0.0005,
+      "baseline_z": 0.001,
       "family_size": 5,
       "comparisons_tested": 5,
       "unavailable_comparisons": 0
