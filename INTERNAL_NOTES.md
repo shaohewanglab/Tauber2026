@@ -1,6 +1,23 @@
 # Internal manuscript data notes
 
-## Figure 4E model bud counts - complete, 2026-10-18
+## Figure 4A/E final inputs, 2026-11-10
+
+This supersedes the October Figure 4 model inputs and statistics below. The source is OneDrive `ModelDataV2`: the selected 18 `thickness_paper/*_exp_V001-V003_k12.npz` archives and `bud_counts_summary_cusps.csv`. The current repository CSV is copied unchanged as `model-morphometry/ModelData/bud_counts_summary.csv`; its SHA256 is `f35534c76223fe166d4bc4a7eb625718bd3fbedcdc18ed7b222607da37fbb2e0`. The October table is retained under `model-morphometry/validation/history`.
+
+| Effective z | Independent counts | Mean | Sample SD |
+| --- | --- | ---: | ---: |
+| 0.001 | 6, 7, 6 | 6.3333333333 | 0.5773502692 |
+| 0.002 | 5, 6, 6 | 5.6666666667 | 0.5773502692 |
+| 0.003 | 5, 5, 6 | 5.3333333333 | 0.5773502692 |
+| 0.005 | 3, 4, 4 | 3.6666666667 | 0.5773502692 |
+| 0.008 | 1, 1, 1 | 1 | 0 |
+| 0.01 | 1, 1, 1 | 1 | 0 |
+
+Shaohe requested mean +/- sample SD of all three independent simulations in 4A. Baseline each run separately, then summarize the change in acircularity. The metric, open-edge perimeter, area closure, 0.01 saved-frame interval and 0-1.5 time range are unchanged. The six selected effective z values and their colors match across 4A, its showcase shapes and 4E. Experimental 4B colors remain blue/green/red; their palette associations are updated to the second/fourth/sixth selected thicknesses (0.002/0.005/0.01), without inferring a new parameter fit.
+
+The current five Dunnett comparisons versus z=0.001 give ns, ns, ****, ****, ****. Pooled within-group variance is 2/9, residual df=12. Adjusted P values are 0.3356949191, 0.0846301915, 0.00006922114055, 0.00000004304914446, 0.00000004304914446. The existing comparison method and assumptions are unchanged. The independent-run Spearman trend is rho=-0.9451620167, raw permutation P=0.000001, Holm P=0.000003 across the separate E/F/G trend family. Captions need the new baseline z and 4A mean/sample-SD description.
+
+## Historical Figure 4E model bud counts, 2026-10-18
 
 Justin's updated `ModelData/bud_counts_summary.csv` now contains all **18 intended
 independent simulations**, three at each of six thicknesses. Counts are measured

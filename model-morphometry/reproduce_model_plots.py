@@ -23,7 +23,8 @@ from trend_statistics import permutation_spearman
 from dunnett_statistics import ASSUMPTIONS
 
 ROOT = Path(__file__).resolve().parent
-Z_VALUES = [.0005, .001, .003, .005, .008, .01]
+Z_VALUES = [.001, .002, .003, .005, .008, .01]
+REPLICATES = (1, 2, 3)
 SCRIPTS = {"4A": "create_acircularity_plot_exp.py",
            "5D": "create_acircularity_plot_washout.py",
            "5E": "create_acircularity_plot_washoutcontrol.py"}
@@ -32,8 +33,15 @@ STEMS = {"4A": "Fig4A-acircularity-varying-thickness",
          "5E": "Fig5E-acircularity-post-washout"}
 
 
-def source_path(z, washout=False):
+def source_path(z, washout=False, replicate=None):
     folder = "washout_paper" if washout else "thickness_paper"
+    if replicate is not None:
+        if washout or z not in Z_VALUES or replicate not in REPLICATES:
+            raise ValueError("Expected a selected final thickness and simulation 1-3")
+        dt = "0.01" if z <= .002 else "0.1"
+        return ROOT / "ModelData" / folder / (
+            f"shape_array_r_5_z_{z}_kP_0.01_kn_5e-06_tg_1e+06_tgi_2e+06_"
+            f"M_1e-07_dt_{dt}_exp_V{replicate:03d}_k12.npz")
     dt = "0.01" if z == .0005 else "0.1"
     suffix = "_washout" if washout else ""
     return ROOT / "ModelData" / folder / (
@@ -41,8 +49,8 @@ def source_path(z, washout=False):
         f"M_1e-07_dt_{dt}_expV0.1{suffix}.npz")
 
 
-def measures(z, washout=False):
-    with np.load(source_path(z, washout), allow_pickle=False) as archive:
+def measures(z, washout=False, replicate=None):
+    with np.load(source_path(z, washout, replicate), allow_pickle=False) as archive:
         shapes = archive["data"]
     if shapes.ndim != 3 or shapes.shape[1] != 2 or not np.isfinite(shapes).all():
         raise ValueError("Expected finite (node, xy, saved-frame) model coordinates")
@@ -58,6 +66,26 @@ def measures(z, washout=False):
     tau = np.arange(shapes.shape[2]) * .01
     chi = 1 / ((2*np.sqrt(np.pi*area))/perimeter) - 1
     return tau, area, perimeter, chi
+
+
+def thickness_curves():
+    """Final simulation trajectories; baseline each run before summarizing."""
+    rows = []
+    for z in Z_VALUES:
+        for replicate in REPLICATES:
+            tau, area, perimeter, chi = measures(z, replicate=replicate)
+            if len(tau) != 151:
+                raise ValueError("Final Fig4A runs must cover tau/tau_g = 0-1.5")
+            rows.extend({"panel": "4A", "condition": "reference", "z": z,
+                         "replicate": replicate, "saved_frame": i,
+                         "tau_relative": t, "delta_chi_percent": value}
+                        for i, (t, value) in enumerate(zip(tau, 100*(chi-chi[0]))))
+    return pd.DataFrame(rows)
+
+
+def summarize_thickness(curves):
+    return (curves.groupby(["z", "saved_frame", "tau_relative"], sort=False)
+            .delta_chi_percent.agg(mean="mean", sd="std", n="count").reset_index())
 
 
 def capture_original_curves():
@@ -104,8 +132,16 @@ def build_acircularity(panel, palette="tol-bright"):
     records = []
     if panel == "4A":
         colors = style.thickness_colors(palette, Z_VALUES)
+        curves = thickness_curves()
+        summary = summarize_thickness(curves)
+        records = curves.to_dict(orient="records")
         for z, color in zip(Z_VALUES, colors):
-            add_curve(ax, panel, z, False, color, f"{z:g}", records)
+            group = summary.loc[summary.z == z]
+            ax.fill_between(group.tau_relative, group["mean"]-group.sd,
+                            group["mean"]+group.sd, color=color, alpha=.20,
+                            linewidth=0, zorder=1)
+            ax.plot(group.tau_relative, group["mean"], color=color,
+                    label=f"{z:g}", lw=style.MEAN_WIDTH, zorder=2)
         ax.legend(title=r"$z$", ncols=2, loc="upper left", frameon=False,
                   handlelength=.6, handletextpad=.35, columnspacing=.7,
                   labelspacing=.25, borderaxespad=0)
@@ -139,6 +175,8 @@ def build_acircularity(panel, palette="tol-bright"):
 
 def model_bud_data():
     summary = pd.read_csv(ROOT / "ModelData/bud_counts_summary.csv")
+    if summary.z.tolist() != Z_VALUES:
+        raise ValueError("Bud-count source must contain the six selected effective thicknesses in order")
     rows = []
     for row in summary.itertuples():
         counts = [float(v) for v in [row.Nbud1, row.Nbud2, row.Nbud3] if np.isfinite(v)]
@@ -248,12 +286,15 @@ def main():
     for panel in ["4A", "5D", "5E"]:
         with mpl.rc_context():
             fig, records = build_acircularity(panel)
-            check_curves(fig, expected[panel])
+            if panel != "4A":
+                check_curves(fig, expected[panel])
             rows.extend(records)
             suffix = "-tol-bright" if panel == "4A" else ""
             style.save_arev_figure(fig, args.output_dir/(STEMS[panel]+suffix), dpi=450)
             plt.close(fig)
     pd.DataFrame(rows).to_csv(args.output_dir/"acircularity-curves.csv", index=False)
+    summarize_thickness(thickness_curves()).to_csv(
+        args.output_dir/"Fig4A-acircularity-summary.csv", index=False)
     with mpl.rc_context():
         fig, data, summary = build_model_buds()
         style.save_arev_figure(fig, args.output_dir/"Fig4E-model-bud-count-tol-bright", dpi=450)
@@ -266,9 +307,10 @@ def main():
                  statistical_unit="One independent simulation",
                  source="ModelData/bud_counts_summary.csv", source_sha256=bud_statistics["source_sha256"])
     (args.output_dir/"Fig4E-model-bud-count-trend.json").write_text(json.dumps(trend, indent=2)+"\n")
-    report = {"source_hashes_checked": len(sources), "original_curves_checked": 11,
-              "tol_thickness_curves_checked": 6, "upper_bound_bands_checked": 0,
-              "presentation_changes": {"4A": "No gray shading; y = 0 to 110; two legend columns of three entries, shifted up by 1.8 pt. Tol colors run purple, blue, cyan, green, yellow, red as z increases."},
+    report = {"source_hashes_checked": len(sources), "original_curves_checked": 5,
+              "final_thickness_runs": 18, "tol_thickness_mean_curves": 6,
+              "sample_sd_bands": 6, "upper_bound_bands_checked": 0,
+              "presentation_changes": {"4A": "Final ModelDataV2 contours; mean and sample SD of three independent runs per thickness. Each run is baselined at frame 0 before summarizing. Tol colors run purple, blue, cyan, green, yellow, red as effective z increases."},
               "tol_thickness_colors": style.palettes()["thickness"]["tol-bright"],
               "model_bud_replicates": len(data), "model_bud_groups": len(summary),
               "model_bud_target_replicates_per_group": 3,
@@ -285,7 +327,7 @@ def main():
                                     "unavailable_comparisons": bud_statistics["unavailable_comparisons"]},
               "status": "passed", "original_script_changes_for_reference": "Redirect np.load paths and suppress save/show only; numerical code unchanged."}
     (ROOT/"validation/model-verification.json").write_text(json.dumps(report, indent=2)+"\n")
-    print("Verified 11 source curves; exported 4 model plots as PDF/SVG/PNG with Tol Bright for Figure 4.")
+    print("Verified 5 legacy washout curves; exported 4 model plots, including 18 final Fig4A runs and updated Fig4E counts.")
 
 
 if __name__ == "__main__":

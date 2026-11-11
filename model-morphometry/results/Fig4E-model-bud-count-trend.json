@@ -1,12 +1,12 @@
 {
   "method": "Spearman rank correlation with two-sided permutation test",
   "null_hypothesis": "Predictor and outcome are independent; outcomes are exchangeable across predictor values",
-  "rho": -0.9385673623947992,
+  "rho": -0.9451620167387671,
   "n": 18,
-  "p_raw": 2e-06,
+  "p_raw": 1e-06,
   "permutation_mode": "Monte Carlo",
   "permutations": 999999,
-  "extreme_permutations": 1,
+  "extreme_permutations": 0,
   "seed": 20261018,
   "two_sided_convention": "Absolute Spearman rho at least as large as observed",
   "monte_carlo_correction": "(extreme + 1)/(permutations + 1)",
@@ -17,5 +17,5 @@
   "predictor": "Effective thickness z",
   "outcome": "Bud count at tau/tau_g = 1.5",
   "source": "ModelData/bud_counts_summary.csv",
-  "source_sha256": "e5e200abfdaca047712725192b0e46d552221117da84964b8f947dc32d793e97"
+  "source_sha256": "f35534c76223fe166d4bc4a7eb625718bd3fbedcdc18ed7b222607da37fbb2e0"
 }

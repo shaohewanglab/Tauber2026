@@ -37,7 +37,7 @@ def main():
         check(hashlib.sha256(path.read_bytes()).hexdigest() == source["sha256"],
               f"Source changed: {path}")
     reference = json.loads((ROOT / "validation/expected-curves.json").read_text())
-    tol_colors = plots.style.thickness_colors("tol-bright", [.001, .005, .01])
+    tol_colors = plots.style.thickness_colors("tol-bright", [.002, .005, .01])
     line_count = band_count = summary_count = 0
     for number, expected in reference.items():
         with mpl.rc_context():
@@ -129,7 +129,7 @@ def main():
         "summary_rows_verified": summary_count, "plots_verified": len(reference),
         "recolored_curves_verified": recolored_curves,
         "recolored_sd_bands_verified": recolored_bands,
-        "fig4b_tol_mapping": {"BB94_um": [0, 1, 5], "matched_z": [.001, .005, .01], "colors": tol_colors},
+        "fig4b_tol_mapping": {"BB94_um": [0, 1, 5], "matched_z": [.002, .005, .01], "colors": tol_colors},
         "relative_tolerance": 1e-10, "absolute_tolerance": 1e-12,
         "presentation_ylim_overrides": plots.PRESENTATION_YLIMS,
         "fig4b_curve_style": {"individual_line_width_points": 0.5, "individual_opacity": 0.3,

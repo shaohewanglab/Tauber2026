@@ -85,7 +85,7 @@ review_sheet("Fig4AB-review", (3.2, 3.85), [
     ("Figure 4A / 4B - Paul Tol Bright", .3, 3.56, 10),
     ("4A - Model", .3, 3.40, 8),
     ("4B - Experimental", .3, 1.85, 8),
-    ("Control / 1 / 5 uM match z = 0.001 / 0.005 / 0.01.", .3, .49, 6),
+    ("Control / 1 / 5 uM colors match z = 0.002 / 0.005 / 0.01.", .3, .49, 6),
     ("4B: 0.5 pt individual curves at 30% opacity.", .3, .33, 6),
     ("Frame width: 40.80813 mm. Panels: 1.95 x 0.96 in.", .3, .17, 6),
 ])

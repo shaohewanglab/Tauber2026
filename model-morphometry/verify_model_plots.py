@@ -15,6 +15,46 @@ import reproduce_model_plots as plots
 ROOT = Path(__file__).resolve().parent
 
 
+def verify_final_thickness(curves):
+    """Independent vectorized area/edge calculation from final source nodes."""
+    final = curves.loc[curves.panel == "4A"]
+    assert len(final) == 6*3*151
+    expected_rows = []
+    for z in plots.Z_VALUES:
+        runs = []
+        for replicate in plots.REPLICATES:
+            with np.load(plots.source_path(z, replicate=replicate), allow_pickle=False) as source:
+                nodes = source["data"].transpose(2, 0, 1)
+                np.testing.assert_array_equal(source["edge_list"],
+                    np.column_stack([np.arange(399), np.arange(1, 400)]))
+            assert nodes.shape == (151, 400, 2) and np.isfinite(nodes).all()
+            closed_next = np.roll(nodes, -1, axis=1)
+            area = np.abs((nodes[:, :, 0]*closed_next[:, :, 1]
+                           - nodes[:, :, 1]*closed_next[:, :, 0]).sum(axis=1))/2
+            perimeter = np.linalg.norm(np.diff(nodes, axis=1), axis=2).sum(axis=1)
+            chi = perimeter/(2*np.sqrt(np.pi*area))-1
+            delta = 100*(chi-chi[0])
+            actual = final.loc[(final.z == z) & (final.replicate == replicate)]
+            np.testing.assert_array_equal(actual.saved_frame, np.arange(151))
+            np.testing.assert_allclose(actual.tau_relative, np.arange(151)*.01, atol=1e-12)
+            np.testing.assert_allclose(actual.delta_chi_percent, delta, atol=1e-11, rtol=1e-12)
+            runs.append(delta)
+        expected_rows.extend({"z": z, "saved_frame": i, "tau_relative": i*.01,
+                              "mean": mean, "sd": sd, "n": 3}
+                             for i, (mean, sd) in enumerate(zip(
+                                 np.mean(runs, axis=0), np.std(runs, axis=0, ddof=1))))
+    summary = pd.read_csv(ROOT/"results/Fig4A-acircularity-summary.csv")
+    pd.testing.assert_frame_equal(summary, pd.DataFrame(expected_rows),
+        check_dtype=False, check_exact=False, atol=1e-11, rtol=1e-12)
+    fig, _ = plots.build_acircularity("4A")
+    assert len(fig.axes[0].lines) == 6 and len(fig.axes[0].collections) == 6
+    for z, line in zip(plots.Z_VALUES, fig.axes[0].lines, strict=True):
+        group = summary.loc[summary.z == z]
+        np.testing.assert_allclose(line.get_ydata(), group["mean"], atol=1e-11, rtol=1e-12)
+        assert line.get_label() == f"{z:g}"
+    plots.plt.close(fig)
+
+
 def horizontal_frame_bounds(path):
     """Read the two long horizontal spines from the outlined TeX SVG."""
     bounds = []
@@ -35,8 +75,11 @@ def main():
         assert hashlib.sha256((ROOT/source["path"]).read_bytes()).hexdigest() == source["sha256"], source["path"]
     references = json.loads((ROOT/"validation/original-curves.json").read_text())
     curves = pd.read_csv(ROOT/"results/acircularity-curves.csv")
+    verify_final_thickness(curves)
     for panel, source in references.items():
         assert hashlib.sha256((ROOT/"original_scripts"/source["source_script"]).read_bytes()).hexdigest() == source["script_sha256"]
+        if panel == "4A":
+            continue  # Historical fixture is retained; current final runs are checked above.
         groups = list(curves.loc[curves.panel == panel].groupby(["condition", "z"], sort=False))
         assert len(groups) == len(source["lines"])
         for (_, actual), original in zip(groups, source["lines"], strict=True):
@@ -95,7 +138,8 @@ def main():
                                             "horizontal_bounds_tex_points": bounds,
                                             "matches_exported_4B": reference.is_file()}
     report = {"status": "passed", "source_files_verified": len(sources),
-              "original_model_curves_verified": 11, "plots_verified": len(exports),
+              "original_model_curves_verified": 5, "final_thickness_runs_verified": 18,
+              "final_thickness_mean_and_sd_curves_verified": 6, "plots_verified": len(exports),
               "bud_counts_available": len(buds), "bud_counts_target": 3*len(summary),
               "bud_counts_missing": 3*len(summary)-len(buds),
               "missing_sd_at_z": summary.loc[summary.V_count == 1, "z"].tolist(),
@@ -106,7 +150,7 @@ def main():
                                      "unavailable_comparisons": statistics["unavailable_comparisons"]},
               "relative_tolerance": 1e-12, "absolute_tolerance": 1e-12}
     (ROOT/"validation/last-verification.json").write_text(json.dumps(report, indent=2)+"\n")
-    print(f"Verified 13 model source/script files, 11 original curves, {len(buds)} available bud counts and {len(exports)} model plots.")
+    print(f"Verified {len(sources)} model source/script files, 18 final thickness runs, 5 legacy curves, {len(buds)} bud counts and {len(exports)} plots.")
 
 
 if __name__ == "__main__":

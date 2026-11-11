@@ -14,8 +14,8 @@ def observations(groups):
 
 
 class ModelBudStatisticsTests(unittest.TestCase):
-    def test_complete_shared_counts_use_five_dunnett_comparisons(self):
-        source = pd.read_csv(Path(__file__).parent/"ModelData/bud_counts_summary.csv")
+    def test_reviewed_historical_counts_use_five_dunnett_comparisons(self):
+        source = pd.read_csv(Path(__file__).parent/"validation/history/bud_counts_summary-20261018.csv")
         data = observations({row.z: [row.Nbud1, row.Nbud2, row.Nbud3]
                              for row in source.itertuples()})
         result = analyze_bud_counts(data, source.z.tolist())
