@@ -1,5 +1,20 @@
 # Internal manuscript data notes
 
+## Figures 2C/4B/5F revised control measurements, 2026-11-12
+
+The mesh source tables now match OneDrive `PaperData-v2/Results_MeshVoxelization`
+and `Tauber2026_SegmentedVolumesAndMeshes_V3.zip`. Two controls were revised:
+`241104-SMG4` (14 to 12 observations) and `241105-SMG1` (10 to 11). The other
+26 tables are unchanged. All three panels share these controls; their individual
+curves, means, population SD bands and sample counts were regenerated. The early
+negative surface/asphericity dip in `241105-SMG1` is absent in the revised data.
+
+Calculations, cohort selection and presentation are unchanged. The independent
+numerical fixture was recaptured by rerunning Justin's original plotting scripts
+against `PaperData-v2`. Old/new input hashes are in
+`mesh-morphometry/validation/source-update-20261112.json`, and prior reference
+records are in `mesh-morphometry/validation/history/2026-11-12-before-remeshed-controls`.
+
 ## Figure 4A/E final inputs, 2026-11-10
 
 This supersedes the October Figure 4 model inputs and statistics below. The source is OneDrive `ModelDataV2`: the selected 18 `thickness_paper/*_exp_V001-V003_k12.npz` archives and `bud_counts_summary_cusps.csv`. The current repository CSV is copied unchanged as `model-morphometry/ModelData/bud_counts_summary.csv`; its SHA256 is `f35534c76223fe166d4bc4a7eb625718bd3fbedcdc18ed7b222607da37fbb2e0`. The October table is retained under `model-morphometry/validation/history`.

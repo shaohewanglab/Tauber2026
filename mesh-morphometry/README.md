@@ -8,9 +8,14 @@ Reproduce the three updated plots shared by Justin:
 | 4B | `Fig4B-asphericitychange_evolution_BB94_cleanmesh_plus-tol-bright.pdf` | 7 controls, 5 at 1 µM, 8 at 5 µM |
 | 5F | `Fig5F-asphericitychange_evolution_washout_cleanmesh_plus.pdf` | 8 washouts, the same 7 controls |
 
-The 28 unchanged source tables contain 260 observations and total 10,590 bytes.
-They come from `PaperData/Results_MeshVoxelization`, retaining original
-filenames, headers and values. Hashes and original relative paths are in
+The 28 source tables contain 259 observations and total 10,550 bytes.
+They match `PaperData-v2/Results_MeshVoxelization` and the
+`Tauber2026_SegmentedVolumesAndMeshes_V3.zip` archive, retaining supplied
+filenames, headers and values. On 12 November 2026, the two control tables
+`241104-SMG4` and `241105-SMG1` were updated to the revised mesh measurements.
+The other 26 tables are unchanged. Both controls are shared by all three panels.
+The update and old/new hashes are recorded in
+`validation/source-update-20261112.json`. Hashes and original relative paths are in
 `source-data-manifest.json`. Images, meshes, spherical harmonics, the overview
 workbook, and the unused `241105-SMG4_SG2` table are not required.
 
@@ -119,11 +124,15 @@ rescale the requested canvas.
 ## Verification and attribution
 
 The plotting script consolidates Justin's three `create_*` scripts and the
-used PNAS helpers in `PlotLibrary.py`. Original script hashes and the supplied
-PDF hashes are recorded in `validation/provenance.json`.
+used PNAS helpers in `PlotLibrary.py`. Original script hashes and historical
+supplied PDF hashes are recorded in `validation/provenance.json`.
 
-`validation/expected-curves.json` was captured directly from Justin's original
-scripts with only paths and noninteractive output handling changed.
+`validation/expected-curves.json` was recaptured on 12 November 2026 directly
+from Justin's original scripts using the revised `PaperData-v2` tables, with
+only paths and noninteractive output handling changed. The capture script is
+`validation/capture_original_reference.py`; it does not import the consolidated
+plotting code. The previous reference and its supplied-PDF vector audit are
+preserved in `validation/history/2026-11-12-before-remeshed-controls`.
 The verifier checks 28 input hashes, 56 individual/mean curves, 7 SD polygons
 and 87 summary rows at `rtol=1e-10`, `atol=1e-12`. Type sizes, line widths and
 layout intentionally use the requested common presentation. The verifier also
@@ -131,6 +140,8 @@ checks the corrected Figure 2C legend-to-quantity mapping and shared y-axis titl
 It separately checks all 23 recolored Figure 4B curves and three SD bands,
 their z-matched colors, and equality of the two exported summary tables.
 
-Before restyling, the consolidated script rendered identically to the originals.
-All 63 data paths also agreed with the supplied Inkscape-exported PDFs within
-0.0024 pt. That audit established numerical provenance before restyling.
+For the original October inputs, the consolidated script rendered identically
+to the supplied scripts before restyling, and all 63 data paths agreed with the
+supplied Inkscape-exported PDFs within 0.0024 pt. That historical audit does not
+apply to the revised controls. Current numerical verification uses the original
+scripts rerun against the revised tables; current vector checks audit the new exports.

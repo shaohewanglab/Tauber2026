@@ -1,0 +1,46 @@
+{
+  "status": "passed",
+  "date": "2026-11-12",
+  "historical_capture_regression": {
+    "curves": 56,
+    "sd_bands": 7
+  },
+  "source_tables_matching_paperdata_v2_and_v3_archive": 28,
+  "changed_controls": [
+    "241104-SMG4",
+    "241105-SMG1"
+  ],
+  "unchanged_tables": 26,
+  "unchanged_treatment_and_washout_summary_rows": 31,
+  "fig4b_and_fig5f_control_summaries_identical": true,
+  "unchanged_canvas_sizes_points": {
+    "Fig2C-area_volume_evolution_control_cleanmesh_plus.pdf": [
+      227.52,
+      90.72
+    ],
+    "Fig4B-asphericitychange_evolution_BB94_cleanmesh_plus-tol-bright.pdf": [
+      140.4,
+      69.12
+    ],
+    "Fig5F-asphericitychange_evolution_washout_cleanmesh_plus.pdf": [
+      241.92,
+      89.28
+    ]
+  },
+  "largest_control_mean_changes_within_0_to_16h_percentage_points": {
+    "Fig2C-area_volume_evolution_control_cleanmesh_plus.pdf:surface_area": 3.451358069799788,
+    "Fig2C-area_volume_evolution_control_cleanmesh_plus.pdf:volume_scaled_area": 0.39192539946051486,
+    "Fig4B-asphericitychange_evolution_BB94_cleanmesh_plus-tol-bright.pdf:asphericity": 4.820388210697992,
+    "Fig5F-asphericitychange_evolution_washout_cleanmesh_plus.pdf:asphericity": 4.820388210697992
+  },
+  "241105_SMG1_at_200_min": {
+    "before": {
+      "surface_expansion_percent": -3.603109497871304,
+      "asphericity_change_percent": -7.4642820428240775
+    },
+    "updated": {
+      "surface_expansion_percent": 3.9522942918450266,
+      "asphericity_change_percent": 6.023794753565914
+    }
+  }
+}

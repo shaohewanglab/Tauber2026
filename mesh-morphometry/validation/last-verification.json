@@ -1,7 +1,7 @@
 {
   "status": "passed",
   "source_tables_verified": 28,
-  "source_bytes": 10590,
+  "source_bytes": 10550,
   "individual_and_mean_curves_verified": 56,
   "sd_bands_verified": 7,
   "summary_rows_verified": 87,

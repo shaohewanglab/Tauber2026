@@ -1,5 +1,5 @@
 {
-  "date": "2026-10-17",
+  "date": "2026-11-12",
   "attribution": "Plotting scripts and cleaned-mesh measurements shared by Justin with Shaohe Wang.",
   "original_scripts": [
     {
@@ -33,8 +33,17 @@
       "sha256": "c1b8232e49cea0094fbeb6dcc2cc29f17c192556987184d27d51bb59250a1453"
     }
   ],
-  "numerical_reference": "Captured directly from Justin's original scripts (only rootFolder and noninteractive output handling changed), not from the consolidated implementation.",
+  "numerical_reference": "Captured directly from Justin's original scripts against PaperData-v2, changing only rootFolder and suppressing savefig/show. The consolidated plotting implementation is not imported.",
   "source_tables": 28,
-  "source_bytes": 10590,
-  "excluded": "241105-SMG4_SG2 and all image volumes, meshes, spherical harmonics and overview workbook: not read by the selected scripts."
+  "source_bytes": 10550,
+  "excluded": "241105-SMG4_SG2 and all image volumes, meshes, spherical harmonics and overview workbook: not read by the selected scripts.",
+  "original_reference_date": "2026-10-17",
+  "source_observations": 259,
+  "source_data_version": "PaperData-v2/Results_MeshVoxelization (identical to the V3 archive)",
+  "source_update": "source-update-20261112.json",
+  "reference_capture_script": "capture_original_reference.py",
+  "reference_capture_script_sha256": "094d12650b8ea2f04bc138ede1356a43f391ddf2f270d67ca2e5f76c13b7c76c",
+  "expected_curves_sha256": "116658c26db4dcdd069e484027e6ee351ec2742edf79255b9f44ac6165f3953e",
+  "reference_pdf_scope": "Historical October supplied PDFs, before the two control-table revisions. Their prior vector comparison is retained in history/2026-11-12-before-remeshed-controls; they are not references for the updated numerical curves.",
+  "update_verification": "update-verification-20261112.json"
 }

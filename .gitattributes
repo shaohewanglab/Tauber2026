@@ -3,6 +3,7 @@
 BB-94-titration/source_data/** -text
 BB-94-washout/source_data/** -text
 mesh-morphometry/source_data/** -text
+mesh-morphometry/validation/history/**/source_data/** -text
 model-morphometry/ModelData/** -text
 model-morphometry/original_scripts/** -text
 image-processing/*.py -text

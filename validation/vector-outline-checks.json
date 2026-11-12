@@ -83,7 +83,7 @@
         "font_resources": 0,
         "text_operators": 0,
         "raster_images": 0,
-        "vector_path_operators": 1340,
+        "vector_path_operators": 1342,
         "page_sizes_points": [
           [
             227.52,
@@ -107,7 +107,7 @@
         "font_resources": 0,
         "text_operators": 0,
         "raster_images": 0,
-        "vector_path_operators": 1110,
+        "vector_path_operators": 1111,
         "page_sizes_points": [
           [
             140.4,
@@ -131,7 +131,7 @@
         "font_resources": 0,
         "text_operators": 0,
         "raster_images": 0,
-        "vector_path_operators": 1284,
+        "vector_path_operators": 1285,
         "page_sizes_points": [
           [
             241.92,
@@ -247,5 +247,42 @@
       }
     }
   },
-  "review_sheets": {}
+  "review_sheets": {
+    "validation/review/Fig4A-5DE-acircularity-review.pdf": {
+      "font_resources": 0,
+      "text_operators": 0,
+      "raster_images": 0,
+      "vector_path_operators": 8182,
+      "page_sizes_points": [
+        [
+          403.2,
+          324.0
+        ]
+      ]
+    },
+    "validation/review/Fig4AB-review.pdf": {
+      "font_resources": 0,
+      "text_operators": 0,
+      "raster_images": 0,
+      "vector_path_operators": 7297,
+      "page_sizes_points": [
+        [
+          230.4,
+          277.2
+        ]
+      ]
+    },
+    "validation/review/Fig4EFG-titration-review.pdf": {
+      "font_resources": 0,
+      "text_operators": 0,
+      "raster_images": 0,
+      "vector_path_operators": 7815,
+      "page_sizes_points": [
+        [
+          201.6,
+          291.6
+        ]
+      ]
+    }
+  }
 }

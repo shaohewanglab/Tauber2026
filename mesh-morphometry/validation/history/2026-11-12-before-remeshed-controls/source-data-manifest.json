@@ -1,0 +1,226 @@
+[
+  {
+    "path": "source_data/volume_area_241104-SMG2_cp_model0907_v2.txt",
+    "original_project_path": "PaperData/Results_MeshVoxelization/241104-SMG2_cp_model0907_v2/volume_area_241104-SMG2_cp_model0907_v2.txt",
+    "sha256": "783e508f5d9ad2357a84debdc5b2563e4408a6751f4acb782f674ed44dd55aaa",
+    "bytes": 184,
+    "cohort": "control",
+    "sample": "241104-SMG2"
+  },
+  {
+    "path": "source_data/volume_area_241104-SMG4_cp_model0907_v2.txt",
+    "original_project_path": "PaperData/Results_MeshVoxelization/241104-SMG4_cp_model0907_v2/volume_area_241104-SMG4_cp_model0907_v2.txt",
+    "sha256": "9d583aa947cb5cc0fafeb1a9eb9cee5293d2fee96775dde2a464307b91ea5345",
+    "bytes": 557,
+    "cohort": "control",
+    "sample": "241104-SMG4"
+  },
+  {
+    "path": "source_data/volume_area_241104-SMG5_cp_model0907_v2.txt",
+    "original_project_path": "PaperData/Results_MeshVoxelization/241104-SMG5_cp_model0907_v2/volume_area_241104-SMG5_cp_model0907_v2.txt",
+    "sha256": "276936167273713b7795a1fee7378ec54b908620a986229d827f3ef8c375ab9a",
+    "bytes": 555,
+    "cohort": "control",
+    "sample": "241104-SMG5"
+  },
+  {
+    "path": "source_data/volume_area_241105-SMG1_cp_model0907_v2.txt",
+    "original_project_path": "PaperData/Results_MeshVoxelization/241105-SMG1_cp_model0907_v2/volume_area_241105-SMG1_cp_model0907_v2.txt",
+    "sha256": "9144d6440ef3873a971342a92ac220489d6e75da0fa449802f56758a86470836",
+    "bytes": 405,
+    "cohort": "control",
+    "sample": "241105-SMG1"
+  },
+  {
+    "path": "source_data/volume_area_241105-SMG2_cp_model0907_v2.txt",
+    "original_project_path": "PaperData/Results_MeshVoxelization/241105-SMG2_cp_model0907_v2/volume_area_241105-SMG2_cp_model0907_v2.txt",
+    "sha256": "727e23405fc40e7547df23b35cd58038b033611dd23dcfb6083fbde157d593e9",
+    "bytes": 220,
+    "cohort": "control",
+    "sample": "241105-SMG2"
+  },
+  {
+    "path": "source_data/volume_area_241105-SMG3_cp_model0907_v2.txt",
+    "original_project_path": "PaperData/Results_MeshVoxelization/241105-SMG3_cp_model0907_v2/volume_area_241105-SMG3_cp_model0907_v2.txt",
+    "sha256": "7f93853cbfccb1c6695e7cdc15fd62bcd7725388f667b0c376f3c0a4c30eb842",
+    "bytes": 443,
+    "cohort": "control",
+    "sample": "241105-SMG3"
+  },
+  {
+    "path": "source_data/volume_area_241105-SMG4_SG1_cp_model0907_v2.txt",
+    "original_project_path": "PaperData/Results_MeshVoxelization/241105-SMG4_SG1_cp_model0907_v2/volume_area_241105-SMG4_SG1_cp_model0907_v2.txt",
+    "sha256": "f6f737d20d78ceca64116440c8c90b35238b6adc872182fc596ebb606434c08e",
+    "bytes": 287,
+    "cohort": "control",
+    "sample": "241105-SMG4_SG1"
+  },
+  {
+    "path": "source_data/volume_area_241114-SMG1-BB94-1uM_cp_model0907_v2.txt",
+    "original_project_path": "PaperData/Results_MeshVoxelization/241114-SMG1-BB94-1uM_cp_model0907_v2/volume_area_241114-SMG1-BB94-1uM_cp_model0907_v2.txt",
+    "sha256": "a93e79248abf623e1a9f49ec4163c6a25b6bb9e882e47603a18085bffeace740",
+    "bytes": 331,
+    "cohort": "BB94-1uM",
+    "sample": "241114-SMG1-BB94-1uM"
+  },
+  {
+    "path": "source_data/volume_area_241114-SMG2-BB94-1uM_cp_model0907_v2.txt",
+    "original_project_path": "PaperData/Results_MeshVoxelization/241114-SMG2-BB94-1uM_cp_model0907_v2/volume_area_241114-SMG2-BB94-1uM_cp_model0907_v2.txt",
+    "sha256": "212516475ecc7712d56714ec39e10778d588f146842078d24e99546a00b91642",
+    "bytes": 405,
+    "cohort": "BB94-1uM",
+    "sample": "241114-SMG2-BB94-1uM"
+  },
+  {
+    "path": "source_data/volume_area_241114-SMG3-BB94-1uM_cp_model0907_v2.txt",
+    "original_project_path": "PaperData/Results_MeshVoxelization/241114-SMG3-BB94-1uM_cp_model0907_v2/volume_area_241114-SMG3-BB94-1uM_cp_model0907_v2.txt",
+    "sha256": "b78671f26b81987aacd7bb348ced2c1c6f2709f6882eee13e21da4af05d3cddc",
+    "bytes": 294,
+    "cohort": "BB94-1uM",
+    "sample": "241114-SMG3-BB94-1uM"
+  },
+  {
+    "path": "source_data/volume_area_241114-SMG4-BB94-1uM_cp_model0907_v2.txt",
+    "original_project_path": "PaperData/Results_MeshVoxelization/241114-SMG4-BB94-1uM_cp_model0907_v2/volume_area_241114-SMG4-BB94-1uM_cp_model0907_v2.txt",
+    "sha256": "48125367edbf13521c3aba666d1319e43c2f0c48c7f6c9d5d1c638f91651c93d",
+    "bytes": 137,
+    "cohort": "BB94-1uM",
+    "sample": "241114-SMG4-BB94-1uM"
+  },
+  {
+    "path": "source_data/volume_area_241114-SMG5-BB94-1uM_cp_model0907_v2.txt",
+    "original_project_path": "PaperData/Results_MeshVoxelization/241114-SMG5-BB94-1uM_cp_model0907_v2/volume_area_241114-SMG5-BB94-1uM_cp_model0907_v2.txt",
+    "sha256": "4efaa9c1593ea1b77b8a056b85dbcc87e9df9e144052b30549e18dba0dcf083a",
+    "bytes": 220,
+    "cohort": "BB94-1uM",
+    "sample": "241114-SMG5-BB94-1uM"
+  },
+  {
+    "path": "source_data/volume_area_250401-SMG1-BB94-5uM_cp_model0907_v2.txt",
+    "original_project_path": "PaperData/Results_MeshVoxelization/250401-SMG1-BB94-5uM_cp_model0907_v2/volume_area_250401-SMG1-BB94-5uM_cp_model0907_v2.txt",
+    "sha256": "f692cc671f8f82039a47d5227228d860dcecaf85394c3b3988b8376e69609cc9",
+    "bytes": 394,
+    "cohort": "BB94-5uM",
+    "sample": "250401-SMG1-BB94-5uM"
+  },
+  {
+    "path": "source_data/volume_area_250401-SMG2-BB94-5uM_cp_model0907_v2.txt",
+    "original_project_path": "PaperData/Results_MeshVoxelization/250401-SMG2-BB94-5uM_cp_model0907_v2/volume_area_250401-SMG2-BB94-5uM_cp_model0907_v2.txt",
+    "sha256": "593d588743e5780c29fbd19b0da6b3fe43aad5c0faa6bdc483aafbc5f6327018",
+    "bytes": 405,
+    "cohort": "BB94-5uM",
+    "sample": "250401-SMG2-BB94-5uM"
+  },
+  {
+    "path": "source_data/volume_area_250401-SMG3-BB94-5uM_cp_model0907_v2.txt",
+    "original_project_path": "PaperData/Results_MeshVoxelization/250401-SMG3-BB94-5uM_cp_model0907_v2/volume_area_250401-SMG3-BB94-5uM_cp_model0907_v2.txt",
+    "sha256": "981c266ce4430a1cbd94591ccf25eb903ad89dd4f84f045e03cf0e0f4c41c080",
+    "bytes": 405,
+    "cohort": "BB94-5uM",
+    "sample": "250401-SMG3-BB94-5uM"
+  },
+  {
+    "path": "source_data/volume_area_250401-SMG4-BB94-5uM_cp_model0907_v2.txt",
+    "original_project_path": "PaperData/Results_MeshVoxelization/250401-SMG4-BB94-5uM_cp_model0907_v2/volume_area_250401-SMG4-BB94-5uM_cp_model0907_v2.txt",
+    "sha256": "05ad7f1fa96d703683a87b6374af5be82c46a10af3dd58283bbbc7424a6c3b3e",
+    "bytes": 294,
+    "cohort": "BB94-5uM",
+    "sample": "250401-SMG4-BB94-5uM"
+  },
+  {
+    "path": "source_data/volume_area_250401-SMG5-BB94-5uM_cp_model0907_v2.txt",
+    "original_project_path": "PaperData/Results_MeshVoxelization/250401-SMG5-BB94-5uM_cp_model0907_v2/volume_area_250401-SMG5-BB94-5uM_cp_model0907_v2.txt",
+    "sha256": "148e24f9af71dbd0f8cc18a064d627f73329823b12f89784b30cc2337c211435",
+    "bytes": 405,
+    "cohort": "BB94-5uM",
+    "sample": "250401-SMG5-BB94-5uM"
+  },
+  {
+    "path": "source_data/volume_area_250401-SMG6-BB94-5uM_cp_model0907_v2.txt",
+    "original_project_path": "PaperData/Results_MeshVoxelization/250401-SMG6-BB94-5uM_cp_model0907_v2/volume_area_250401-SMG6-BB94-5uM_cp_model0907_v2.txt",
+    "sha256": "9fc191c62194f2ce8ae6838730307524c9232fe97173e93960379fd8de9c5f6f",
+    "bytes": 395,
+    "cohort": "BB94-5uM",
+    "sample": "250401-SMG6-BB94-5uM"
+  },
+  {
+    "path": "source_data/volume_area_250401-SMG7-BB94-5uM_cp_model0907_v2.txt",
+    "original_project_path": "PaperData/Results_MeshVoxelization/250401-SMG7-BB94-5uM_cp_model0907_v2/volume_area_250401-SMG7-BB94-5uM_cp_model0907_v2.txt",
+    "sha256": "9a8fb53a4f1b274788e3be85576ee4df21909662213fe2940682a42b1cabb572",
+    "bytes": 405,
+    "cohort": "BB94-5uM",
+    "sample": "250401-SMG7-BB94-5uM"
+  },
+  {
+    "path": "source_data/volume_area_250401-SMG8-BB94-5uM_cp_model0907_v2.txt",
+    "original_project_path": "PaperData/Results_MeshVoxelization/250401-SMG8-BB94-5uM_cp_model0907_v2/volume_area_250401-SMG8-BB94-5uM_cp_model0907_v2.txt",
+    "sha256": "24d61a0c06b4f32f02da0cc254044aace45de532b53204ad1636c56acd2ea577",
+    "bytes": 368,
+    "cohort": "BB94-5uM",
+    "sample": "250401-SMG8-BB94-5uM"
+  },
+  {
+    "path": "source_data/volume_area_250916-SMG1-BB94-washout_cp_model0907_v2.txt",
+    "original_project_path": "PaperData/Results_MeshVoxelization/250916-SMG1-BB94-washout_cp_model0907_v2/volume_area_250916-SMG1-BB94-washout_cp_model0907_v2.txt",
+    "sha256": "4d05a6ca4d675970538ea0a70259eeb31b53ec00431d0da98da8da3ef650a8dd",
+    "bytes": 448,
+    "cohort": "washout",
+    "sample": "250916-SMG1-BB94-washout"
+  },
+  {
+    "path": "source_data/volume_area_250916-SMG2-BB94-washout_cp_model0907_v2.txt",
+    "original_project_path": "PaperData/Results_MeshVoxelization/250916-SMG2-BB94-washout_cp_model0907_v2/volume_area_250916-SMG2-BB94-washout_cp_model0907_v2.txt",
+    "sha256": "4ae43c5f323e57beaae46eff20874d54975384d5603e4a58402dc86dca6d7eb1",
+    "bytes": 380,
+    "cohort": "washout",
+    "sample": "250916-SMG2-BB94-washout"
+  },
+  {
+    "path": "source_data/volume_area_250916-SMG3-BB94-washout_cp_model0907_v2.txt",
+    "original_project_path": "PaperData/Results_MeshVoxelization/250916-SMG3-BB94-washout_cp_model0907_v2/volume_area_250916-SMG3-BB94-washout_cp_model0907_v2.txt",
+    "sha256": "762344022aedc94576426350f4812cdeb2f4d2309758999276d0ec8085e99335",
+    "bytes": 432,
+    "cohort": "washout",
+    "sample": "250916-SMG3-BB94-washout"
+  },
+  {
+    "path": "source_data/volume_area_250916-SMG4-BB94-washout_cp_model0907_v2.txt",
+    "original_project_path": "PaperData/Results_MeshVoxelization/250916-SMG4-BB94-washout_cp_model0907_v2/volume_area_250916-SMG4-BB94-washout_cp_model0907_v2.txt",
+    "sha256": "5e695e8ef94f0f70b8128456810b75933ef2b184ca3d841877c95e15de012d43",
+    "bytes": 442,
+    "cohort": "washout",
+    "sample": "250916-SMG4-BB94-washout"
+  },
+  {
+    "path": "source_data/volume_area_250916-SMG5-BB94-washout_cp_model0907_v2.txt",
+    "original_project_path": "PaperData/Results_MeshVoxelization/250916-SMG5-BB94-washout_cp_model0907_v2/volume_area_250916-SMG5-BB94-washout_cp_model0907_v2.txt",
+    "sha256": "3398a5ec7a1bb18843bdd58180621d8f7c8fbcaca2ae793a138c6b3d6c7b8509",
+    "bytes": 446,
+    "cohort": "washout",
+    "sample": "250916-SMG5-BB94-washout"
+  },
+  {
+    "path": "source_data/volume_area_250916-SMG6-BB94-washout_cp_model0907_v2.txt",
+    "original_project_path": "PaperData/Results_MeshVoxelization/250916-SMG6-BB94-washout_cp_model0907_v2/volume_area_250916-SMG6-BB94-washout_cp_model0907_v2.txt",
+    "sha256": "3b79f94cafc65c63cb426ebd7313c027ab92c9735f78118df3a4c91b47d0ba3e",
+    "bytes": 457,
+    "cohort": "washout",
+    "sample": "250916-SMG6-BB94-washout"
+  },
+  {
+    "path": "source_data/volume_area_250916-SMG7-BB94-washout_cp_model0907_v2.txt",
+    "original_project_path": "PaperData/Results_MeshVoxelization/250916-SMG7-BB94-washout_cp_model0907_v2/volume_area_250916-SMG7-BB94-washout_cp_model0907_v2.txt",
+    "sha256": "229f08377b08b5fa23c4e670923aa18af44eefbd48735942fa4af7eaab8263de",
+    "bytes": 446,
+    "cohort": "washout",
+    "sample": "250916-SMG7-BB94-washout"
+  },
+  {
+    "path": "source_data/volume_area_250916-SMG8-BB94-washout_cp_model0907_v2.txt",
+    "original_project_path": "PaperData/Results_MeshVoxelization/250916-SMG8-BB94-washout_cp_model0907_v2/volume_area_250916-SMG8-BB94-washout_cp_model0907_v2.txt",
+    "sha256": "888874f0f15b76037d16e47b1e787a132807fdfe935d075445a1b777105f1ffc",
+    "bytes": 430,
+    "cohort": "washout",
+    "sample": "250916-SMG8-BB94-washout"
+  }
+]

@@ -1,0 +1,40 @@
+{
+  "date": "2026-10-17",
+  "attribution": "Plotting scripts and cleaned-mesh measurements shared by Justin with Shaohe Wang.",
+  "original_scripts": [
+    {
+      "path": "PlotScripts_Justin/create_areavolumeratio_plot_experiment.py",
+      "sha256": "c63599101bd673544177c8ca847de4338ea30d964a9f2318a4b1785089034eab"
+    },
+    {
+      "path": "PlotScripts_Justin/create_asphericity_plot_experiment.py",
+      "sha256": "f30b300ca4ce37bdb1e3262fa71ca13c4e32c02fd516c8efc750d5f0c6d02cfe"
+    },
+    {
+      "path": "PlotScripts_Justin/create_asphericity_plot_washout.py",
+      "sha256": "278f2380f920efc59bb3c23a83808fcf0cb4db184a7b07572a780c775a7e7ceb"
+    },
+    {
+      "path": "PlotScripts_Justin/PlotLibrary.py",
+      "sha256": "9819bfc2a95b9bf7f31c84c2d3887f1a600cd27559f9a0892840a680e9e68125"
+    }
+  ],
+  "reference_pdfs": [
+    {
+      "path": "Plots/Fig2-area_volume_evolution_control_cleanmesh_plus.pdf",
+      "sha256": "67e88414f489f7ee4b2d1bd91fe1a344163475559a929c61bad42026780e767d"
+    },
+    {
+      "path": "Plots/Fig4-asphericitychange_evolution_BB94_cleanmesh_plus.pdf",
+      "sha256": "ea677b70dfae9bc1f707bf909d6cd52ace555827152c9587811d73c84e634e24"
+    },
+    {
+      "path": "Plots/Fig5-asphericitychange_evolution_washout_cleanmesh_plus.pdf",
+      "sha256": "c1b8232e49cea0094fbeb6dcc2cc29f17c192556987184d27d51bb59250a1453"
+    }
+  ],
+  "numerical_reference": "Captured directly from Justin's original scripts (only rootFolder and noninteractive output handling changed), not from the consolidated implementation.",
+  "source_tables": 28,
+  "source_bytes": 10590,
+  "excluded": "241105-SMG4_SG2 and all image volumes, meshes, spherical harmonics and overview workbook: not read by the selected scripts."
+}

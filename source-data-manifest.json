@@ -124,8 +124,8 @@
   {
     "path": "mesh-morphometry/source_data/volume_area_241104-SMG4_cp_model0907_v2.txt",
     "original_project_path": "PaperData/Results_MeshVoxelization/241104-SMG4_cp_model0907_v2/volume_area_241104-SMG4_cp_model0907_v2.txt",
-    "sha256": "9d583aa947cb5cc0fafeb1a9eb9cee5293d2fee96775dde2a464307b91ea5345",
-    "bytes": 557,
+    "sha256": "cb570c0c2d472bc8403bab867278c423b4df459cfe349607f1c697727315230a",
+    "bytes": 481,
     "cohort": "control",
     "sample": "241104-SMG4"
   },
@@ -140,8 +140,8 @@
   {
     "path": "mesh-morphometry/source_data/volume_area_241105-SMG1_cp_model0907_v2.txt",
     "original_project_path": "PaperData/Results_MeshVoxelization/241105-SMG1_cp_model0907_v2/volume_area_241105-SMG1_cp_model0907_v2.txt",
-    "sha256": "9144d6440ef3873a971342a92ac220489d6e75da0fa449802f56758a86470836",
-    "bytes": 405,
+    "sha256": "18b416c4cf53fe896e04966118659fce1610c78512e7e5c7d3e3af1f51386b85",
+    "bytes": 441,
     "cohort": "control",
     "sample": "241105-SMG1"
   },
