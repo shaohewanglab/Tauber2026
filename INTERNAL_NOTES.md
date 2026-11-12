@@ -1,5 +1,21 @@
 # Internal manuscript data notes
 
+## Figure 5 final washout simulations, 2026-11-12
+
+5D/E now use all three independent runs in OneDrive `ModelDataV2/washout`,
+with the matching three final runs at z=0.001 and z=0.015 as references.
+5D plots each run's change relative to frame 0; 5E resets each run's time and
+acircularity at frame 75 (tau/tau_g=0.75). Both panels show means and sample
+SD (ddof=1). All archives have 151 saved frames, spaced by 0.01 normalized time.
+The supplied integration steps are not used as saved-frame intervals.
+
+Three washout and three z=0.015 reference archives were added unchanged to
+the repository; the z=0.001 final runs were already bundled for 4A. Historical
+inputs and fixtures are retained for historical validation, while the current
+plots are independently checked directly from final node coordinates.
+`model-morphometry/results/Fig5DE-acircularity-summary.csv` contains group
+means, sample SD and sample sizes. The 4A/E results are unchanged.
+
 ## Figures 2C/4B/5F revised control measurements, 2026-11-12
 
 The mesh source tables now match OneDrive `PaperData-v2/Results_MeshVoxelization`

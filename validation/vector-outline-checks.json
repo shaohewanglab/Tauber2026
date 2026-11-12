@@ -203,7 +203,7 @@
         "font_resources": 0,
         "text_operators": 0,
         "raster_images": 0,
-        "vector_path_operators": 1078,
+        "vector_path_operators": 1994,
         "page_sizes_points": [
           [
             115.2,
@@ -215,7 +215,7 @@
         "text_elements": 0,
         "font_definitions": 0,
         "raster_images": 0,
-        "path_elements": 69,
+        "path_elements": 75,
         "size_points": [
           115.200428,
           89.280389
@@ -227,7 +227,7 @@
         "font_resources": 0,
         "text_operators": 0,
         "raster_images": 0,
-        "vector_path_operators": 1097,
+        "vector_path_operators": 1410,
         "page_sizes_points": [
           [
             115.2,
@@ -239,7 +239,7 @@
         "text_elements": 0,
         "font_definitions": 0,
         "raster_images": 0,
-        "path_elements": 59,
+        "path_elements": 63,
         "size_points": [
           115.200428,
           89.280389
@@ -252,7 +252,7 @@
       "font_resources": 0,
       "text_operators": 0,
       "raster_images": 0,
-      "vector_path_operators": 8182,
+      "vector_path_operators": 11260,
       "page_sizes_points": [
         [
           403.2,

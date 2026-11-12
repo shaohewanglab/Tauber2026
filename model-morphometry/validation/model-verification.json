@@ -1,6 +1,10 @@
 {
-  "source_hashes_checked": 31,
-  "original_curves_checked": 5,
+  "source_hashes_checked": 37,
+  "final_washout_runs": 3,
+  "final_washout_reference_runs": 6,
+  "washout_mean_curves": 5,
+  "washout_sample_sd_bands": 5,
+  "washout_reset_frame": 75,
   "final_thickness_runs": 18,
   "tol_thickness_mean_curves": 6,
   "sample_sd_bands": 6,

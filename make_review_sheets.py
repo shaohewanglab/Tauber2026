@@ -63,8 +63,8 @@ review_sheet("Fig4A-5DE-acircularity-review", (5.6, 4.5), [
     ("create_acircularity_plot_exp.py", .3, 2.43, 6),
     ("5D - Full washout time course", .3, 2.04, 8),
     ("5E - Post washout; reset at frame 75", 3.0, 2.04, 8),
-    ("create_acircularity_plot_washout.py", .3, .42, 6),
-    ("create_acircularity_plot_washoutcontrol.py", 3.0, .42, 6),
+    ("Final ModelDataV2: mean +/- sample SD, n = 3", .3, .42, 6),
+    ("Final ModelDataV2: mean +/- sample SD, n = 3", 3.0, .42, 6),
     ("Panels shown at their requested full sizes.", .3, .15, 6),
 ])
 

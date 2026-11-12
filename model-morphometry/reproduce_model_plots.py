@@ -25,6 +25,8 @@ from dunnett_statistics import ASSUMPTIONS
 ROOT = Path(__file__).resolve().parent
 Z_VALUES = [.001, .002, .003, .005, .008, .01]
 REPLICATES = (1, 2, 3)
+WASHOUT_FRAME = 75
+SAVED_FRAME_INTERVAL = .01
 SCRIPTS = {"4A": "create_acircularity_plot_exp.py",
            "5D": "create_acircularity_plot_washout.py",
            "5E": "create_acircularity_plot_washoutcontrol.py"}
@@ -36,8 +38,13 @@ STEMS = {"4A": "Fig4A-acircularity-varying-thickness",
 def source_path(z, washout=False, replicate=None):
     folder = "washout_paper" if washout else "thickness_paper"
     if replicate is not None:
-        if washout or z not in Z_VALUES or replicate not in REPLICATES:
-            raise ValueError("Expected a selected final thickness and simulation 1-3")
+        if (replicate not in REPLICATES or (washout and z != .015)
+                or (not washout and z not in [*Z_VALUES, .015])):
+            raise ValueError("Expected a final thickness/washout condition and simulation 1-3")
+        if washout:
+            return ROOT / "ModelData/washout" / (
+                f"shape_array_r_5_z_{z}_kP_0.01_kn_5e-06_tg_1e+06_tgi_2e+06_"
+                f"M_1e-07_dt_0.01_exp_V{replicate:03d}_washout.npz")
         dt = "0.01" if z <= .002 else "0.1"
         return ROOT / "ModelData" / folder / (
             f"shape_array_r_5_z_{z}_kP_0.01_kn_5e-06_tg_1e+06_tgi_2e+06_"
@@ -63,7 +70,7 @@ def measures(z, washout=False, replicate=None):
         y = np.append(contour[:, 1], contour[0, 1])
         area[frame] = .5 * np.abs(np.sum(x[:-1]*y[1:] - y[:-1]*x[1:]))
         perimeter[frame] = np.sum(np.sqrt(np.sum((contour[1:]-contour[:-1])**2, axis=1)))
-    tau = np.arange(shapes.shape[2]) * .01
+    tau = np.arange(shapes.shape[2]) * SAVED_FRAME_INTERVAL
     chi = 1 / ((2*np.sqrt(np.pi*area))/perimeter) - 1
     return tau, area, perimeter, chi
 
@@ -85,6 +92,34 @@ def thickness_curves():
 
 def summarize_thickness(curves):
     return (curves.groupby(["z", "saved_frame", "tau_relative"], sort=False)
+            .delta_chi_percent.agg(mean="mean", sd="std", n="count").reset_index())
+
+
+def washout_curves(panel):
+    """Final washout/reference replicates, baselined before summarizing."""
+    if panel not in {"5D", "5E"}:
+        raise ValueError("Expected panel 5D or 5E")
+    start = WASHOUT_FRAME if panel == "5E" else 0
+    groups = [("washout", .015), ("reference", .001)]
+    if panel == "5D":
+        groups.append(("reference", .015))
+    rows = []
+    for condition, z in groups:
+        for replicate in REPLICATES:
+            tau, _, _, chi = measures(z, condition == "washout", replicate)
+            if len(tau) != 151:
+                raise ValueError("Final washout/reference runs must contain 151 frames")
+            rows.extend({"panel": panel, "condition": condition, "z": z,
+                         "replicate": replicate, "saved_frame": i,
+                         "tau_relative": t-tau[start],
+                         "delta_chi_percent": 100*(chi[i]-chi[start])}
+                        for i, t in enumerate(tau) if i >= start)
+    return pd.DataFrame(rows)
+
+
+def summarize_washout(curves):
+    selected = curves.loc[curves.panel.isin(["5D", "5E"])]
+    return (selected.groupby(["panel", "condition", "z", "saved_frame", "tau_relative"], sort=False)
             .delta_chi_percent.agg(mean="mean", sd="std", n="count").reset_index())
 
 
@@ -145,14 +180,20 @@ def build_acircularity(panel, palette="tol-bright"):
         ax.legend(title=r"$z$", ncols=2, loc="upper left", frameon=False,
                   handlelength=.6, handletextpad=.35, columnspacing=.7,
                   labelspacing=.25, borderaxespad=0)
-    elif panel == "5D":
-        add_curve(ax, panel, .015, True, "firebrick", "Washout", records, zorder=3)
-        for z, gray in [(.001, .44), (.015, .70)]:
-            add_curve(ax, panel, z, False, mpl.colormaps["Greys"](gray), rf"$z$ = {z:g}", records)
-        ax.legend(loc="upper left", frameon=False, handlelength=.6, handletextpad=.4)
     else:
-        add_curve(ax, panel, .015, True, "firebrick", "Post washout", records, start=75, zorder=3)
-        add_curve(ax, panel, .001, False, mpl.colormaps["Greys"](.44), r"$z$ = 0.001", records, start=75)
+        curves = washout_curves(panel)
+        records = curves.to_dict(orient="records")
+        summary = summarize_washout(curves)
+        groups = [("washout", .015, "firebrick", "Washout" if panel == "5D" else "Post washout"),
+                  ("reference", .001, mpl.colormaps["Greys"](.44), r"$z$ = 0.001")]
+        if panel == "5D":
+            groups.append(("reference", .015, mpl.colormaps["Greys"](.70), r"$z$ = 0.015"))
+        for condition, z, color, label in groups:
+            group = summary.loc[(summary.condition == condition) & (summary.z == z)]
+            ax.fill_between(group.tau_relative, group["mean"]-group.sd,
+                            group["mean"]+group.sd, color=color, alpha=.20, linewidth=0, zorder=1)
+            ax.plot(group.tau_relative, group["mean"], color=color, label=label,
+                    lw=style.MEAN_WIDTH, zorder=3 if condition == "washout" else 2)
         ax.legend(loc="upper left", frameon=False, handlelength=.6, handletextpad=.4)
     ax.set_xlabel(r"$\Delta\tau/\tau_g$" if panel == "5E" else r"$\tau/\tau_g$")
     ax.set_ylabel(r"$\Delta\chi_{\text{2D}}$ [%]")
@@ -279,20 +320,17 @@ def main():
     sources = json.loads((ROOT/"source-data-manifest.json").read_text())
     for source in sources:
         assert hashlib.sha256((ROOT/source["path"]).read_bytes()).hexdigest() == source["sha256"]
-    # The reference was captured from the unchanged supplied scripts. Preserve
-    # it as an independent fixture instead of overwriting it during a rebuild.
-    expected = json.loads((ROOT/"validation/original-curves.json").read_text())
     rows = []
     for panel in ["4A", "5D", "5E"]:
         with mpl.rc_context():
             fig, records = build_acircularity(panel)
-            if panel != "4A":
-                check_curves(fig, expected[panel])
             rows.extend(records)
             suffix = "-tol-bright" if panel == "4A" else ""
             style.save_arev_figure(fig, args.output_dir/(STEMS[panel]+suffix), dpi=450)
             plt.close(fig)
     pd.DataFrame(rows).to_csv(args.output_dir/"acircularity-curves.csv", index=False)
+    summarize_washout(pd.DataFrame(rows)).to_csv(
+        args.output_dir/"Fig5DE-acircularity-summary.csv", index=False)
     summarize_thickness(thickness_curves()).to_csv(
         args.output_dir/"Fig4A-acircularity-summary.csv", index=False)
     with mpl.rc_context():
@@ -307,7 +345,9 @@ def main():
                  statistical_unit="One independent simulation",
                  source="ModelData/bud_counts_summary.csv", source_sha256=bud_statistics["source_sha256"])
     (args.output_dir/"Fig4E-model-bud-count-trend.json").write_text(json.dumps(trend, indent=2)+"\n")
-    report = {"source_hashes_checked": len(sources), "original_curves_checked": 5,
+    report = {"source_hashes_checked": len(sources), "final_washout_runs": 3,
+              "final_washout_reference_runs": 6, "washout_mean_curves": 5,
+              "washout_sample_sd_bands": 5, "washout_reset_frame": WASHOUT_FRAME,
               "final_thickness_runs": 18, "tol_thickness_mean_curves": 6,
               "sample_sd_bands": 6, "upper_bound_bands_checked": 0,
               "presentation_changes": {"4A": "Final ModelDataV2 contours; mean and sample SD of three independent runs per thickness. Each run is baselined at frame 0 before summarizing. Tol colors run purple, blue, cyan, green, yellow, red as effective z increases."},
@@ -327,7 +367,7 @@ def main():
                                     "unavailable_comparisons": bud_statistics["unavailable_comparisons"]},
               "status": "passed", "original_script_changes_for_reference": "Redirect np.load paths and suppress save/show only; numerical code unchanged."}
     (ROOT/"validation/model-verification.json").write_text(json.dumps(report, indent=2)+"\n")
-    print("Verified 5 legacy washout curves; exported 4 model plots, including 18 final Fig4A runs and updated Fig4E counts.")
+    print("Exported 4 model plots: final Fig4A/E and three-run means/sample SD for Fig5D/E.")
 
 
 if __name__ == "__main__":

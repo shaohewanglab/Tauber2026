@@ -1,0 +1,55 @@
+{
+  "date": "2026-11-12",
+  "new_sources": [
+    {
+      "path": "ModelData/washout/shape_array_r_5_z_0.015_kP_0.01_kn_5e-06_tg_1e+06_tgi_2e+06_M_1e-07_dt_0.01_exp_V001_washout.npz",
+      "bytes": 902105,
+      "sha256": "421c689ec1d815009adae137bedeba031452a3f13a837e9fafe2b4a03b0a2ea3",
+      "original_project_path": "ModelDataV2/washout/shape_array_r_5_z_0.015_kP_0.01_kn_5e-06_tg_1e+06_tgi_2e+06_M_1e-07_dt_0.01_exp_V001_washout.npz"
+    },
+    {
+      "path": "ModelData/washout/shape_array_r_5_z_0.015_kP_0.01_kn_5e-06_tg_1e+06_tgi_2e+06_M_1e-07_dt_0.01_exp_V002_washout.npz",
+      "bytes": 902595,
+      "sha256": "f6b3555d5cdf4151a7d7ab83f7cff978ccc827fa4c7f25994a8ef56d21c8add5",
+      "original_project_path": "ModelDataV2/washout/shape_array_r_5_z_0.015_kP_0.01_kn_5e-06_tg_1e+06_tgi_2e+06_M_1e-07_dt_0.01_exp_V002_washout.npz"
+    },
+    {
+      "path": "ModelData/washout/shape_array_r_5_z_0.015_kP_0.01_kn_5e-06_tg_1e+06_tgi_2e+06_M_1e-07_dt_0.01_exp_V003_washout.npz",
+      "bytes": 902231,
+      "sha256": "eb1903a9663e8d40f357eb4f6a93a3d41be6ba24f75e003fcbedcbd8ec58c99d",
+      "original_project_path": "ModelDataV2/washout/shape_array_r_5_z_0.015_kP_0.01_kn_5e-06_tg_1e+06_tgi_2e+06_M_1e-07_dt_0.01_exp_V003_washout.npz"
+    },
+    {
+      "path": "ModelData/thickness_paper/shape_array_r_5_z_0.015_kP_0.01_kn_5e-06_tg_1e+06_tgi_2e+06_M_1e-07_dt_0.1_exp_V001_k12.npz",
+      "bytes": 903369,
+      "sha256": "e9196e591687289c460793ab832b043be31162dad13368392b7d858e98ff5de7",
+      "original_project_path": "ModelDataV2/thickness_paper/shape_array_r_5_z_0.015_kP_0.01_kn_5e-06_tg_1e+06_tgi_2e+06_M_1e-07_dt_0.1_exp_V001_k12.npz"
+    },
+    {
+      "path": "ModelData/thickness_paper/shape_array_r_5_z_0.015_kP_0.01_kn_5e-06_tg_1e+06_tgi_2e+06_M_1e-07_dt_0.1_exp_V002_k12.npz",
+      "bytes": 903166,
+      "sha256": "ef07c88b9e48f0b9df36326ba3bc615f720c08b0c91dba94e6212b6f85ac3fb4",
+      "original_project_path": "ModelDataV2/thickness_paper/shape_array_r_5_z_0.015_kP_0.01_kn_5e-06_tg_1e+06_tgi_2e+06_M_1e-07_dt_0.1_exp_V002_k12.npz"
+    },
+    {
+      "path": "ModelData/thickness_paper/shape_array_r_5_z_0.015_kP_0.01_kn_5e-06_tg_1e+06_tgi_2e+06_M_1e-07_dt_0.1_exp_V003_k12.npz",
+      "bytes": 903216,
+      "sha256": "c28755a65cdff56a0431add3d20a745273d7c9bb789333ddf8533e52504b0127",
+      "original_project_path": "ModelDataV2/thickness_paper/shape_array_r_5_z_0.015_kP_0.01_kn_5e-06_tg_1e+06_tgi_2e+06_M_1e-07_dt_0.1_exp_V003_k12.npz"
+    }
+  ],
+  "replicates": 3,
+  "baseline_frame": 75,
+  "saved_frame_interval": 0.01,
+  "statistic": "Mean and sample SD (ddof=1), baseline each independent run before averaging",
+  "full_time_range": [
+    0,
+    1.5
+  ],
+  "post_washout_time_range": [
+    0,
+    0.75
+  ],
+  "existing_reference_z": 0.001,
+  "additional_reference_z": 0.015
+}

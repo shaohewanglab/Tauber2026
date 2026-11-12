@@ -1,6 +1,6 @@
 {
   "status": "passed",
-  "source_files_verified": 78,
+  "source_files_verified": 84,
   "dunnett_panels_verified": [
     "Fig4F",
     "Fig4G",
@@ -18,9 +18,15 @@
   "mesh_recolored_sd_bands_verified": 3,
   "model_verification": {
     "status": "passed",
-    "source_files_verified": 31,
+    "source_files_verified": 37,
     "original_model_curves_verified": 5,
     "final_thickness_runs_verified": 18,
+    "original_curves_scope": "Historical scripts with historical inputs; current Fig5D/E checked independently from final nodes",
+    "final_washout_runs_verified": 3,
+    "final_washout_reference_runs_verified": 6,
+    "final_washout_mean_and_sample_sd_curves_verified": 5,
+    "washout_baseline_frame": 75,
+    "washout_replicate_rows_verified": 1815,
     "final_thickness_mean_and_sd_curves_verified": 6,
     "plots_verified": 4,
     "bud_counts_available": 18,

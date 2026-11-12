@@ -69,6 +69,62 @@ def horizontal_frame_bounds(path):
     return max(pairs, key=lambda pair: pair[1]-pair[0])
 
 
+def verify_final_washout(curves):
+    """Recompute each final run independently, then check means, SD and plots."""
+    expected_rows = []
+    for panel in ["5D", "5E"]:
+        start = 75 if panel == "5E" else 0
+        groups = [("washout", .015), ("reference", .001)]
+        if panel == "5D":
+            groups.append(("reference", .015))
+        for condition, z in groups:
+            runs = []
+            for replicate in (1, 2, 3):
+                with np.load(plots.source_path(z, condition == "washout", replicate),
+                             allow_pickle=False) as source:
+                    nodes = source["data"].transpose(2, 0, 1)
+                    np.testing.assert_array_equal(source["edge_list"],
+                        np.column_stack([np.arange(399), np.arange(1, 400)]))
+                assert nodes.shape == (151, 400, 2) and np.isfinite(nodes).all()
+                next_nodes = np.roll(nodes, -1, axis=1)
+                area = abs((nodes[:, :, 0]*next_nodes[:, :, 1]
+                            - nodes[:, :, 1]*next_nodes[:, :, 0]).sum(axis=1))/2
+                perimeter = np.linalg.norm(np.diff(nodes, axis=1), axis=2).sum(axis=1)
+                chi = perimeter/(2*np.sqrt(np.pi*area))-1
+                delta = 100*(chi[start:]-chi[start])
+                actual = curves.loc[(curves.panel == panel) & (curves.condition == condition)
+                                    & (curves.z == z) & (curves.replicate == replicate)]
+                np.testing.assert_array_equal(actual.saved_frame, np.arange(start, 151))
+                np.testing.assert_allclose(actual.tau_relative, np.arange(151-start)*.01, atol=1e-12)
+                np.testing.assert_allclose(actual.delta_chi_percent, delta, atol=1e-11, rtol=1e-12)
+                runs.append(delta)
+            expected_rows.extend({"panel": panel, "condition": condition, "z": z,
+                                  "saved_frame": i, "tau_relative": (i-start)*.01,
+                                  "mean": mean, "sd": sd, "n": 3}
+                                 for i, mean, sd in zip(range(start, 151),
+                                     np.mean(runs, axis=0), np.std(runs, axis=0, ddof=1)))
+    summary = pd.read_csv(ROOT/"results/Fig5DE-acircularity-summary.csv")
+    pd.testing.assert_frame_equal(summary, pd.DataFrame(expected_rows),
+        check_dtype=False, check_exact=False, atol=1e-11, rtol=1e-12)
+    assert len(curves.loc[curves.panel.isin(["5D", "5E"])]) == 3*3*151+2*3*76
+    for panel in ["5D", "5E"]:
+        fig, _ = plots.build_acircularity(panel)
+        ax = fig.axes[0]
+        groups = list(summary.loc[summary.panel == panel].groupby(["condition", "z"], sort=False))
+        assert len(ax.lines) == len(ax.collections) == len(groups)
+        for line, band, (_, group) in zip(ax.lines, ax.collections, groups, strict=True):
+            np.testing.assert_allclose(line.get_xdata(), group.tau_relative, atol=1e-12)
+            np.testing.assert_allclose(line.get_ydata(), group["mean"], atol=1e-11, rtol=1e-12)
+            x, lower, upper = (group.tau_relative.to_numpy(),
+                               (group["mean"]-group.sd).to_numpy(),
+                               (group["mean"]+group.sd).to_numpy())
+            polygon = np.vstack([[x[0], upper[0]], np.column_stack([x, lower]),
+                                 [x[-1], upper[-1]], np.column_stack([x[::-1], upper[::-1]]),
+                                 [x[0], upper[0]]])
+            np.testing.assert_allclose(band.get_paths()[0].vertices, polygon, atol=1e-11, rtol=1e-12)
+        plots.plt.close(fig)
+
+
 def main():
     sources = json.loads((ROOT/"source-data-manifest.json").read_text())
     for source in sources:
@@ -76,15 +132,16 @@ def main():
     references = json.loads((ROOT/"validation/original-curves.json").read_text())
     curves = pd.read_csv(ROOT/"results/acircularity-curves.csv")
     verify_final_thickness(curves)
+    verify_final_washout(curves)
+    historical = plots.capture_original_curves()
     for panel, source in references.items():
         assert hashlib.sha256((ROOT/"original_scripts"/source["source_script"]).read_bytes()).hexdigest() == source["script_sha256"]
         if panel == "4A":
             continue  # Historical fixture is retained; current final runs are checked above.
-        groups = list(curves.loc[curves.panel == panel].groupby(["condition", "z"], sort=False))
-        assert len(groups) == len(source["lines"])
-        for (_, actual), original in zip(groups, source["lines"], strict=True):
-            np.testing.assert_allclose(actual.tau_relative, original["x"], rtol=1e-12, atol=1e-12)
-            np.testing.assert_allclose(actual.delta_chi_percent, original["y"], rtol=1e-12, atol=1e-12)
+        assert len(historical[panel]["lines"]) == len(source["lines"])
+        for actual, original in zip(historical[panel]["lines"], source["lines"], strict=True):
+            np.testing.assert_allclose(actual["x"], original["x"], rtol=1e-12, atol=1e-12)
+            np.testing.assert_allclose(actual["y"], original["y"], rtol=1e-12, atol=1e-12)
     buds, summary = plots.model_bud_data()
     pd.testing.assert_frame_equal(pd.read_csv(ROOT/"results/Fig4E-model-bud-count-replicates.csv"),
                                   buds, check_dtype=False, check_exact=False, rtol=1e-12, atol=1e-12)
@@ -139,6 +196,10 @@ def main():
                                             "matches_exported_4B": reference.is_file()}
     report = {"status": "passed", "source_files_verified": len(sources),
               "original_model_curves_verified": 5, "final_thickness_runs_verified": 18,
+              "original_curves_scope": "Historical scripts with historical inputs; current Fig5D/E checked independently from final nodes",
+              "final_washout_runs_verified": 3, "final_washout_reference_runs_verified": 6,
+              "final_washout_mean_and_sample_sd_curves_verified": 5,
+              "washout_baseline_frame": 75, "washout_replicate_rows_verified": 1815,
               "final_thickness_mean_and_sd_curves_verified": 6, "plots_verified": len(exports),
               "bud_counts_available": len(buds), "bud_counts_target": 3*len(summary),
               "bud_counts_missing": 3*len(summary)-len(buds),
