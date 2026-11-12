@@ -498,5 +498,29 @@
     "bytes": 904631,
     "sha256": "cde7f53a1305981364acae3bdd2b89ab7a0451d4fbe3efb547dc2882ccc94b8d",
     "original_project_path": "ModelDataV2/thickness_paper/shape_array_r_5_z_0.01_kP_0.01_kn_5e-06_tg_1e+06_tgi_2e+06_M_1e-07_dt_0.1_exp_V003_k12.npz"
+  },
+  {
+    "path": "spherical-harmonics/example/241104-SMG5_f160_cleaned.ply",
+    "bytes": 443951,
+    "sha256": "61b9527052c863a0e645b8c6c330e1a5ffb476e4cb64f0226857f0eee0c33484",
+    "original_project_path": "PaperData-v2/Results_MeshVoxelization/241104-SMG5_cp_model0907_v2/mesh_epithelial_160_v2.ply"
+  },
+  {
+    "path": "spherical-harmonics/example/241104-SMG5_f160_map.npz",
+    "bytes": 225495,
+    "sha256": "8672a213fe2298e47c0afc8c0ea31226a6a530ad7af6fe6f823e9ffa2098c9d2",
+    "original_project_path": "SH reconstruction example derived input"
+  },
+  {
+    "path": "spherical-harmonics/example/provenance.json",
+    "bytes": 2485,
+    "sha256": "f47880e2abfb82c9db88a6f07d647db74cc41676f2351df17c5df9157c5e6b2f",
+    "original_project_path": "SH reconstruction example derived input"
+  },
+  {
+    "path": "spherical-harmonics/example/reference_coefficients.npz",
+    "bytes": 39774,
+    "sha256": "d8b4c0cc0a453b25d0414ea1c70fc645608fb98e7b97b72bba008f0e49c7af49",
+    "original_project_path": "SH reconstruction example derived input"
   }
 ]

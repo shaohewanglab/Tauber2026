@@ -1,0 +1,63 @@
+{
+  "dataset": "241104-SMG5",
+  "condition": "Control",
+  "frame_index": 160,
+  "acquisition_interval_minutes": 5,
+  "elapsed_hours": 13.333333333333334,
+  "manuscript_example": "Fig. S4, later control time point",
+  "original_mesh_project_path": "PaperData-v2/Results_MeshVoxelization/241104-SMG5_cp_model0907_v2/mesh_epithelial_160_v2.ply",
+  "original_mesh_sha256": "ef6abfb105ac37b63bfaf7bc705fc3d0fe3471686051ccff6c64773d7e63a793",
+  "original_mesh_vertices": 5002,
+  "original_mesh_faces": 10000,
+  "mapping_uses_full_cleaned_mesh": true,
+  "decimation": false,
+  "coordinate_conversion": "Original source physical columns z,y,x were permuted to x,y,z for this example. PLY winding is made outward without changing vertex positions.",
+  "validated_mapping_mat_sha256": "322f0a92203be323bafe15aea3a5d7db6a31123bbf32dceac0333cd3d081da02",
+  "reviewed_reconstruction_script_sha256": "1a9879a3c7a869b33c338b668773f7877349a894280653da8b5c2c18c797f140",
+  "reviewed_coefficients_npz_sha256": "550614102a8689273a671a1b7c5780ac3baca4e3aeec17d4465a95e0bf6f7a0b",
+  "spherical_parameterization": {
+    "method": "Spherical density-equalizing map (SDEM), FLASH initialization with Mobius area correction",
+    "upstream_repository": "https://github.com/garyptchoi/spherical-density-equalizing-map",
+    "upstream_archive_sha256": "dc8288fd214a887d3712e417cd11d79340ebdefa61a275edd19ea4947bced1b1",
+    "runtime": "GNU Octave 10.3",
+    "mobius_optimizer": "Bounded sequential quadratic programming",
+    "step_size": 0.1,
+    "stopping_tolerance": 0.001,
+    "iteration_limit": 200,
+    "local_fold_correction": {
+      "triangles_folded_before": 1,
+      "triangles_folded_after": 0,
+      "max_sphere_vertex_displacement_degrees": 0.2740162850042162
+    },
+    "physical_vertices_changed_by_fold_correction": false
+  },
+  "reference_quadrature": [
+    128,
+    256
+  ],
+  "reference_degrees": [
+    5,
+    10,
+    20,
+    40
+  ],
+  "reference_errors": {
+    "5": {
+      "rms_um": 8.540699666818725,
+      "max_um": 34.12250700105856
+    },
+    "10": {
+      "rms_um": 4.953717238454508,
+      "max_um": 21.41742291337895
+    },
+    "20": {
+      "rms_um": 2.5240689333343975,
+      "max_um": 10.052722251508287
+    },
+    "40": {
+      "rms_um": 1.0682668744283101,
+      "max_um": 8.098228032240154
+    }
+  },
+  "coefficient_convention": "Complex orthonormal harmonics with Condon-Shortley phase; nonnegative orders stored; components x,y,z; coordinates centered before integration."
+}

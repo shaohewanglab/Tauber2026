@@ -2,7 +2,8 @@
 
 Source data and code for the Figure 2, 4 and 5 experimental and simulation
 plots, the Figure S1D segmentation benchmark, 3D-RCAN and Cellpose-SAM
-model training, and reference tools for image segmentation, clipping and meshing.
+model training, reference tools for image segmentation, clipping and meshing,
+and a worked spherical-harmonic reconstruction example from Figure S4.
 
 ## Find a plot
 
@@ -72,6 +73,25 @@ To check existing outputs without regenerating them:
 python verify_reproduction.py
 ```
 
+## Reconstruct a spherical-harmonic shape
+
+The [worked SH example](spherical-harmonics/README.md) uses control gland
+241104-SMG5 at frame 160, one of the Figure S4 examples. It includes the cleaned
+mesh and its validated spherical parameterization, recomputes the coefficients,
+and exports shapes at degrees 5, 10, 20 and 40 as PLY/NPZ meshes plus a
+[comparison preview](spherical-harmonics/results/degree_comparison.png).
+
+With Python 3.11 or 3.12, run from the repository root:
+
+```bash
+python -m pip install -r spherical-harmonics/requirements.txt
+python spherical-harmonics/reconstruct.py --verify
+```
+
+The example runs entirely in Python from the supplied spherical map, with no
+MATLAB/Octave or graphics window required. The tutorial explains the inverse-map
+expansion, harmonic conventions, validation and input format for other mapped meshes.
+
 ## Source data and individual analyses
 
 Use the module instructions to reproduce selected panels or inspect their
@@ -81,6 +101,7 @@ calculations and statistical methods.
 | --- | --- | --- | --- |
 | Mesh morphometry | 2C, 4B, 5F | [Measurement tables](mesh-morphometry/source_data) | [Mesh analysis](mesh-morphometry/README.md) |
 | Model morphometry | 4A, 4E, 5D, 5E | [Simulation inputs](model-morphometry/ModelData) | [Model analysis](model-morphometry/README.md) |
+| SH reconstruction example | S4; method used for S3/S4 | [Cleaned mesh and spherical map](spherical-harmonics/example) | [Worked example](spherical-harmonics/README.md) |
 | BB-94 titration | 4F, 4G | [Bud counts and collagen IV measurements](BB-94-titration/source_data) | [Titration analysis](BB-94-titration/plotting_scripts/README-titration-CLI.txt) |
 | BB-94 washout | 5C | [Bud counts](BB-94-washout/source_data) | [Washout analysis](BB-94-washout/README.txt) |
 | Segmentation benchmark | S1D | Saved masks in the Figshare item `cellpose-SAM-training` | [Benchmark analysis](cellpose-SAM-training/README.md#reproduce-figs1d-segmentation-benchmark) |

@@ -1,0 +1,57 @@
+{
+  "input_sha256": "8672a213fe2298e47c0afc8c0ea31226a6a530ad7af6fe6f823e9ffa2098c9d2",
+  "coordinate_order": "x,y,z",
+  "units": "micrometres",
+  "quadrature": [
+    128,
+    256
+  ],
+  "degrees": [
+    5,
+    10,
+    20,
+    40
+  ],
+  "mapping_quality": {
+    "vertices": 5002,
+    "faces": 10000,
+    "euler_characteristic": 2,
+    "components": 1,
+    "folded_triangles": 0,
+    "unit_radius_max_error": 4.440892098500626e-16,
+    "signed_spherical_area": 12.566370614359174
+  },
+  "center_xyz_um": [
+    260.38231658935547,
+    232.08223724365234,
+    69.88905382156372
+  ],
+  "errors_at_corresponding_mapping_vertices": {
+    "5": {
+      "rms_um": 8.540699666818725,
+      "max_um": 34.12250700105856
+    },
+    "10": {
+      "rms_um": 4.953717238454508,
+      "max_um": 21.41742291337895
+    },
+    "20": {
+      "rms_um": 2.5240689333343975,
+      "max_um": 10.052722251508287
+    },
+    "40": {
+      "rms_um": 1.0682668744283101,
+      "max_um": 8.098228032240154
+    }
+  },
+  "error_definition": "Unweighted vertex correspondence error; not a closest-surface or Hausdorff distance",
+  "verification": {
+    "status": "passed",
+    "coefficient_max_abs_difference_um": 0.0,
+    "analytic_ellipsoid_max_abs_errors_um": {
+      "1": 2.842170943040401e-14,
+      "5": 1.3500311979441904e-13,
+      "10": 3.481659405224491e-13
+    }
+  }
+}

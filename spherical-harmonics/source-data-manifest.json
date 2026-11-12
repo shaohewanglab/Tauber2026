@@ -1,0 +1,22 @@
+[
+  {
+    "path": "example/241104-SMG5_f160_cleaned.ply",
+    "bytes": 443951,
+    "sha256": "61b9527052c863a0e645b8c6c330e1a5ffb476e4cb64f0226857f0eee0c33484"
+  },
+  {
+    "path": "example/241104-SMG5_f160_map.npz",
+    "bytes": 225495,
+    "sha256": "8672a213fe2298e47c0afc8c0ea31226a6a530ad7af6fe6f823e9ffa2098c9d2"
+  },
+  {
+    "path": "example/provenance.json",
+    "bytes": 2485,
+    "sha256": "f47880e2abfb82c9db88a6f07d647db74cc41676f2351df17c5df9157c5e6b2f"
+  },
+  {
+    "path": "example/reference_coefficients.npz",
+    "bytes": 39774,
+    "sha256": "d8b4c0cc0a453b25d0414ea1c70fc645608fb98e7b97b72bba008f0e49c7af49"
+  }
+]

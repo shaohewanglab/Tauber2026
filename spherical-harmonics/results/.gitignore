@@ -1,0 +1,3 @@
+# Regenerate the meshes and coefficients with reconstruct.py; retain preview/report.
+*.npz
+*.ply

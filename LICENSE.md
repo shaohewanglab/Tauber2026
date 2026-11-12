@@ -27,6 +27,13 @@ They retain their original author headers and are preserved unchanged;
 `image-processing/provenance.json` records their supplied-file hashes and
 the hash of the original README, retained as `README-Justin.md`.
 
+The `spherical-harmonics/` example packages the manuscript SH integration and
+reconstruction code. Its supplied spherical map was generated using Lyu, Lui
+and Choi's Spherical Density-Equalizing Map implementation, credited in the
+example README and provenance record. That upstream implementation is linked
+separately and is not vendored here. The example's mesh, map, reference
+coefficients and generated results are covered by the repository data license.
+
 See [LICENSE-DATA](LICENSE-DATA) for data scope, attribution, and links to the
 full CC BY 4.0 legal code and summary. Third-party dependencies retain their
 respective licenses.
