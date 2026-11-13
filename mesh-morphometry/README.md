@@ -75,7 +75,7 @@ retaining negative observations. This presentation override leaves all curves,
 SD bands and exported summary values unchanged.
 
 Figure 4B uses blue (`#4477AA`), green
-(`#228833`) and red (`#EE6677`) for 0, 1 and 5 µM BB-94. These match z = 0.001,
+(`#228833`) and red (`#EE6677`) for 0, 1 and 5 µM BB-94. These match z = 0.002,
 0.005 and 0.01 in the model 4A plot. The shared thickness palette runs purple,
 blue, cyan, green, yellow, red as thickness increases. Titration 4E/F/G use the
 same spectral order in the selected palette, with gray experimental controls.
